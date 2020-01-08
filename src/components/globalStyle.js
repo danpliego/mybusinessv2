@@ -1,7 +1,37 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
+import { theme } from "./theme";
+
+// eslint-disable-next-line
+const GTAmericaExtendedRegular = require("../fonts/GT-America-Extended-Regular.otf");
+// eslint-disable-next-line
+const GTAmericaExtendedMedium = require("../fonts/GT-America-Extended-Medium.otf");
+// eslint-disable-next-line
+const GTAmericaExpandedBold = require("../fonts/GT-America-Expanded-Bold.otf");
+
+// eslint-disable-next-line
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Karla|Lato');
+  @font-face {
+    font-family: "GT-America";
+    font-style: normal;
+    font-weight: 400;
+    src: url(${GTAmericaExtendedRegular});
+  }
+
+  @font-face {
+    font-family: "GT-America";
+    font-style: normal;
+    font-weight: 600;
+    src: url(${GTAmericaExtendedMedium});
+  }
+
+  @font-face {
+    font-family: "GT America Expanded";
+    font-style: normal;
+    font-weight: 600;
+    src: url(${GTAmericaExpandedBold}) format("otf");
+  }
+
   :root {
     --primary-color: rebeccapurple;
     --white: #FFFAFF;
@@ -10,7 +40,6 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   html {
-    font-family: lato;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     touch-action: manipulation;
@@ -22,7 +51,6 @@ export const GlobalStyle = createGlobalStyle`
   main {
     flex: 1 0 auto;
     h1,h2,h3,h4,h5,h6 {
-    font-family: Karla;
     color: #0c2340;
     }
     a {
@@ -129,7 +157,6 @@ export const GlobalStyle = createGlobalStyle`
     height: 0;
     overflow: visible;
   }
-  button,
   input,
   optgroup,
   select,
@@ -209,9 +236,12 @@ export const GlobalStyle = createGlobalStyle`
     font: inherit;
   }
   html {
-    font: 112.5%/1.45em georgia, serif;
+    font: 16px GT-America, sans-serif;
     box-sizing: border-box;
     overflow-y: scroll;
+  }
+  button {
+    font: 16px GT-America, sans-serif;
   }
   * {
     box-sizing: inherit;
@@ -224,7 +254,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     color: hsla(0, 0%, 0%, 0.8);
-    font-family: georgia, serif;
+    font-family: GT-America, sans-serif;
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
@@ -243,108 +273,6 @@ export const GlobalStyle = createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-  }
-  h1 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 2.25rem;
-    line-height: 1.1;
-  }
-  h2 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 1.62671rem;
-    line-height: 1.1;
-  }
-  h3 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 1.38316rem;
-    line-height: 1.1;
-  }
-  h4 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 1rem;
-    line-height: 1.1;
-  }
-  h5 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 0.85028rem;
-    line-height: 1.1;
-  }
-  h6 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 0.78405rem;
-    line-height: 1.1;
   }
   hgroup {
     margin-left: 0;
@@ -644,4 +572,12 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 100%;
     }
   }
-`
+
+  .font-sm {
+    font-size: .9rem;
+  }
+
+  .body-l {
+    color: ${theme.colors.bodyLColor};
+  }
+`;

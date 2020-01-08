@@ -1,26 +1,35 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import styled from "styled-components"
-import { Container } from "./layoutComponents"
+import PropTypes from "prop-types";
+import React from "react";
+import styled from "styled-components";
+import * as Layout from "./layoutComponents";
+import { Link } from "gatsby";
 
-const Header = ({ siteTitle, className }) => (
-  <header className={className}>
-    <Container>
-      <h1>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
-    </Container>
+const Header = () => (
+  <header>
+    <Layout.Container>
+      <Layout.Row>
+        <Layout.Column style={{ border: "10px solid red" }}>
+          <Link to="/">logo here</Link>
+        </Layout.Column>
+        <Layout.Column flex={1}>
+          <Menu>
+            <MenuItem>
+              <Link to="/venta-de-tae">Venta de TAE</Link>
+            </MenuItem>
+          </Menu>
+        </Layout.Column>
+      </Layout.Row>
+    </Layout.Container>
   </header>
-)
+);
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+  siteTitle: PropTypes.string
+};
 
 Header.defaultProps = {
-  siteTitle: ``,
-}
+  siteTitle: ``
+};
 
 const StyledHeader = styled(Header)`
   color: var(--white);
@@ -30,6 +39,16 @@ const StyledHeader = styled(Header)`
   h1 {
     margin: 0;
   }
-`
+`;
 
-export default StyledHeader
+export default StyledHeader;
+
+export const Menu = styled.ul`
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+`;
+
+export const MenuItem = styled.li`
+  padding: 1rem;
+`;
