@@ -3,7 +3,8 @@ export const theme = {
     whiteColor: "#fff",
     primaryColor: "#A0D0D6",
     bodyColor: "#141943",
-    bodyLColor: "#5B5E7B"
+    bodyLColor: "#5B5E7B",
+    grayColor: "#f0f4f6"
   },
   fontSizes: {
     body: "1rem",

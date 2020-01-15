@@ -4,83 +4,65 @@ import Layout from "../components/layout";
 import * as Comp from "../components/layoutComponents";
 import SEO from "../components/seo";
 import styled from "styled-components";
-import { Link } from "gatsby";
+
+import HeroImage from "../images/home/hero-image.png";
+import ProductPlaceholder from "../images/home/placeholder.png";
+import ProductColumn from "../components/ProductColumn";
+import { theme } from "../components/theme";
 
 const IndexPage = () => (
   <Layout>
     <Comp.Container>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <Hero>
-        <Comp.Row>
-          <HeroContent>
-            <h1>La forma simple de administrar tu negocio. </h1>
+        <Comp.Row mobile>
+          <HeroContent style={{ paddingTop: "2rem" }}>
+            <h1 className="extended">
+              La forma simple de administrar tu negocio.{" "}
+            </h1>
             <p className="body-l">
               MyBusiness POS es el sistema de punto de venta que hará tu vida
-              más sencilla gracias a su facilidad de uso, su gran precio y su
-              experiencia en el mercado.
+              más sencilla, con su gran precio, su facilidad de uso y su
+              experiencia en el mercado. Da clic y compruébalo tu mismo.
             </p>
+            <Comp.ButtonPrimary>Pruebalo gratis</Comp.ButtonPrimary>
+            <Comp.ButtonSecondary style={{ marginLeft: "1.5rem" }}>
+              ¿Cómo funciona?
+            </Comp.ButtonSecondary>
           </HeroContent>
-          <Comp.Column flex={1}>image here</Comp.Column>
+          <Comp.Column flex={1}>
+            <img src={HeroImage} alt="MyBusiness" />
+          </Comp.Column>
         </Comp.Row>
       </Hero>
-      <Comp.Row>
-        <Comp.Column>
-          <Comp.ButtonPrimary>Pruebalo gratis</Comp.ButtonPrimary>
-          <Comp.ButtonPrimary>¿Cómo funciona?</Comp.ButtonPrimary>
-        </Comp.Column>
-      </Comp.Row>
     </Comp.Container>
     <BlueArea>
       <Comp.Container>
-        <Comp.Row>
-          <Comp.Column flex={1}>
-            <h4>
-              <Link to="/corporativos">Corporativos</Link>
-            </h4>
-            <p className="body-l">
-              Lleva un control total de las operaciones monetarias en tu
-              negocio.
-            </p>
-            <Comp.ButtonPrimary to="corporativos">
-              Cónoce más...
-            </Comp.ButtonPrimary>
-          </Comp.Column>
-          <Comp.Column flex={1}>
-            <h4>
-              <Link to="/corporativos">Corporativos</Link>
-            </h4>
-            <p className="body-l">
-              Lleva un control total de las operaciones monetarias en tu
-              negocio.
-            </p>
-            <Comp.ButtonPrimary to="corporativos">
-              Cónoce más...
-            </Comp.ButtonPrimary>
-          </Comp.Column>
-          <Comp.Column flex={1}>
-            <h4>
-              <Link to="/corporativos">Corporativos</Link>
-            </h4>
-            <p className="body-l">
-              Lleva un control total de las operaciones monetarias en tu
-              negocio.
-            </p>
-            <Comp.ButtonPrimary to="corporativos">
-              Cónoce más...
-            </Comp.ButtonPrimary>
-          </Comp.Column>
-          <Comp.Column flex={1}>
-            <h4>
-              <Link to="/corporativos">Corporativos</Link>
-            </h4>
-            <p className="body-l">
-              Lleva un control total de las operaciones monetarias en tu
-              negocio.
-            </p>
-            <Comp.ButtonPrimary to="corporativos">
-              Cónoce más...
-            </Comp.ButtonPrimary>
-          </Comp.Column>
+        <Comp.Row padded mobile>
+          <ProductColumn
+            title="Venta de Tiempo Aire"
+            description="Aumenta tus ganancias ofreciendo recargas de tiempo aire y pago de servicios. "
+            link="/venta-de-tae"
+            image={ProductPlaceholder}
+          />
+          <ProductColumn
+            title="Facturación Electrónica"
+            description="Adquiere paquetes de timbres y otorga facturas electrónicas en tu negocio."
+            link="/facturacion-electronica"
+            image={ProductPlaceholder}
+          />
+          <ProductColumn
+            title="Corporativos"
+            description="Controla tus sucursales o franquicias con un sistema adaptado a la medida."
+            link="/corporativos"
+            image={ProductPlaceholder}
+          />
+          <ProductColumn
+            title="Servicios en la nube"
+            description="Respalda toda tu información y accede a ella en el momento que lo necesites."
+            link="/servicios-en-la-nube"
+            image={ProductPlaceholder}
+          />
         </Comp.Row>
       </Comp.Container>
     </BlueArea>
@@ -89,16 +71,16 @@ const IndexPage = () => (
 
 export default IndexPage;
 
-export const Test = styled.div`
-  border: 10px solid red;
-`;
-
 export const Hero = styled.div``;
 
 export const HeroContent = styled(Comp.Column)`
-  width: 41.5%;
+  @media ${theme.breakpoint.upFromMobile} {
+    width: 45%;
+    padding-right: 3rem;
+  }
 `;
 
 export const BlueArea = styled.div`
-  background: #eee;
+  margin-top: 6rem;
+  background: #f0f4f6;
 `;

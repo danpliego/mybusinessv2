@@ -26,14 +26,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   @font-face {
-    font-family: "GT America Expanded";
-    font-style: normal;
+    font-family: "GT-America-Expanded";
     font-weight: 600;
-    src: url(${GTAmericaExpandedBold}) format("otf");
+    src: url(${GTAmericaExpandedBold});
   }
 
   :root {
-    --primary-color: rebeccapurple;
+    --primary-color: #141943;
     --white: #FFFAFF;
   }
   * {
@@ -43,10 +42,11 @@ export const GlobalStyle = createGlobalStyle`
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     touch-action: manipulation;
-    over-flow: hidden;
+    overflow: hidden;
   }
   body {
     margin: 0;
+    line-height: 1.5;
   }
   main {
     flex: 1 0 auto;
@@ -112,10 +112,41 @@ export const GlobalStyle = createGlobalStyle`
   dfn {
     font-style: italic;
   }
-  h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
+
+  .extended {
+    font-family: "GT-America-Expanded";
+  }
+
+  h1 {
+    font-size: 2.75em;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
   mark {
     background-color: #ff0;
     color: #000;
@@ -253,7 +284,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
-    color: hsla(0, 0%, 0%, 0.8);
+    color: #141943;
     font-family: GT-America, sans-serif;
     font-weight: normal;
     word-wrap: break-word;
@@ -575,6 +606,10 @@ export const GlobalStyle = createGlobalStyle`
 
   .font-sm {
     font-size: .9rem;
+  }
+
+  .font-xs {
+    font-size: .8rem;
   }
 
   .body-l {
