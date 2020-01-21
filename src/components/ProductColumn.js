@@ -5,7 +5,14 @@ import * as Comp from "../components/layoutComponents";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
-const ProductColumn = ({ image, title, description, link }) => (
+const ProductColumn = ({
+  image,
+  title,
+  description,
+  link,
+  buttonText,
+  buttonSecondaryText
+}) => (
   <Comp.Column flex={1} padded>
     <ProductColumnContainer>
       <Link to={link}>
@@ -18,8 +25,13 @@ const ProductColumn = ({ image, title, description, link }) => (
       </h6>
       <p className="body-l font-xs">{description}</p>
       <Comp.ButtonSecondary small to={link}>
-        Cónoce más...
+        {buttonText}
       </Comp.ButtonSecondary>
+      {buttonSecondaryText && (
+        <Comp.ButtonSecondary small to={link} style={{ marginLeft: "0.66rem" }}>
+          {buttonSecondaryText}
+        </Comp.ButtonSecondary>
+      )}
     </ProductColumnContainer>
   </Comp.Column>
 );
@@ -28,7 +40,9 @@ ProductColumn.propTypes = {
   title: string,
   description: string,
   link: string,
-  image: string
+  image: string,
+  buttonText: string,
+  buttonSecondaryText: string || null
 };
 
 export default ProductColumn;
@@ -36,10 +50,6 @@ export default ProductColumn;
 export const ProductColumnContainer = styled.div`
   padding-bottom: 3rem;
   transition: all 0.15s ease-in-out;
-
-  @media ${theme.breakpoint.upFromMobile} {
-    margin-top: -4rem;
-  }
 
   &:hover {
     transform: scale(1.02);

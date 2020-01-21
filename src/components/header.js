@@ -9,7 +9,7 @@ const Header = () => (
   <HeaderContainer>
     <Layout.Container>
       <Layout.Row style={{ alignItems: "center" }}>
-        <Layout.Column>
+        <LogoContainer>
           <Link to="/">
             <svg
               width="185"
@@ -34,8 +34,21 @@ const Header = () => (
               />
             </svg>
           </Link>
-        </Layout.Column>
-        <Layout.Column flex={1}>
+        </LogoContainer>
+        <MobileMenu>
+          <svg
+            width="18"
+            height="16"
+            viewBox="0 0 18 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="17.4545" height="1.45455" fill="#141943" />
+            <rect y="7.27271" width="17.4545" height="1.45455" fill="#141943" />
+            <rect y="14.5454" width="17.4545" height="1.45455" fill="#141943" />
+          </svg>
+        </MobileMenu>
+        <CollapsableMenu flex={1}>
           <Menu>
             <MenuItem>
               <Link to="/venta-de-tae">Venta Tiempo Aire</Link>
@@ -53,7 +66,7 @@ const Header = () => (
               <Link to="/venta-de-tae">Contacto</Link>
             </MenuItem>
           </Menu>
-        </Layout.Column>
+        </CollapsableMenu>
       </Layout.Row>
     </Layout.Container>
   </HeaderContainer>
@@ -112,5 +125,24 @@ export const MenuItem = styled.div`
     &:hover:after {
       opacity: 1;
     }
+  }
+`;
+
+export const CollapsableMenu = styled(Layout.Column)`
+  @media ${theme.breakpoint.onlyMobile} {
+    display: none;
+  }
+`;
+
+export const MobileMenu = styled.div`
+  padding: 1rem;
+  @media ${theme.breakpoint.upFromMobile} {
+    display: none;
+  }
+`;
+
+export const LogoContainer = styled(Layout.Column)`
+  @media ${theme.breakpoint.onlyMobile} {
+    flex: 1;
   }
 `;

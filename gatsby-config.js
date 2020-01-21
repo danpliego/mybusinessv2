@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter w/ styled-components`,
-    description: `Gatsby starter using styled-components`,
-    author: `@blakenoll`
+    title: `MyBusiness POS - El punto de venta más vendido en el mercado.`,
+    description: `Olvídate de las largas capacitaciones para usar un sistema de punto de venta, descarga gratis MyBusiness POS y comprueba lo fácil que es vender.`,
+    author: ``
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

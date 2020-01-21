@@ -13,60 +13,29 @@ const Footer = () => (
           <Comp.Column flex={1}>
             <FooterMenu>
               <li>
-                <Link to="/">Inicio</Link>
-              </li>
-              <li>
                 <Link to="/">Nosotros</Link>
               </li>
               <li>
-                <Link to="/">Registro de Licencia</Link>
+                <Link to="/">Aviso de privacidad</Link>
               </li>
               <li>
-                <Link to="/">Cursos</Link>
+                <Link to="/">Registro de licencias</Link>
               </li>
               <li>
-                <Link to="/">Eventos</Link>
-              </li>
-              <li>
-                <Link to="/">Contacto</Link>
-              </li>
-              <li>
-                <Link to="/">Avisos</Link>
+                <Link to="/">Homologaciones</Link>
               </li>
             </FooterMenu>
           </Comp.Column>
           <Comp.Column flex={1}>
             <FooterMenu>
               <li>
-                <Link to="/">MyBusiness POS</Link>
+                <Link to="/">Canales de venta</Link>
               </li>
               <li>
-                <Link to="/">Facturación electrónica</Link>
+                <Link to="/">Centros de servicio</Link>
               </li>
               <li>
-                <Link to="/">Tiempo Aire</Link>
-              </li>
-              <li>
-                <Link to="/">Servicios en la nube</Link>
-              </li>
-              <li>
-                <Link to="/">POS Tools</Link>
-              </li>
-              <li>
-                <Link to="/">Bill Pocket</Link>
-              </li>
-            </FooterMenu>
-          </Comp.Column>
-          <Comp.Column flex={1}>
-            <FooterMenu>
-              <li>
-                <Link to="/">Distribuidores</Link>
-              </li>
-              <li>
-                <Link to="/">Mayoristas</Link>
-              </li>
-              <li>
-                <Link to="/">Legales y Privacidad</Link>
+                <Link to="/">Distribuidores certificados</Link>
               </li>
             </FooterMenu>
           </Comp.Column>
