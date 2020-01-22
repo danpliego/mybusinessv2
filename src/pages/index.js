@@ -157,7 +157,10 @@ export const BannerContainer = styled.div`
   background: blue;
   position: relative;
   overflow: hidden;
-  height: 350px;
+
+  @media ${theme.breakpoint.onlyMobile} {
+    height: 350px;
+  }
 
   img {
     margin-bottom: -1rem;
