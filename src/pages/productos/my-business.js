@@ -20,7 +20,11 @@ const IndexPage = () => (
     <BannerContainer>
       <img src={HeroImage} />
       <BannerContent>
-        <h1 className="extended-medium">Facturas Electrónicas</h1>
+        <h1 className="extended-medium">
+          MyBusiness POS funciona como punto de venta de abarrotes, ferreterías,
+          carnicerías, papelerías, refaccionarias, tlapalerías y muchos
+          comercios más…
+        </h1>
       </BannerContent>
     </BannerContainer>
     <Comp.Container>
@@ -89,6 +93,9 @@ const IndexPage = () => (
           <h2 className="extended text-center">Descarga la prueba grátis</h2>
           <MyForm />
         </Comp.Width50>
+        <Comp.ButtonPrimary to="tienda-virtual/my-business">
+          Comprar ahora
+        </Comp.ButtonPrimary>
       </Comp.Container>
     </ProductBlueArea>
     <BannerContainer>

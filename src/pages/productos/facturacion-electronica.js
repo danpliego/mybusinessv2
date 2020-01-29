@@ -20,11 +20,7 @@ const IndexPage = () => (
     <BannerContainer>
       <img src={HeroImage} />
       <BannerContent>
-        <h1 className="extended-medium">
-          MyBusiness POS funciona como punto de venta de abarrotes, ferreterías,
-          carnicerías, papelerías, refaccionarias, tlapalerías y muchos
-          comercios más…
-        </h1>
+        <h1 className="extended-medium">Facturación electronica</h1>
       </BannerContent>
     </BannerContainer>
     <Comp.Container>

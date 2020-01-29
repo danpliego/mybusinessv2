@@ -20,7 +20,7 @@ const IndexPage = () => (
     <BannerContainer>
       <img src={HeroImage} />
       <BannerContent>
-        <h1 className="extended-medium">Desarrollo a la medida</h1>
+        <h1 className="extended-medium">servicios en la nube</h1>
       </BannerContent>
     </BannerContainer>
     <Comp.Container>

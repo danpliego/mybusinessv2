@@ -3,6 +3,6 @@ import React from "react";
 
 import Layout from "../../components/layout";
 
-const IndexPage = () => <Layout>cursos virtuales gratuitos</Layout>;
+const IndexPage = () => <Layout>cursos virtuales con certificacion</Layout>;
 
 export default IndexPage;

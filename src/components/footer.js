@@ -9,33 +9,65 @@ const Footer = () => (
     <Comp.Container>
       <FooterContent>
         <Comp.Row mobile>
-          <Comp.Column flex={1}></Comp.Column>
           <Comp.Column flex={1}>
             <FooterMenu>
+              <h6>MyBusiness</h6>
               <li>
-                <Link to="/">Nosotros</Link>
+                <Link to="/nosotros/">Nosotros</Link>
               </li>
               <li>
-                <Link to="/">Aviso de privacidad</Link>
+                <Link to="/aviso-de-privacidad/">Aviso de privacidad</Link>
               </li>
               <li>
-                <Link to="/">Registro de licencias</Link>
+                <Link to="/registro-de-licencias/">Registro de licencias</Link>
               </li>
               <li>
-                <Link to="/">Homologaciones</Link>
+                <Link to="/homologaciones">Homologaciones</Link>
+              </li>
+              <li>
+                <Link to="/descargas">Descargas</Link>
               </li>
             </FooterMenu>
           </Comp.Column>
           <Comp.Column flex={1}>
             <FooterMenu>
+              <h6>Productos</h6>
               <li>
-                <Link to="/">Canales de venta</Link>
+                <Link to="/productos/my-business">MyBusiness POS</Link>
               </li>
               <li>
-                <Link to="/">Centros de servicio</Link>
+                <Link to="/productos/facturacion-electronica">
+                  Facturación electrónica
+                </Link>
               </li>
               <li>
-                <Link to="/">Distribuidores certificados</Link>
+                <Link to="/productos/tiempo-aire">Tiempo Aire</Link>
+              </li>
+              <li>
+                <Link to="/productos/servicios-en-la-nube">
+                  Servicios en la Nube
+                </Link>
+              </li>
+              <li>
+                <Link to="/productos/pos-tools">Pos Tools</Link>
+              </li>
+              <li>
+                <Link to="/productos/bill-pocket">Bill Pocket</Link>
+              </li>
+            </FooterMenu>
+          </Comp.Column>
+          <Comp.Column flex={1}>
+            <FooterMenu>
+              <h6>Canales de Venta</h6>
+              <li>
+                <Link to="/canales-de-venta/centros-de-servicios/">
+                  Centros de servicio
+                </Link>
+              </li>
+              <li>
+                <Link to="/canales-de-venta/distribuidores/">
+                  Distribuidores certificados
+                </Link>
               </li>
             </FooterMenu>
           </Comp.Column>
@@ -49,7 +81,8 @@ const Footer = () => (
 );
 
 const FooterContainer = styled.footer`
-  background: ${theme.colors.grayColor};
+  background: ${theme.colors.bodyColor};
+  color: ${props => props.theme.colors.whiteColor};
 `;
 
 const FooterMenu = styled.ul`
@@ -63,10 +96,12 @@ const FooterMenu = styled.ul`
 
   li a {
     font-size: 0.8rem;
-    color: ${props => props.theme.colors.bodyLColor};
+    color: ${props => props.theme.colors.whiteColor};
+    opacity: 0.8;
 
     &:hover {
-      color: ${props => props.theme.colors.bodyColor};
+      opacity: 1;
+      color: ${props => props.theme.colors.whiteColor};
     }
   }
 `;
@@ -75,13 +110,11 @@ const BodyFooter = styled.div`
   text-align: center;
   padding: 2rem;
   font-size: 0.8rem;
-  color: ${theme.colors.bodyLColor};
-  border-top: 1px solid ${theme.colors.whiteColor};
+  border-top: 1px solid ${theme.colors.bodyLColor};
 `;
 
 const FooterContent = styled.div`
   padding-top: 2rem;
-  border-top: 1px solid ${theme.colors.whiteColor};
 `;
 
 export default Footer;

@@ -51,22 +51,35 @@ const Header = () => (
         <CollapsableMenu flex={1}>
           <Menu>
             <MenuItem>
-              <Link to="/productos/mybusiness">MyBusiness POS</Link>
+              <Link to="/productos/my-business">MyBusiness POS</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/venta-de-tae">Venta Tiempo Aire</Link>
+              <Link to="/productos/tiempo-aire">Venta Tiempo Aire</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/venta-de-tae">Descargas</Link>
+              <Link to="/descargas/">Descargas</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/venta-de-tae">Capacitación</Link>
+              <Link to="/capacitacion/">Capacitación</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/venta-de-tae">Soporte</Link>
+              <Link to="/soporte/">Soporte</Link>
+              {/* <ul>
+                <li>
+                  <Link to="/soporte/preguntas-frecuentes">
+                    Preguntas Frecuentes
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/soporte/manuales">Manuales</Link>
+                </li>
+                <li>
+                  <Link to="/soporte/video-tutoriales">Video Tutoriales</Link>
+                </li>
+              </ul> */}
             </MenuItem>
             <MenuItem>
-              <Link to="/venta-de-tae">Contacto</Link>
+              <Link to="/contacto/">Contacto</Link>
             </MenuItem>
           </Menu>
         </CollapsableMenu>

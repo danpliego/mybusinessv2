@@ -30,12 +30,6 @@ const IndexPage = () => (
               <Comp.ButtonPrimary to="/productos/mybusiness">
                 Pruebalo gratis
               </Comp.ButtonPrimary>
-              <Comp.ButtonSecondary
-                to="/mybusiness/tienda-en-linea"
-                style={{ marginLeft: "1.5rem" }}
-              >
-                Comprar ahora
-              </Comp.ButtonSecondary>
             </Comp.ButtonContainer>
           </HeroContent>
           <Comp.Column flex={1} style={{ marginTop: "-2rem" }}>
@@ -53,18 +47,17 @@ const IndexPage = () => (
           <ProductColumn
             title="Venta de Tiempo Aire"
             description="Aumenta tus ganancias ofreciendo recargas de tiempo aire y pago de servicios. "
-            link="/venta-de-tae"
+            link="/productos/tiempo-aire"
             image={ProductPlaceholder}
             buttonText="Más información"
           />
           <ProductColumn
             title="Facturación Electrónica"
             description="Adquiere paquetes de timbres y otorga facturas electrónicas en tu negocio."
-            link="/facturacion-electronica"
+            link="/productos/facturacion-electronica"
             image={ProductPlaceholder}
-            buttonText="Requisitos"
+            buttonText="Más información"
             secondaryLink="/facturacion-electronica-comprar"
-            buttonSecondaryText="Comprar ahora"
           />
           <ProductColumn
             title="Corporativos"
@@ -76,7 +69,7 @@ const IndexPage = () => (
           <ProductColumn
             title="Servicios en la nube"
             description="Respalda toda tu información y accede a ella en el momento que lo necesites."
-            link="/servicios-en-la-nube"
+            link="/productos/servicios-en-la-nube"
             image={ProductPlaceholder}
             buttonText="Más información"
           />
@@ -104,23 +97,14 @@ const IndexPage = () => (
           <ProductColumn
             title="Billpocket"
             description="Incrementa las visitas a tu establecimiento recibiendo pagos con tarjeta."
-            link="/bill-pocket"
+            link="/productos/bill-pocket"
             image={ProductPlaceholder}
-            buttonText="Comprar ahora"
+            buttonText="Más información"
           />
           <ProductColumn
             title="POS Tools"
             description="Controla el inventario, ventas y pagos de tu negocio desde tu celular."
-            link="/facturacion-electronica"
-            image={ProductPlaceholder}
-            buttonText="Requisitos"
-            secondaryLink="/pos-tools"
-            buttonSecondaryText="Descarga la app"
-          />
-          <ProductColumn
-            title="Corporativos"
-            description="Controla tus sucursales o franquicias con un sistema adaptado a la medida."
-            link="/corporativos"
+            link="/productos/pos-tools"
             image={ProductPlaceholder}
             buttonText="Más información"
           />

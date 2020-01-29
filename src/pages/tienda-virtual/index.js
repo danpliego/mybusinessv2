@@ -3,6 +3,6 @@ import React from "react";
 
 import Layout from "../../components/layout";
 
-const IndexPage = () => <Layout>descargas: tiempo aire</Layout>;
+const IndexPage = () => <Layout>tienda virtual</Layout>;
 
 export default IndexPage;
