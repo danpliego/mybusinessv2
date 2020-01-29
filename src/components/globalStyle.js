@@ -649,4 +649,20 @@ export const GlobalStyle = createGlobalStyle`
     margin-bottom: 1rem;
     outline: 0;
   }
+
+  .reset-padding {
+    padding: 0!important;
+  }
+
+  table {
+    tr:nth-child(odd) td {
+      background: #f9f9f9;
+    }
+    td, th {
+      vertical-align: top;
+      font-size: 14px;
+      padding: 1rem!important;
+      border: 1px solid #F4f4f4;
+    }
+  }
 `;
