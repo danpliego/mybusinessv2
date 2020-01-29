@@ -2,10 +2,10 @@
 import React from "react";
 import Layout from "../../components/layout";
 import SectionTitle from "../../components/sectionTitle";
-import HeroImage from "../../images/home/banner-image.png";
 import * as Components from "../../components/layoutComponents";
 import LinkColumn from "../../components/LinkColumn";
 
+import HeroImage from "../../images/home/banner-image.png";
 import MyBusiness from "../../images/icons/mybusiness.png";
 import Facturacion from "../../images/icons/factura.png";
 import TiempoAire from "../../images/icons/tiempo-aire.png";

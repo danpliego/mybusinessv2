@@ -23,11 +23,11 @@ SectionTitle.defaultProps = {
 export default SectionTitle;
 
 const SectionTitleContainer = styled.div`
-  background: ${theme.colors.bodyColor};
+  background: ${theme.colors.primaryColor};
   padding: 2rem 0;
 
   h2 {
-    color: #fff;
+    color: ${theme.colors.bodyColor};
     margin: 0;
   }
 `;
