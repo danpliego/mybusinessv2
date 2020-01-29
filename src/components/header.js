@@ -51,7 +51,7 @@ const Header = () => (
         <CollapsableMenu flex={1}>
           <Menu>
             <MenuItem>
-              <Link to="/mybusiness">MyBusiness POS</Link>
+              <Link to="/productos/mybusiness">MyBusiness POS</Link>
             </MenuItem>
             <MenuItem>
               <Link to="/venta-de-tae">Venta Tiempo Aire</Link>

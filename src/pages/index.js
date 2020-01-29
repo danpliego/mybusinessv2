@@ -10,7 +10,6 @@ import { theme } from "../components/theme";
 
 import HeroImage from "../images/home/hero-image.png";
 import BannerImage from "../images/home/banner-image.png";
-import PlayButton from "../images/home/play-button.png";
 
 const IndexPage = () => (
   <Layout>
@@ -28,16 +27,14 @@ const IndexPage = () => (
               experiencia en el mercado. Da clic y compruébalo tu mismo.
             </p>
             <Comp.ButtonContainer>
-              <Comp.ButtonPrimary to="/mybusiness">
+              <Comp.ButtonPrimary to="/productos/mybusiness">
                 Pruebalo gratis
               </Comp.ButtonPrimary>
-              <Comp.ButtonSecondary style={{ marginLeft: "1.5rem" }}>
-                <img
-                  src={PlayButton}
-                  width="24"
-                  style={{ marginRight: "0.5rem" }}
-                />
-                <span>¿Cómo funciona?</span>
+              <Comp.ButtonSecondary
+                to="/mybusiness/tienda-en-linea"
+                style={{ marginLeft: "1.5rem" }}
+              >
+                Comprar ahora
               </Comp.ButtonSecondary>
             </Comp.ButtonContainer>
           </HeroContent>
