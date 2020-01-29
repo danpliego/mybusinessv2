@@ -6,9 +6,9 @@ const GTAmericaExtendedRegular = require("../fonts/GT-America-Extended-Regular.o
 // eslint-disable-next-line
 const GTAmericaExtendedMedium = require("../fonts/GT-America-Extended-Medium.otf");
 // eslint-disable-next-line
-const GTAmericaExpandedBold = require("../fonts/GT-America-Expanded-Bold.otf");
-
+const TiemposHeadline = require("../fonts/TiemposHeadline-Bold.otf");
 // eslint-disable-next-line
+const TiemposHeadlineMedium = require("../fonts/TiemposHeadline-Medium.otf");
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -26,10 +26,17 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   @font-face {
-    font-family: "GT-America-Expanded";
-    font-weight: 600;
-    src: url(${GTAmericaExpandedBold});
+    font-family: "Tiempos-Headline";
+    font-weight: 400;
+    src: url(${TiemposHeadlineMedium});
   }
+  
+  @font-face {
+    font-family: "Tiempos-Headline";
+    font-weight: 600;
+    src: url(${TiemposHeadline});
+  }
+
 
   :root {
     --primary-color: #141943;
@@ -120,7 +127,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .extended {
-    font-family: "GT-America-Expanded";
+    font-family: "Tiempos-Headline";
+  }
+
+  .extended-medium {
+    font-family: "Tiempos-Headline";
+    font-weight: 400;
   }
 
   h1 {
@@ -293,6 +305,7 @@ export const GlobalStyle = createGlobalStyle`
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
+    background: #F7F9FA;
   }
   img {
     max-width: 100%;
@@ -303,7 +316,6 @@ export const GlobalStyle = createGlobalStyle`
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
   }
   hgroup {
     margin-left: 0;
@@ -604,6 +616,14 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .font-lg {
+    font-size: 1.1rem;
+  }
+
+  .font-xl {
+    font-size: 1.25rem;
+  }
+
   .font-sm {
     font-size: .9rem;
   }
@@ -614,5 +634,19 @@ export const GlobalStyle = createGlobalStyle`
 
   .body-l {
     color: ${theme.colors.bodyLColor};
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  input {
+    border: 1px solid #E9E9E9;
+    border-radius: 2px;
+    padding: 1rem 2rem;
+    height: 53px;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: 0;
   }
 `;

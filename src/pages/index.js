@@ -10,6 +10,7 @@ import { theme } from "../components/theme";
 
 import HeroImage from "../images/home/hero-image.png";
 import BannerImage from "../images/home/banner-image.png";
+import PlayButton from "../images/home/play-button.png";
 
 const IndexPage = () => (
   <Layout>
@@ -17,8 +18,8 @@ const IndexPage = () => (
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <Hero>
         <Comp.Row mobile>
-          <HeroContent style={{ paddingTop: "2rem" }}>
-            <h1 className="extended" style={{ marginBottom: "2rem" }}>
+          <HeroContent style={{ paddingTop: "4rem" }}>
+            <h1 className="extended" style={{ margin: "2rem 0" }}>
               La forma simple de administrar tu negocio.{" "}
             </h1>
             <p className="body-l" style={{ marginBottom: "2rem" }}>
@@ -26,12 +27,21 @@ const IndexPage = () => (
               más sencilla, con su gran precio, su facilidad de uso y su
               experiencia en el mercado. Da clic y compruébalo tu mismo.
             </p>
-            <Comp.ButtonPrimary>Pruebalo gratis</Comp.ButtonPrimary>
-            <Comp.ButtonSecondary style={{ marginLeft: "1.5rem" }}>
-              ¿Cómo funciona?
-            </Comp.ButtonSecondary>
+            <Comp.ButtonContainer>
+              <Comp.ButtonPrimary to="/mybusiness">
+                Pruebalo gratis
+              </Comp.ButtonPrimary>
+              <Comp.ButtonSecondary style={{ marginLeft: "1.5rem" }}>
+                <img
+                  src={PlayButton}
+                  width="24"
+                  style={{ marginRight: "0.5rem" }}
+                />
+                <span>¿Cómo funciona?</span>
+              </Comp.ButtonSecondary>
+            </Comp.ButtonContainer>
           </HeroContent>
-          <Comp.Column flex={1}>
+          <Comp.Column flex={1} style={{ marginTop: "-2rem" }}>
             <img
               src={HeroImage}
               alt="MyBusiness POS sistema de punto de venta gratis"
@@ -81,7 +91,7 @@ const IndexPage = () => (
           alt="MyBusiness POS sistema de punto de venta gratis"
         />
         <BannerContent>
-          <h1>
+          <h1 className="extended-medium">
             MyBusiness POS es el sistema de punto de venta que hará tu vida más
             sencilla gracias a su facilidad de uso, su gran precio y su
             experiencia en el mercado.
@@ -146,24 +156,18 @@ export const HeroContent = styled(Comp.Column)`
 `;
 
 export const BlueArea = styled.div`
-  @media ${theme.breakpoint.upFromMobile} {
-    margin-top: 6rem;
-  }
   background: #f0f4f6;
   padding: 3rem 0;
 `;
 
 export const BannerContainer = styled.div`
-  background: blue;
+  background: #141943;
   position: relative;
   overflow: hidden;
 
-  @media ${theme.breakpoint.onlyMobile} {
-    height: 350px;
-  }
-
   img {
     margin-bottom: -1rem;
+    position: absolute;
 
     @media ${theme.breakpoint.onlyMobile} {
       width: 800px;
@@ -185,7 +189,7 @@ export const BannerContainer = styled.div`
 `;
 
 export const BannerContent = styled.div`
-  position: absolute;
+  position: relative;
   top: 0;
   padding: 10%;
   z-index: 1;

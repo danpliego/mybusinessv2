@@ -48,10 +48,18 @@ const sharedButton = css`
   display: inline-block;
   font-size: ${props => (props.small ? ".8rem" : "1rem")};
   font-weight: 600;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
   &:hover {
     transform: translate(0px, -2px);
   }
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
 `;
 
 export const ButtonPrimary = styled(Link)`
@@ -70,6 +78,14 @@ export const ButtonSecondary = styled(Link)`
     background: ${props => props.theme.colors.bodyColor};
     color: ${props => props.theme.colors.whiteColor};
   }
+`;
+
+export const ButtonDownload = styled.button`
+  ${sharedButton}
+  border-color: ${props => props.theme.colors.primaryColor};
+  background: ${props => props.theme.colors.primaryColor};
+  color: ${props => props.theme.colors.bodyColor};
+  width: 100%;
 `;
 
 export const FlexContainer = styled.div`
@@ -99,6 +115,25 @@ export const FlexColumn = styled(FlexContainer)`
 
 export const TextCenter = styled.div`
   text-align: center;
+`;
+
+export const TextRight = styled.div`
+  text-align: center;
+`;
+
+export const sharedContainer = css`
+  margin: 0px auto;
+  padding: 5rem 0 3rem;
+`;
+
+export const Width75 = styled.div`
+  ${sharedContainer}
+  max-width: 75%;
+`;
+
+export const Width50 = styled.div`
+  ${sharedContainer}
+  max-width: 50%;
 `;
 
 // Margin Utilities
