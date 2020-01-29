@@ -640,7 +640,7 @@ export const GlobalStyle = createGlobalStyle`
     text-align: center;
   }
 
-  input {
+  .form-control {
     border: 1px solid #E9E9E9;
     border-radius: 2px;
     padding: 1rem 2rem;

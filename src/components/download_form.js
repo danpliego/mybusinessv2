@@ -22,9 +22,24 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/mzbrbpyp"
         method="POST"
       >
-        <input type="text" name="nombre" placeholder="Nombre" />
-        <input type="email" name="email" placeholder="Email" />
-        <input type="text" name="giro-comercial" placeholder="Giro Comercial" />
+        <input
+          className="form-control"
+          type="text"
+          name="nombre"
+          placeholder="Nombre"
+        />
+        <input
+          className="form-control"
+          type="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          className="form-control"
+          type="text"
+          name="giro-comercial"
+          placeholder="Giro Comercial"
+        />
         {status === "SUCCESS" ? (
           <p style={{ padding: "1rem", textAlign: "center" }}>
             Gracias! Tu descarga está por iniciar
