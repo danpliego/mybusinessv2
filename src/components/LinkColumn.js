@@ -5,12 +5,12 @@ import * as Comp from "../components/layoutComponents";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
-const ProductColumn = ({ image, title, description, link, buttonText }) => (
+const LinkColumn = ({ image, title, description, link, buttonText }) => (
   <Comp.Column flex={1} padded>
     <ProductColumnContainer>
-      <Link to={link}>
+      <IconLink to={link}>
         <img src={image} alt={link} />
-      </Link>
+      </IconLink>
       <h6 style={{ marginTop: "1rem" }}>
         <Link to={link} style={{ color: theme.colors.bodyColor }}>
           {title}
@@ -24,23 +24,39 @@ const ProductColumn = ({ image, title, description, link, buttonText }) => (
   </Comp.Column>
 );
 
-ProductColumn.propTypes = {
+LinkColumn.propTypes = {
   title: string,
   description: string,
   link: string,
   image: string,
-  buttonText: string,
-  buttonSecondaryText: string || null
+  buttonText: string
 };
 
-export default ProductColumn;
+export default LinkColumn;
 
 export const ProductColumnContainer = styled.div`
   padding: 0.33rem;
   padding-bottom: 3rem;
   transition: all 0.15s ease-in-out;
+  text-align: center;
+  position: relative;
 
   &:hover {
     transform: scale(1.02);
+  }
+`;
+
+const IconLink = styled(Link)`
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  border-radius: 5rem;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 32px;
+    height: auto;
   }
 `;

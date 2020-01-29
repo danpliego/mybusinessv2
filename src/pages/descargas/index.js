@@ -1,15 +1,53 @@
 // eslint-disable-next-line
 import React from "react";
-
 import Layout from "../../components/layout";
-import { Link } from "gatsby";
+import SectionTitle from "../../components/sectionTitle";
+import HeroImage from "../../images/home/banner-image.png";
+import * as Components from "../../components/layoutComponents";
+import LinkColumn from "../../components/LinkColumn";
+
+import MyBusiness from "../../images/icons/mybusiness.png";
+import Facturacion from "../../images/icons/factura.png";
+import TiempoAire from "../../images/icons/tiempo-aire.png";
 
 const IndexPage = () => (
   <Layout>
-    <h1>descargas</h1>
-    <Link to="/descargas/my-business">mybusiness</Link>
-    <Link to="/descargas/facturacion-electronica">Facturación electrónica</Link>
-    <Link to="/descargas/tiempo-aire">Tiempo Aire</Link>
+    <SectionTitle name="Descargas" />
+    <Components.BannerContainer>
+      <img src={HeroImage} />
+      <Components.Container>
+        <Components.BannerBox>
+          <Components.Width75 style={{ padding: "2rem 0" }}>
+            <Components.FlexCenterChild>
+              <Components.Flex1>
+                <LinkColumn
+                  title="MyBusiness"
+                  link="/descargas/my-business"
+                  image={MyBusiness}
+                  buttonText="Descarga"
+                />
+              </Components.Flex1>
+              <Components.Flex1>
+                <LinkColumn
+                  title="Facturación electrónica"
+                  link="/descargas/facturacion-electronica"
+                  image={Facturacion}
+                  buttonText="Descarga"
+                />
+              </Components.Flex1>
+              <Components.Flex1>
+                <LinkColumn
+                  title="Tiempo Aire"
+                  link="/descargas/tiempo-aire"
+                  image={TiempoAire}
+                  buttonText="Descarga"
+                />
+              </Components.Flex1>
+            </Components.FlexCenterChild>
+          </Components.Width75>
+        </Components.BannerBox>
+      </Components.Container>
+    </Components.BannerContainer>
   </Layout>
 );
 

@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import { Link } from "gatsby";
+import { theme } from "./theme";
 
 export const MainWrapper = styled.div`
   margin: 0;
@@ -134,6 +135,66 @@ export const Width75 = styled.div`
 export const Width50 = styled.div`
   ${sharedContainer}
   max-width: 50%;
+`;
+
+export const BannerContainer = styled.div`
+  background: #141943;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+
+  > img {
+    margin-bottom: -1rem;
+    position: absolute;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      width: 800px;
+      max-width: none;
+      position: absolute;
+    }
+  }
+
+  &:after {
+    content: " ";
+    background: #141943;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+`;
+
+export const BannerContent = styled.div`
+  position: relative;
+  top: 0;
+  padding: 10%;
+  z-index: 1;
+
+  h1,
+  p {
+    color: white;
+    text-align: center;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 22px;
+    }
+  }
+`;
+
+export const BannerBox = styled.div`
+  margin: 5rem 0;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+
+  > div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+  }
 `;
 
 // Margin Utilities

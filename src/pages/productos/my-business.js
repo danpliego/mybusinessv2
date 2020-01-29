@@ -5,28 +5,28 @@ import Layout from "../../components/layout";
 import * as Comp from "../../components/layoutComponents";
 import SEO from "../../components/seo";
 import styled from "styled-components";
-import { BannerContainer } from "../index";
-import { BannerContent } from "../index";
 import { BlueArea } from "../index";
 
 import HeroImage from "../../images/mybusiness-hero.png";
 import Circle1 from "../../images/circle-1.png";
 import Circle2 from "../../images/circle-2.png";
 import MyForm from "../../components/download_form";
+import SectionTitle from "../../components/sectionTitle";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <BannerContainer>
+    <SectionTitle name="MyBusiness" />
+    <Comp.BannerContainer>
       <img src={HeroImage} />
-      <BannerContent>
+      <Comp.BannerContent>
         <h1 className="extended-medium">
           MyBusiness POS funciona como punto de venta de abarrotes, ferreterías,
           carnicerías, papelerías, refaccionarias, tlapalerías y muchos
           comercios más…
         </h1>
-      </BannerContent>
-    </BannerContainer>
+      </Comp.BannerContent>
+    </Comp.BannerContainer>
     <Comp.Container>
       <Comp.Width75 style={{ textAlign: "center", paddingBottom: "0" }}>
         <h1 className="extended">
@@ -98,16 +98,16 @@ const IndexPage = () => (
         </Comp.ButtonPrimary>
       </Comp.Container>
     </ProductBlueArea>
-    <BannerContainer>
+    <Comp.BannerContainer>
       <img src={HeroImage} />
-      <BannerContent>
+      <Comp.BannerContent>
         <h1 className="extended-medium">
           Suscríbete a nuestro boletín y recibe promociones, tips para tu
           negocio e información especial.
         </h1>
         <p>subscribe to bulletin</p>
-      </BannerContent>
-    </BannerContainer>
+      </Comp.BannerContent>
+    </Comp.BannerContainer>
   </Layout>
 );
 

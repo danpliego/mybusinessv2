@@ -75,20 +75,20 @@ const IndexPage = () => (
           />
         </Comp.Row>
       </RowButtons>
-      <BannerContainer>
+      <Comp.BannerContainer>
         <img
           src={BannerImage}
           alt="MyBusiness POS sistema de punto de venta gratis"
         />
-        <BannerContent>
+        <Comp.BannerContent>
           <h1 className="extended-medium">
             MyBusiness POS es el sistema de punto de venta que hará tu vida más
             sencilla gracias a su facilidad de uso, su gran precio y su
             experiencia en el mercado.
           </h1>
           <p>Alejandra Anzures - Lectora</p>
-        </BannerContent>
-      </BannerContainer>
+        </Comp.BannerContent>
+      </Comp.BannerContainer>
       <Comp.Container style={{ marginTop: "3rem" }}>
         <h4 style={{ textAlign: "center", marginBottom: "3rem" }}>
           Más soluciones para tu Negocio.
@@ -139,51 +139,6 @@ export const HeroContent = styled(Comp.Column)`
 export const BlueArea = styled.div`
   background: #f0f4f6;
   padding: 3rem 0;
-`;
-
-export const BannerContainer = styled.div`
-  background: #141943;
-  position: relative;
-  overflow: hidden;
-
-  img {
-    margin-bottom: -1rem;
-    position: absolute;
-
-    @media ${theme.breakpoint.onlyMobile} {
-      width: 800px;
-      max-width: none;
-      position: absolute;
-    }
-  }
-
-  &:after {
-    content: " ";
-    background: #141943;
-    opacity: 0.3;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-  }
-`;
-
-export const BannerContent = styled.div`
-  position: relative;
-  top: 0;
-  padding: 10%;
-  z-index: 1;
-
-  h1,
-  p {
-    color: white;
-    text-align: center;
-
-    @media ${theme.breakpoint.onlyMobile} {
-      font-size: 22px;
-    }
-  }
 `;
 
 export const RowButtons = styled(Comp.Container)`
