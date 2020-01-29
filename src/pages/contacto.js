@@ -28,7 +28,7 @@ const IndexPage = () => (
             <iframe
               src="https://www.mybusinesspos.com/contacto.aspx"
               width="100%"
-              height="800"
+              height="770"
               frameBorder="0"
             ></iframe>
           </Components.Width75>
