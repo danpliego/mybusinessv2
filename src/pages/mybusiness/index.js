@@ -1,18 +1,18 @@
 // eslint-disable-next-line
 import React from "react";
 
-import Layout from "../components/layout";
-import * as Comp from "../components/layoutComponents";
-import SEO from "../components/seo";
+import Layout from "../../components/layout";
+import * as Comp from "../../components/layoutComponents";
+import SEO from "../../components/seo";
 import styled from "styled-components";
 import { BannerContainer } from "../index";
 import { BannerContent } from "../index";
 import { BlueArea } from "../index";
 
-import HeroImage from "../images/mybusiness-hero.png";
-import Circle1 from "../images/circle-1.png";
-import Circle2 from "../images/circle-2.png";
-import MyForm from "../components/download_form";
+import HeroImage from "../../images/mybusiness-hero.png";
+import Circle1 from "../../images/circle-1.png";
+import Circle2 from "../../images/circle-2.png";
+import MyForm from "../../components/download_form";
 
 const IndexPage = () => (
   <Layout>
