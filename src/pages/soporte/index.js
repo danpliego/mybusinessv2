@@ -7,7 +7,6 @@ import LinkColumn from "../../components/LinkColumn";
 
 import HeroImage from "../../images/home/banner-image.png";
 import MyBusiness from "../../images/icons/mybusiness.png";
-import Facturacion from "../../images/icons/factura.png";
 
 const IndexPage = () => (
   <Layout>
@@ -16,26 +15,34 @@ const IndexPage = () => (
       <img src={HeroImage} />
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width50 style={{ padding: "2rem 0" }}>
+          <Components.Width75 style={{ padding: "2rem 0" }}>
             <Components.FlexCenterChild>
               <Components.Flex1>
                 <LinkColumn
-                  title="Cursos Virtuales Gratuitos"
-                  link="/capacitacion/cursos-virtuales-gratuitos"
+                  title="Preguntas Frecuentes"
+                  link="/soporte/preguntas-frecuentes/"
                   image={MyBusiness}
                   buttonText="Visitar"
                 />
               </Components.Flex1>
               <Components.Flex1>
                 <LinkColumn
-                  title="Cursos virtuales con costo"
-                  link="/capacitacion/cursos-virtuales-con-certificacion"
-                  image={Facturacion}
+                  title="Manuales"
+                  link="/soporte/manuales/"
+                  image={MyBusiness}
+                  buttonText="Visitar"
+                />
+              </Components.Flex1>
+              <Components.Flex1>
+                <LinkColumn
+                  title="Video Tutoriales"
+                  link="/soporte/video-tutoriales/"
+                  image={MyBusiness}
                   buttonText="Visitar"
                 />
               </Components.Flex1>
             </Components.FlexCenterChild>
-          </Components.Width50>
+          </Components.Width75>
         </Components.BannerBox>
       </Components.Container>
     </Components.BannerContainer>
