@@ -9,7 +9,7 @@ import { BlueArea } from "../index";
 import BoletinBanner from "../../components/boletinBanner";
 import SectionTitle from "../../components/sectionTitle";
 
-import HeroImage from "../../images/pos-tools.jpg";
+import HeroImage from "../../images/pos-tools/hero-image.jpg";
 import Circle1 from "../../images/circle-1.png";
 import Circle2 from "../../images/circle-2.png";
 import GooglePlay from "../../images/google-play.png";

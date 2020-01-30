@@ -7,7 +7,7 @@ import SEO from "../../components/seo";
 import BoletinBanner from "../../components/boletinBanner";
 import SectionTitle from "../../components/sectionTitle";
 
-import HeroImage from "../../images/servicios-en-la-nube.jpg";
+import HeroImage from "../../images/servicios-en-la-nube/hero-image.jpg";
 
 const IndexPage = () => (
   <Layout>

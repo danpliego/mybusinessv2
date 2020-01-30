@@ -10,7 +10,10 @@ import { theme } from "../components/theme";
 import HeroImage from "../images/home/hero-image.png";
 import BannerImage from "../images/home/banner-image.png";
 import ProductPlaceholder from "../images/home/placeholder.png";
-import BillPocket from "../images/bill-pocket/terminal-fondo.jpg";
+
+import PosTools from "../images/pos-tools/home-image.jpg";
+import Servicios from "../images/servicios-en-la-nube/home-image.jpg";
+import BillPocket from "../images/bill-pocket/home-image.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -72,7 +75,7 @@ const IndexPage = () => (
             title="Servicios en la nube"
             description="Respalda toda tu información y accede a ella en el momento que lo necesites."
             link="/productos/servicios-en-la-nube"
-            image={ProductPlaceholder}
+            image={Servicios}
             buttonText="Más información"
           />
         </Comp.Row>
@@ -101,13 +104,13 @@ const IndexPage = () => (
             title="POS Tools"
             description="Controla el inventario, ventas y pagos de tu negocio desde tu celular."
             link="/productos/pos-tools"
-            image={ProductPlaceholder}
+            image={PosTools}
             buttonText="Más información"
           />
           <ProductColumn
             title="Desarrollo a la medida"
             description="El único sistema de punto de venta que se adecua al giro específico de tu giro comercial."
-            link="/desarrollo-a-la-medida"
+            link="/productos/desarrollo-a-la-medida"
             image={ProductPlaceholder}
             buttonText="Más información"
           />

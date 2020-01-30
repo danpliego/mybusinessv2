@@ -5,7 +5,7 @@ import Layout from "../../components/layout";
 import * as Comp from "../../components/layoutComponents";
 import SEO from "../../components/seo";
 
-import HeroImage from "../../images/bill-pocket/terminal-pago.jpg";
+import HeroImage from "../../images/bill-pocket/hero-image.jpg";
 import SectionTitle from "../../components/sectionTitle";
 import { BlueArea } from "..";
 import BoletinBanner from "../../components/boletinBanner";

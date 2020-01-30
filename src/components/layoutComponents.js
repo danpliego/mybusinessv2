@@ -163,7 +163,7 @@ export const BannerImage = styled.div`
   &:after {
     content: " ";
     background: #141943;
-    opacity: 0.5;
+    opacity: 0.3;
     position: absolute;
     left: 0;
     top: 0;
