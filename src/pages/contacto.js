@@ -16,9 +16,9 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75>
+          <Components.Width75 style={{ padding: "3rem" }}>
             <Components.FlexContainer>
-              <Components.Column style={{ flex: 1 }}>
+              <Components.Column style={{ flex: 1, paddingRight: "3rem" }}>
                 <h5 className="uppercase font-xs">INFORMACIÓN Y VENTAS</h5>
                 <p className="body-l">
                   ¿Aún tienes dudas para adquirir MyBusinessPOS? escríbenos a:{" "}
@@ -26,26 +26,27 @@ const IndexPage = () => (
                     ventas@mybusinesspos.com
                   </a>
                 </p>
-                <h5 className="uppercase font-xs" style={{ marginTop: "2rem" }}>
-                  SOPORTE
-                </h5>{" "}
+              </Components.Column>
+              <Components.Column style={{ flex: 1 }}>
+                <h5 className="uppercase font-xs">SOPORTE</h5>{" "}
                 <p className="body-l">
                   Si necesitas soporte técnico{" "}
                   <a href="#">contacta a nuestro equipo aquí.</a>
                 </p>
               </Components.Column>
-              <Components.Column style={{ flex: 1, marginLeft: "3rem" }}>
-                <h5 className="uppercase font-xs">Nuestras oficinas</h5>
-                <p className="body-l">
-                  <strong>Toluca, Estado de México.</strong>
-                  <br /> Leona Vicario 1232, Oficina 104. <br /> Col. La
-                  Purísima, CP 52156 Metepec. <br />
-                  <br />
-                  Horario de atención: <br />
-                  Lunes a viernes de 9:00 am a 6:00 pm.
-                </p>
-              </Components.Column>
             </Components.FlexContainer>
+            <hr />
+            <div style={{ textAlign: "center", marginTop: "1rem" }}>
+              <h5 className="uppercase font-xs">Nuestras oficinas</h5>
+              <p className="body-l">
+                <strong>Toluca, Estado de México.</strong>
+                <br /> Leona Vicario 1232, Oficina 104. <br /> Col. La Purísima,
+                CP 52156 Metepec. <br />
+                <br />
+                <strong>Horario de atención:</strong> <br />
+                Lunes a viernes de 9:00 am a 6:00 pm.
+              </p>
+            </div>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>

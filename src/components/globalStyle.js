@@ -477,9 +477,10 @@ export const GlobalStyle = createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: calc(1.45rem - 1px);
-    background: hsla(0, 0%, 0%, 0.2);
+    background: #f4f4f4;
     border: none;
     height: 1px;
+    margin: 2rem 0;
   }
   address {
     margin-left: 0;
