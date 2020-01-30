@@ -6,8 +6,7 @@ import * as Components from "../../components/layoutComponents";
 import LinkColumn from "../../components/LinkColumn";
 
 import HeroImage from "../../images/capacitacion/hero-image.jpg";
-import MyBusiness from "../../images/icons/mybusiness.png";
-import Facturacion from "../../images/icons/factura.png";
+import Cursos from "../../images/icons/cursos.png";
 import SEO from "../../components/seo";
 
 const IndexPage = () => (
@@ -26,7 +25,7 @@ const IndexPage = () => (
                 <LinkColumn
                   title="Cursos Virtuales Gratuitos"
                   link="/capacitacion/cursos-virtuales-gratuitos"
-                  image={MyBusiness}
+                  image={Cursos}
                   buttonText="Visitar"
                 />
               </Components.Flex1>
@@ -34,7 +33,7 @@ const IndexPage = () => (
                 <LinkColumn
                   title="Cursos virtuales con costo"
                   link="/capacitacion/cursos-virtuales-con-certificacion"
-                  image={Facturacion}
+                  image={Cursos}
                   buttonText="Visitar"
                 />
               </Components.Flex1>

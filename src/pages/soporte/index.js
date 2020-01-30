@@ -6,7 +6,7 @@ import * as Components from "../../components/layoutComponents";
 import LinkColumn from "../../components/LinkColumn";
 
 import HeroImage from "../../images/soporte/hero-image.jpg";
-import MyBusiness from "../../images/icons/mybusiness.png";
+import Ayuda from "../../images/icons/ayuda.png";
 import SEO from "../../components/seo";
 
 const IndexPage = () => (
@@ -25,7 +25,7 @@ const IndexPage = () => (
                 <LinkColumn
                   title="Preguntas Frecuentes"
                   link="/soporte/preguntas-frecuentes/"
-                  image={MyBusiness}
+                  image={Ayuda}
                   buttonText="Visitar"
                 />
               </Components.Flex1>
@@ -33,7 +33,7 @@ const IndexPage = () => (
                 <LinkColumn
                   title="Manuales"
                   link="/soporte/manuales/"
-                  image={MyBusiness}
+                  image={Ayuda}
                   buttonText="Visitar"
                 />
               </Components.Flex1>
@@ -41,7 +41,7 @@ const IndexPage = () => (
                 <LinkColumn
                   title="Video Tutoriales"
                   link="/soporte/video-tutoriales/"
-                  image={MyBusiness}
+                  image={Ayuda}
                   buttonText="Visitar"
                 />
               </Components.Flex1>

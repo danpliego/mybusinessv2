@@ -27,7 +27,7 @@ const IndexPage = () => (
       </Comp.BannerContent>
     </Comp.BannerContainer>
     <Comp.Container>
-      <Comp.Width75>
+      <Comp.Width75 style={{ paddingBottom: "4rem" }}>
         <p className="font-lg">
           Los servicios en la nube de MyBusiness POS te permiten subir toda la
           información de tu negocio a un servidor online seguro. Desde aquí
