@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 import SectionTitle from "../../components/sectionTitle";
 import * as Components from "../../components/layoutComponents";
 
-import HeroImage from "../../images/home/banner-image.png";
+import HeroImage from "../../images/descargas.jpg";
 
 const IndexPage = () => (
   <Layout>

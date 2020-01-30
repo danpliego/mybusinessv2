@@ -5,13 +5,18 @@ import Layout from "../../components/layout";
 
 import * as Components from "../../components/layoutComponents";
 
-import HeroImage from "../../images/home/banner-image.png";
+import HeroImage from "../../images/descargas.jpg";
 import Box2017 from "../../images/mybusiness/boxMBP2017.png";
 import Box2012 from "../../images/mybusiness/boxMBP2012.jpg";
 import SectionTitle from "../../components/sectionTitle";
+import SEO from "../../components/seo";
 
 const IndexPage = () => (
   <Layout>
+    <SEO
+      title="Aviso de Privacidad"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <SectionTitle name="Descargar My Business Pos" />
     <Components.BannerContainer>
       <Components.BannerImage>

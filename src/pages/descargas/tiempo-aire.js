@@ -3,11 +3,16 @@ import React from "react";
 import Layout from "../../components/layout";
 import SectionTitle from "../../components/sectionTitle";
 import * as Components from "../../components/layoutComponents";
+import SEO from "../../components/seo";
 
-import HeroImage from "../../images/home/banner-image.png";
+import HeroImage from "../../images/descargas.jpg";
 
 const IndexPage = () => (
   <Layout>
+    <SEO
+      title="Aviso de Privacidad"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <SectionTitle
       name="Tiempo Aire"
       subtitle="Descarga aquí el instalable para vender recargas desde MyBusiness POS. "
