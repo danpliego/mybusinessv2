@@ -6,16 +6,17 @@ import * as Comp from "../../components/layoutComponents";
 import SEO from "../../components/seo";
 import styled from "styled-components";
 import { BlueArea } from "../index";
+import BoletinBanner from "../../components/boletinBanner";
+import SectionTitle from "../../components/sectionTitle";
 
-import HeroImage from "../../images/mybusiness-hero.png";
+import HeroImage from "../../images/pos-tools.jpg";
 import Circle1 from "../../images/circle-1.png";
 import Circle2 from "../../images/circle-2.png";
 import GooglePlay from "../../images/google-play.png";
-import SectionTitle from "../../components/sectionTitle";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Pos Tools" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle
       name="POS Tools"
       subtitle="Administra tu negocio desde donde estés."
@@ -82,6 +83,7 @@ const IndexPage = () => (
         </Comp.Width50>
       </Comp.Container>
     </ProductBlueArea>
+    <BoletinBanner />
   </Layout>
 );
 
