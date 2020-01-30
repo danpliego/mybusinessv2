@@ -40,6 +40,10 @@ export const Column = styled.div`
     props.justifyContent ? props.justifyContent : "initial"};
   margin: ${props => (props.margin ? props.margin : "0")};
   width: ${props => (props.width ? props.width : "auto")};
+
+  iframe {
+    max-width: 100%;
+  }
 `;
 
 const sharedButton = css`
