@@ -35,6 +35,7 @@ const IndexPage = () => (
           <Comp.Column flex={1} style={{ marginTop: "-2rem" }}>
             <img
               src={HeroImage}
+              style={{ width: "620px" }}
               alt="MyBusiness POS sistema de punto de venta gratis"
             />
           </Comp.Column>
@@ -139,6 +140,7 @@ export const HeroContent = styled(Comp.Column)`
 export const BlueArea = styled.div`
   background: #f0f4f6;
   padding: 3rem 0;
+  margin-top: -6rem;
 `;
 
 export const RowButtons = styled(Comp.Container)`

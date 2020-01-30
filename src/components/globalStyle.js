@@ -665,4 +665,9 @@ export const GlobalStyle = createGlobalStyle`
       border: 1px solid #F4f4f4;
     }
   }
+
+  .uppercase {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
 `;

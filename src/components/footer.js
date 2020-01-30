@@ -60,7 +60,7 @@ const Footer = () => (
             <FooterMenu>
               <h6>Canales de Venta</h6>
               <li>
-                <Link to="/canales-de-venta/centros-de-servicios/">
+                <Link to="/canales-de-venta/centros-de-servicio/">
                   Centros de servicio
                 </Link>
               </li>
