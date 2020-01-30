@@ -13,6 +13,7 @@ import Circle2 from "../../images/circle-2.png";
 import MyForm from "../../components/download_form";
 import SectionTitle from "../../components/sectionTitle";
 import BoletinBanner from "../../components/boletinBanner";
+import { Link } from "gatsby";
 
 const IndexPage = () => (
   <Layout>
@@ -23,11 +24,16 @@ const IndexPage = () => (
         <img src={HeroImage} />
       </Comp.BannerImage>
       <Comp.BannerContent>
-        <h1 className="extended-medium">
+        <h2 className="extended-medium" style={{ marginBottom: "3rem" }}>
           MyBusiness POS funciona como punto de venta de abarrotes, ferreterías,
           carnicerías, papelerías, refaccionarias, tlapalerías y muchos
           comercios más…
-        </h1>
+        </h2>
+        <div className="text-center">
+          <Comp.ButtonInverse to="tienda-virtual/my-business">
+            Comprar ahora
+          </Comp.ButtonInverse>
+        </div>
       </Comp.BannerContent>
     </Comp.BannerContainer>
     <Comp.Container>
@@ -92,13 +98,20 @@ const IndexPage = () => (
             </li>
           </ul>
         </Comp.Width75>
-        <Comp.Width50>
-          <h2 className="extended text-center">Descarga la prueba grátis</h2>
+        <Comp.Width50 style={{ paddingBottom: "0" }}>
+          <h3 className="extended text-center">Descarga la prueba grátis</h3>
           <MyForm />
         </Comp.Width50>
-        <Comp.ButtonPrimary to="tienda-virtual/my-business">
-          Comprar ahora
-        </Comp.ButtonPrimary>
+        <Comp.Width50>
+          <div className="text-center">
+            <h3 className="extended text-center">
+              Ó compra la versión completa
+            </h3>
+            <Comp.ButtonDownload as={Link} to="tienda-virtual/my-business">
+              Comprar ahora
+            </Comp.ButtonDownload>
+          </div>
+        </Comp.Width50>
       </Comp.Container>
     </ProductBlueArea>
     <BoletinBanner />

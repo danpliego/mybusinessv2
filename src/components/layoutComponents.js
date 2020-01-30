@@ -92,6 +92,18 @@ export const ButtonSecondary = styled(Link)`
   }
 `;
 
+export const ButtonInverse = styled(Link)`
+  ${sharedButton}
+  color: ${props => props.theme.colors.whiteColor};
+  border-color: ${props => props.theme.colors.whiteColor};
+
+  &:hover {
+    border-color: ${props => props.theme.colors.primaryColor};
+    background: ${props => props.theme.colors.primaryColor};
+    color: ${props => props.theme.colors.bodyColor};
+  }
+`;
+
 export const ButtonDownload = styled.button`
   ${sharedButton}
   border-color: ${props => props.theme.colors.primaryColor};
@@ -163,7 +175,7 @@ export const BannerImage = styled.div`
   &:after {
     content: " ";
     background: #141943;
-    opacity: 0.3;
+    opacity: 0.4;
     position: absolute;
     left: 0;
     top: 0;
@@ -191,6 +203,7 @@ export const BannerContent = styled.div`
   z-index: 1;
 
   h1,
+  h2,
   p {
     color: white;
     text-align: center;

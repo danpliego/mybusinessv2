@@ -5,7 +5,7 @@ import Layout from "../../components/layout";
 
 import * as Components from "../../components/layoutComponents";
 
-import HeroImage from "../../images/descargas.jpg";
+import HeroImage from "../../images/facturacion/hero-image.jpg";
 import PayU from "../../images/mybusiness/pagospayu.png";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
@@ -23,7 +23,7 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "2rem" }}>
+          <Components.Width75 style={{ padding: "3rem" }}>
           <strong>La licencia de MyCFDI 3.3 tiene un costo de $2,320.00 I.V.A. incluido y aplica para licencias nuevas o anteriores.</strong>
 
 <ul className="list-unstyled icon-list">
