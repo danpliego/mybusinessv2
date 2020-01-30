@@ -29,8 +29,7 @@ ProductColumn.propTypes = {
   description: string,
   link: string,
   image: string,
-  buttonText: string,
-  buttonSecondaryText: string || null
+  buttonText: string
 };
 
 export default ProductColumn;

@@ -8,12 +8,15 @@ import HeroImage from "../../images/home/banner-image.png";
 
 const IndexPage = () => (
   <Layout>
-    <SectionTitle name="Facturación Electrónica" />
+    <SectionTitle
+      name="Facturación Electrónica"
+      subtitle="Instala MyCFDI para comenzar a facturar desde MyBusiness POS. "
+    />
     <Components.BannerContainer>
       <img src={HeroImage} />
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width50 style={{ padding: "2rem" }}>
+          <Components.Width75 style={{ padding: "2rem" }}>
             <p>
               Descarga el módulo de facturación electrónica: MyCFDI para cada
               versión de MyBusiness POS.{" "}
@@ -44,7 +47,7 @@ const IndexPage = () => (
                 entra aquí para comprar más Timbres Fiscales
               </a>
             </p>
-          </Components.Width50>
+          </Components.Width75>
         </Components.BannerBox>
       </Components.Container>
     </Components.BannerContainer>

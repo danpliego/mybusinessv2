@@ -1,23 +1,23 @@
-import PropTypes from "prop-types";
+import { string } from "prop-types";
 import React from "react";
 import styled from "styled-components";
 import * as Layout from "./layoutComponents";
 import { theme } from "./theme";
 
-const SectionTitle = ({ name }) => (
+const SectionTitle = ({ name, subtitle }) => (
   <SectionTitleContainer>
     <Layout.Container>
       <h2 className="extended-medium">{name}</h2>
+      {subtitle && (
+        <p style={{ margin: ".33rem 0 0", opacity: "0.7" }}>{subtitle}</p>
+      )}
     </Layout.Container>
   </SectionTitleContainer>
 );
 
 SectionTitle.propTypes = {
-  name: PropTypes.string
-};
-
-SectionTitle.defaultProps = {
-  name: ``
+  name: string,
+  subtitle: string || null
 };
 
 export default SectionTitle;
