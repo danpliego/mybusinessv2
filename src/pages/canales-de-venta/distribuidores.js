@@ -20,7 +20,7 @@ const IndexPage = () => (
           <Comp.Width75>
             <p>
               ¿Busca un distribuidor en su zona? De un click en la flecha y se
-              desplegara el catalogo de estados.
+              desplegara el catálogo de estados.
             </p>
             <iframe
               src="https://www.mybusinesspos.com/distribuidores.aspx"
