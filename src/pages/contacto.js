@@ -11,26 +11,41 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle name="Contacto" />
     <Components.BannerContainer>
-      <img src={HeroImage} />
+      <Components.BannerImage>
+        <img src={HeroImage} />
+      </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "2rem" }}>
-            <p>
-              Horario de atención:{" "}
-              <strong>Lun-Vie de 8:00 a 18:00 hora central.</strong>
-            </p>
-            <br />
-            <p className="body-xl-color">
-              Por este medio no se brinda Soporte Técnico. Si lo requiere, favor
-              de dar <a href="#">clic aqui</a>
-            </p>
-            <br />
-            <iframe
-              src="https://www.mybusinesspos.com/contacto.aspx"
-              width="100%"
-              height="770"
-              frameBorder="0"
-            ></iframe>
+          <Components.Width75>
+            <Components.FlexContainer>
+              <Components.Column style={{ flex: 1 }}>
+                <h5 className="uppercase font-xs">INFORMACIÓN Y VENTAS</h5>
+                <p className="body-l">
+                  ¿Aún tienes dudas para adquirir MyBusinessPOS? escríbenos a:{" "}
+                  <a href="mailto:ventas@mybusinesspos.com">
+                    ventas@mybusinesspos.com
+                  </a>
+                </p>
+                <h5 className="uppercase font-xs" style={{ marginTop: "2rem" }}>
+                  SOPORTE
+                </h5>{" "}
+                <p className="body-l">
+                  Si necesitas soporte técnico{" "}
+                  <a href="#">contacta a nuestro equipo aquí.</a>
+                </p>
+              </Components.Column>
+              <Components.Column style={{ flex: 1, marginLeft: "3rem" }}>
+                <h5 className="uppercase font-xs">Nuestras oficinas</h5>
+                <p className="body-l">
+                  <strong>Toluca, Estado de México.</strong>
+                  <br /> Leona Vicario 1232, Oficina 104. <br /> Col. La
+                  Purísima, CP 52156 Metepec. <br />
+                  <br />
+                  Horario de atención: <br />
+                  Lunes a viernes de 9:00 am a 6:00 pm.
+                </p>
+              </Components.Column>
+            </Components.FlexContainer>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>

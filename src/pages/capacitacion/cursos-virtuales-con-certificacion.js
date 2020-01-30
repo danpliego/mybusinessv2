@@ -12,7 +12,9 @@ const IndexPage = () => (
     <SectionTitle name="Cursos Virtuales con Certificación" />
 
     <Components.BannerContainer>
-      <img src={HeroImage} />
+      <Components.BannerImage>
+        <img src={HeroImage} />
+      </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
           <div style={{ padding: "2rem" }}>

@@ -27,8 +27,8 @@ const IndexPage = () => (
               experiencia en el mercado. Da clic y compruébalo tu mismo.
             </p>
             <Comp.ButtonContainer>
-              <Comp.ButtonPrimary to="/productos/mybusiness">
-                Pruebalo gratis
+              <Comp.ButtonPrimary to="/productos/my-business">
+                Pruébalo gratis
               </Comp.ButtonPrimary>
             </Comp.ButtonContainer>
           </HeroContent>
@@ -47,7 +47,7 @@ const IndexPage = () => (
         <Comp.Row padded mobile>
           <ProductColumn
             title="Venta de Tiempo Aire"
-            description="Aumenta tus ganancias ofreciendo recargas de tiempo aire y pago de servicios. "
+            description="Aumenta tus ganancias ofreciendo recargas y pago de servicios. "
             link="/productos/tiempo-aire"
             image={ProductPlaceholder}
             buttonText="Más información"
@@ -76,19 +76,13 @@ const IndexPage = () => (
           />
         </Comp.Row>
       </RowButtons>
-      <Comp.BannerContainer>
-        <img
-          src={BannerImage}
-          alt="MyBusiness POS sistema de punto de venta gratis"
-        />
-        <Comp.BannerContent>
-          <h1 className="extended-medium">
-            MyBusiness POS es el sistema de punto de venta que hará tu vida más
-            sencilla gracias a su facilidad de uso, su gran precio y su
-            experiencia en el mercado.
-          </h1>
-          <p>Alejandra Anzures - Lectora</p>
-        </Comp.BannerContent>
+      <Comp.BannerContainer style={{ height: "400px" }}>
+        <Comp.BannerImage>
+          <img
+            src={BannerImage}
+            alt="MyBusiness POS sistema de punto de venta gratis"
+          />
+        </Comp.BannerImage>
       </Comp.BannerContainer>
       <Comp.Container style={{ marginTop: "3rem" }}>
         <h4 style={{ textAlign: "center", marginBottom: "3rem" }}>
@@ -111,7 +105,7 @@ const IndexPage = () => (
           />
           <ProductColumn
             title="Desarrollo a la medida"
-            description="El único sistema de punto de venta que puede adecuarse a las necesidades específicas de tu giro comercial. "
+            description="El único sistema de punto de venta que se adecua al giro específico de tu giro comercial."
             link="/desarrollo-a-la-medida"
             image={ProductPlaceholder}
             buttonText="Más información"

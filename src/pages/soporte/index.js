@@ -12,7 +12,9 @@ const IndexPage = () => (
   <Layout>
     <SectionTitle name="Soporte" />
     <Components.BannerContainer>
-      <img src={HeroImage} />
+      <Components.BannerImage>
+        <img src={HeroImage} />
+      </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75 style={{ padding: "2rem 0" }}>

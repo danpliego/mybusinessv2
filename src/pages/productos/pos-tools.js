@@ -21,7 +21,9 @@ const IndexPage = () => (
       subtitle="Administra tu negocio desde donde estés."
     />
     <Comp.BannerContainer>
-      <img src={HeroImage} />
+      <Comp.BannerImage>
+        <img src={HeroImage} />
+      </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">
           POS TOOLS es la aplicación de MyBusiness POS, que te permite realizar

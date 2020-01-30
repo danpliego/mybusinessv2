@@ -18,7 +18,9 @@ const IndexPage = () => (
     <SEO title="MyBusiness" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle name="MyBusiness" />
     <Comp.BannerContainer>
-      <img src={HeroImage} />
+      <Comp.BannerImage>
+        <img src={HeroImage} />
+      </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">
           MyBusiness POS funciona como punto de venta de abarrotes, ferreterías,
@@ -99,7 +101,9 @@ const IndexPage = () => (
       </Comp.Container>
     </ProductBlueArea>
     <Comp.BannerContainer>
-      <img src={HeroImage} />
+      <Comp.BannerImage>
+        <img src={HeroImage} />
+      </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">
           Suscríbete a nuestro boletín y recibe promociones, tips para tu

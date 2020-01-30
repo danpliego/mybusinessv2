@@ -37,9 +37,13 @@ export default ProductColumn;
 export const ProductColumnContainer = styled.div`
   padding: 0.33rem;
   padding-bottom: 3rem;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     transform: scale(1.02);
+
+    img {
+      opacity: 0.8;
+    }
   }
 `;

@@ -14,7 +14,9 @@ const IndexPage = () => (
   <Layout>
     <SectionTitle name="Descargar My Business Pos" />
     <Components.BannerContainer>
-      <img src={HeroImage} />
+      <Components.BannerImage>
+        <img src={HeroImage} />
+      </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75 style={{ padding: "2rem" }}>

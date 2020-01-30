@@ -68,6 +68,12 @@ export const ButtonPrimary = styled(Link)`
   border-color: ${props => props.theme.colors.bodyColor};
   background: ${props => props.theme.colors.bodyColor};
   color: ${props => props.theme.colors.whiteColor};
+
+  &:hover {
+    border-color: ${props => props.theme.colors.primaryColor};
+    background: ${props => props.theme.colors.primaryColor};
+    color: ${props => props.theme.colors.bodyColor};
+  }
 `;
 
 export const ButtonSecondary = styled(Link)`
@@ -76,8 +82,9 @@ export const ButtonSecondary = styled(Link)`
   border-color: ${props => props.theme.colors.bodyColor};
 
   &:hover {
-    background: ${props => props.theme.colors.bodyColor};
-    color: ${props => props.theme.colors.whiteColor};
+    border-color: ${props => props.theme.colors.primaryColor};
+    background: ${props => props.theme.colors.primaryColor};
+    color: ${props => props.theme.colors.bodyColor};
   }
 `;
 
@@ -138,31 +145,36 @@ export const Width50 = styled.div`
 `;
 
 export const BannerContainer = styled.div`
-  background: #141943;
   position: relative;
   overflow: hidden;
-  min-height: 200px;
+  min-height: 300px;
+`;
+
+export const BannerImage = styled.div`
+  background: #141943;
+  overflow: hidden;
+  position: absolute;
+  margin-bottom: -1rem;
+
+  &:after {
+    content: " ";
+    background: #141943;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
 
   > img {
     margin-bottom: -1rem;
-    position: absolute;
 
     @media ${theme.breakpoint.onlyMobile} {
       width: 800px;
       max-width: none;
       position: absolute;
     }
-  }
-
-  &:after {
-    content: " ";
-    background: #141943;
-    opacity: 0.3;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
   }
 `;
 
@@ -192,7 +204,7 @@ export const BannerBox = styled.div`
   > div {
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
     padding: 2rem;
   }
 `;

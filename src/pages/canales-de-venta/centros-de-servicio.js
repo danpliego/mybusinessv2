@@ -16,7 +16,9 @@ const IndexPage = () => (
     />
     <SectionTitle name="Centros de servicio" />
     <Components.BannerContainer>
-      <img src={HeroImage} />
+      <Components.BannerImage>
+        <img src={HeroImage} />
+      </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
           <div style={{ padding: "2rem" }}>

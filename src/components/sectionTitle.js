@@ -25,6 +25,7 @@ export default SectionTitle;
 const SectionTitleContainer = styled.div`
   background: ${theme.colors.primaryColor};
   padding: 2rem 0;
+  text-align: center;
 
   h2 {
     color: ${theme.colors.bodyColor};

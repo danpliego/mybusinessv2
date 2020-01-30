@@ -13,7 +13,9 @@ const IndexPage = () => (
       subtitle="Instala MyCFDI para comenzar a facturar desde MyBusiness POS. "
     />
     <Components.BannerContainer>
-      <img src={HeroImage} />
+      <Components.BannerImage>
+        <img src={HeroImage} />
+      </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75 style={{ padding: "2rem" }}>
