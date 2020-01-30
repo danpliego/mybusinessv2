@@ -173,6 +173,8 @@ export const BannerImage = styled.div`
 
   > img {
     margin-bottom: -1rem;
+    width: 100vw;
+    max-width: none;
 
     @media ${theme.breakpoint.onlyMobile} {
       width: 800px;

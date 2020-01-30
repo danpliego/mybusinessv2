@@ -5,7 +5,8 @@ import Layout from "../../components/layout";
 import * as Comp from "../../components/layoutComponents";
 import SEO from "../../components/seo";
 
-import HeroImage from "../../images/mybusiness-hero.png";
+import HeroImage from "../../images/bill-pocket/terminal-pago.jpg";
+import BoletinImage from "../../images/home/banner-image.png";
 import SectionTitle from "../../components/sectionTitle";
 import { BlueArea } from "..";
 
@@ -107,7 +108,7 @@ const IndexPage = () => (
     </Comp.Container>
     <Comp.BannerContainer>
       <Comp.BannerImage>
-        <img src={HeroImage} />
+        <img src={BoletinImage} />
       </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">

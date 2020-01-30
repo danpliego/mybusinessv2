@@ -4,12 +4,13 @@ import Layout from "../components/layout";
 import * as Comp from "../components/layoutComponents";
 import SEO from "../components/seo";
 import styled from "styled-components";
-import ProductPlaceholder from "../images/home/placeholder.png";
 import ProductColumn from "../components/ProductColumn";
 import { theme } from "../components/theme";
 
 import HeroImage from "../images/home/hero-image.png";
 import BannerImage from "../images/home/banner-image.png";
+import ProductPlaceholder from "../images/home/placeholder.png";
+import BillPocket from "../images/bill-pocket/terminal-fondo.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -93,7 +94,7 @@ const IndexPage = () => (
             title="Billpocket"
             description="Incrementa las visitas a tu establecimiento recibiendo pagos con tarjeta."
             link="/productos/bill-pocket"
-            image={ProductPlaceholder}
+            image={BillPocket}
             buttonText="Más información"
           />
           <ProductColumn
