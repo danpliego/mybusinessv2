@@ -6,9 +6,9 @@ import * as Comp from "../../components/layoutComponents";
 import SEO from "../../components/seo";
 
 import HeroImage from "../../images/bill-pocket/terminal-pago.jpg";
-import BoletinImage from "../../images/home/banner-image.png";
 import SectionTitle from "../../components/sectionTitle";
 import { BlueArea } from "..";
+import BoletinBanner from "../../components/boletinBanner";
 
 const IndexPage = () => (
   <Layout>
@@ -106,18 +106,7 @@ const IndexPage = () => (
         </ul>
       </Comp.Width75>
     </Comp.Container>
-    <Comp.BannerContainer>
-      <Comp.BannerImage>
-        <img src={BoletinImage} />
-      </Comp.BannerImage>
-      <Comp.BannerContent>
-        <h1 className="extended-medium">
-          Suscríbete a nuestro boletín y recibe promociones, tips para tu
-          negocio e información especial.
-        </h1>
-        <p>subscribe to bulletin</p>
-      </Comp.BannerContent>
-    </Comp.BannerContainer>
+    <BoletinBanner />
   </Layout>
 );
 

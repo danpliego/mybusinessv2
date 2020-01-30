@@ -151,7 +151,7 @@ export const Width50 = styled.div`
 export const BannerContainer = styled.div`
   position: relative;
   overflow: hidden;
-  min-height: 300px;
+  min-height: 380px;
 `;
 
 export const BannerImage = styled.div`

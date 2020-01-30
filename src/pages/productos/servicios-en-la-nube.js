@@ -4,9 +4,10 @@ import React from "react";
 import Layout from "../../components/layout";
 import * as Comp from "../../components/layoutComponents";
 import SEO from "../../components/seo";
-
-import HeroImage from "../../images/mybusiness-hero.png";
+import BoletinBanner from "../../components/boletinBanner";
 import SectionTitle from "../../components/sectionTitle";
+
+import HeroImage from "../../images/servicios-en-la-nube.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -63,6 +64,7 @@ const IndexPage = () => (
         </p>
       </Comp.Width75>
     </Comp.Container>
+    <BoletinBanner />
   </Layout>
 );
 
