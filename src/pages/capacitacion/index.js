@@ -5,12 +5,14 @@ import SectionTitle from "../../components/sectionTitle";
 import * as Components from "../../components/layoutComponents";
 import LinkColumn from "../../components/LinkColumn";
 
-import HeroImage from "../../images/home/banner-image.png";
+import HeroImage from "../../images/capacitacion/hero-image.jpg";
 import MyBusiness from "../../images/icons/mybusiness.png";
 import Facturacion from "../../images/icons/factura.png";
+import SEO from "../../components/seo";
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Capacitación" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle name="Capacitación" />
     <Components.BannerContainer>
       <Components.BannerImage>

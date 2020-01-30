@@ -127,8 +127,8 @@ const IndexPage = () => (
                 </Components.ButtonPrimary>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación: </strong>Windows 7, 8
-                  y 10 a 32 Bits Mínimo.. Mínimo 2 GB de RAM. Disco Duro con 500
-                  GB. Procesador Mínimo 3.2 GHZ.
+                  y 10. Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador
+                  Mínimo 3.2 GHZ.
                 </p>
               </Components.Column>
             </Components.FlexContainer>
@@ -153,8 +153,8 @@ const IndexPage = () => (
                 </Components.ButtonPrimary>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación: </strong>Windows 7, 8
-                  y 10 a 32 Bits Mínimo.. Mínimo 2 GB de RAM. Disco Duro con 500
-                  GB. Procesador Mínimo 3.2 GHZ.
+                  y 10. Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador
+                  Mínimo 3.2 GHZ.
                 </p>
               </Components.Column>
             </Components.FlexContainer>

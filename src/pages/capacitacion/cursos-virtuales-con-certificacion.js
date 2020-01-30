@@ -4,13 +4,17 @@ import React from "react";
 import Layout from "../../components/layout";
 import SectionTitle from "../../components/sectionTitle";
 
-import HeroImage from "../../images/home/banner-image.png";
+import HeroImage from "../../images/capacitacion/hero-image.jpg";
 import * as Components from "../../components/layoutComponents";
+import SEO from "../../components/seo";
 
 const IndexPage = () => (
   <Layout>
+    <SEO
+      title="Cursos Virtuales con Certificación"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <SectionTitle name="Cursos Virtuales con Certificación" />
-
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />

@@ -16,16 +16,19 @@ const Footer = () => (
                 <Link to="/nosotros/">Nosotros</Link>
               </li>
               <li>
-                <Link to="/aviso-de-privacidad/">Aviso de privacidad</Link>
-              </li>
-              <li>
                 <Link to="/registro-de-licencias/">Registro de licencias</Link>
               </li>
               <li>
                 <Link to="/homologaciones">Homologaciones</Link>
               </li>
               <li>
+                <Link to="/corporativos">Corporativos</Link>
+              </li>
+              <li>
                 <Link to="/descargas">Descargas</Link>
+              </li>
+              <li>
+                <Link to="/aviso-de-privacidad/">Aviso de privacidad</Link>
               </li>
             </FooterMenu>
           </Comp.Column>

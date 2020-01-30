@@ -9,13 +9,14 @@ import { theme } from "../components/theme";
 
 import HeroImage from "../images/home/hero-image.png";
 import BannerImage from "../images/home/banner-image.png";
-import ProductPlaceholder from "../images/home/placeholder.png";
 
 import PosTools from "../images/pos-tools/home-image.jpg";
 import Servicios from "../images/servicios-en-la-nube/home-image.jpg";
 import BillPocket from "../images/bill-pocket/home-image.jpg";
 import Desarrollo from "../images/desarrollo-a-la-medida/home-image.jpg";
 import TiempoAire from "../images/tiempo-aire/home-image.jpg";
+import Corporativos from "../images/corporativos/home-image.jpg";
+import Facturacion from "../images/facturacion/home-image.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -62,7 +63,7 @@ const IndexPage = () => (
             title="Facturación Electrónica"
             description="Adquiere paquetes de timbres y otorga facturas electrónicas en tu negocio."
             link="/productos/facturacion-electronica"
-            image={ProductPlaceholder}
+            image={Facturacion}
             buttonText="Más información"
             secondaryLink="/facturacion-electronica-comprar"
           />
@@ -70,7 +71,7 @@ const IndexPage = () => (
             title="Corporativos"
             description="Controla tus sucursales o franquicias con un sistema adaptado a la medida."
             link="/corporativos"
-            image={ProductPlaceholder}
+            image={Corporativos}
             buttonText="Más información"
           />
           <ProductColumn

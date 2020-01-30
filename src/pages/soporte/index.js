@@ -5,11 +5,13 @@ import SectionTitle from "../../components/sectionTitle";
 import * as Components from "../../components/layoutComponents";
 import LinkColumn from "../../components/LinkColumn";
 
-import HeroImage from "../../images/home/banner-image.png";
+import HeroImage from "../../images/soporte/hero-image.jpg";
 import MyBusiness from "../../images/icons/mybusiness.png";
+import SEO from "../../components/seo";
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Soporte" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle name="Soporte" />
     <Components.BannerContainer>
       <Components.BannerImage>

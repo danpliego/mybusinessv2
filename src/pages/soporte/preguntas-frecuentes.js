@@ -4,11 +4,16 @@ import Layout from "../../components/layout";
 import SectionTitle from "../../components/sectionTitle";
 import * as Components from "../../components/layoutComponents";
 
-import HeroImage from "../../images/home/banner-image.png";
+import HeroImage from "../../images/soporte/hero-image.jpg";
 import FrequentQuestion from "../../components/faq";
+import SEO from "../../components/seo";
 
 const IndexPage = () => (
   <Layout>
+    <SEO
+      title="Preguntas Frecuentes"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <SectionTitle name="Preguntas Frecuentes" />
     <Components.BannerContainer>
       <Components.BannerImage>
