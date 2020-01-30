@@ -10,7 +10,10 @@ import SectionTitle from "../../components/sectionTitle";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="MyBusiness" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Servicios en la nube"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <SectionTitle name="Servicios en la nube" />
     <Comp.BannerContainer>
       <Comp.BannerImage>
