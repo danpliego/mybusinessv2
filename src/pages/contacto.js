@@ -4,14 +4,14 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SectionTitle from "../components/sectionTitle";
 import * as Components from "../components/layoutComponents";
-import HeroImage from "../images/home/banner-image.png";
+import HeroImage from "../images/contacto.jpg";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Contacto" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle name="Contacto" />
     <Components.BannerContainer>
-      <Components.BannerImage>
+      <Components.BannerImage style={{ height: "900px" }}>
         <img src={HeroImage} />
       </Components.BannerImage>
       <Components.Container>
