@@ -8,17 +8,20 @@ import HeroImage from "../../images/descargas.jpg";
 
 const IndexPage = () => (
   <Layout>
-    <SectionTitle
-      name="Facturación Electrónica"
-      subtitle="Instala MyCFDI para comenzar a facturar desde MyBusiness POS. "
-    />
+    <SectionTitle name="Facturación Electrónica" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "2rem" }}>
+          <Components.Width75 style={{ padding: "3rem" }}>
+            <h4
+              className="extended text-center"
+              style={{ marginBottom: "2rem" }}
+            >
+              Instala MyCFDI para comenzar a facturar desde MyBusiness POS.{" "}
+            </h4>
             <p>
               Descarga el módulo de facturación electrónica: MyCFDI para cada
               versión de MyBusiness POS.{" "}

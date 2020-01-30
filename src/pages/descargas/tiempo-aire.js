@@ -13,17 +13,21 @@ const IndexPage = () => (
       title="Aviso de Privacidad"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle
-      name="Tiempo Aire"
-      subtitle="Descarga aquí el instalable para vender recargas desde MyBusiness POS. "
-    />
+    <SectionTitle name="Tiempo Aire" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "2rem" }}>
+          <Components.Width75 style={{ padding: "3rem" }}>
+            <h4
+              className="extended text-center"
+              style={{ marginBottom: "2rem" }}
+            >
+              Descarga aquí el instalable para vender recargas desde MyBusiness
+              POS.
+            </h4>
             <p>
               Venta de tiempo aire para todas las versiones de MyBusiness POS.
             </p>
