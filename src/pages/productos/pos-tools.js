@@ -16,7 +16,7 @@ import GooglePlay from "../../images/google-play.png";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Pos Tools" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="POS Tools" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle
       name="POS Tools"
       subtitle="Administra tu negocio desde donde estés."

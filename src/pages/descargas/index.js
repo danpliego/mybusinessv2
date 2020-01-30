@@ -13,10 +13,7 @@ import SEO from "../../components/seo";
 
 const IndexPage = () => (
   <Layout>
-    <SEO
-      title="Aviso de Privacidad"
-      keywords={[`gatsby`, `application`, `react`]}
-    />
+    <SEO title="Descargas" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle name="Descargas" />
     <Components.BannerContainer>
       <Components.BannerImage>

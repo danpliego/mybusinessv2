@@ -10,10 +10,10 @@ import HeroImage from "../../images/descargas.jpg";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Aviso de Privacidad"
+      title="Descargar Tiempo Aire"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle name="Tiempo Aire" />
+    <SectionTitle name="Descargas: Tiempo Aire" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />

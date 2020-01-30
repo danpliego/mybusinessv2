@@ -15,10 +15,10 @@ import SEO from "../../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Aviso de Privacidad"
+      title="Descargas: My Business POS"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle name="Descargar My Business Pos" />
+    <SectionTitle name="Descargas: My Business POS" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />

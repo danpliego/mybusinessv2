@@ -5,10 +5,15 @@ import SectionTitle from "../../components/sectionTitle";
 import * as Components from "../../components/layoutComponents";
 
 import HeroImage from "../../images/descargas.jpg";
+import SEO from "../../components/seo";
 
 const IndexPage = () => (
   <Layout>
-    <SectionTitle name="Facturación Electrónica" />
+    <SEO
+      title="Descargas: Facturación Electrónica"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
+    <SectionTitle name="Descargas: Facturación Electrónica" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />
