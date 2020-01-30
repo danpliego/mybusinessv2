@@ -8,6 +8,7 @@ import * as Components from "../../components/layoutComponents";
 import HeroImage from "../../images/descargas.jpg";
 import Box2017 from "../../images/mybusiness/boxMBP2017.png";
 import Box2012 from "../../images/mybusiness/boxMBP2012.jpg";
+import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
 
@@ -119,6 +120,12 @@ const IndexPage = () => (
                 borderBottom: "1px solid #f4f4f4"
               }}
             >
+              <Components.Column>
+                <img
+                  src={Box2011}
+                  style={{ width: "236px", maxWidth: "none" }}
+                />
+              </Components.Column>
               <Components.Column style={{ marginLeft: "2rem" }}>
                 <h4 className="extended" style={{ margin: "1rem 0 0" }}>
                   MyBusiness POS 2011
