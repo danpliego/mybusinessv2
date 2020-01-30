@@ -23,7 +23,7 @@ const IndexPage = () => (
       </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">
-          No importa si tienes una tiendita, un minisuper, o si eres
+          No importa si tienes una tiendita, un minisúper, o si eres
           emprendedor; con Billpocket puedes recibir pagos de manera rápida,
           fácil y segura.
         </h1>

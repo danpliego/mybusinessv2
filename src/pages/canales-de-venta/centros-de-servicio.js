@@ -21,15 +21,17 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <div style={{ padding: "2rem" }}>
-            <strong>
-              Si requieres atención personalizada, comunicate con el centro de
-              servicio más cercano a ti.
-            </strong>
-            <p className="font-sm body-l" style={{ marginBottom: "3rem" }}>
-              * Algunos servicios ofrecidos por los centros autorizados de
-              servicio pueden tener un costo
-            </p>
+          <div style={{ padding: "3rem" }}>
+            <div className="text-center" style={{ marginBottom: "1rem" }}>
+              <h4 className="extended">
+                Si requieres atención personalizada, comunicate con el centro de
+                servicio más cercano a ti.
+              </h4>
+              <p className="font-sm body-l" style={{ marginBottom: "3rem" }}>
+                * Algunos servicios ofrecidos por los centros autorizados de
+                servicio pueden tener un costo
+              </p>
+            </div>
             <table>
               <tr>
                 <th width="20%">Zona de cobertura</th>
