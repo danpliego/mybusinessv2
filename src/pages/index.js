@@ -14,6 +14,8 @@ import ProductPlaceholder from "../images/home/placeholder.png";
 import PosTools from "../images/pos-tools/home-image.jpg";
 import Servicios from "../images/servicios-en-la-nube/home-image.jpg";
 import BillPocket from "../images/bill-pocket/home-image.jpg";
+import Desarrollo from "../images/desarrollo-a-la-medida/home-image.jpg";
+import TiempoAire from "../images/tiempo-aire/home-image.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -53,7 +55,7 @@ const IndexPage = () => (
             title="Venta de Tiempo Aire"
             description="Aumenta tus ganancias ofreciendo recargas y pago de servicios. "
             link="/productos/tiempo-aire"
-            image={ProductPlaceholder}
+            image={TiempoAire}
             buttonText="Más información"
           />
           <ProductColumn
@@ -111,7 +113,7 @@ const IndexPage = () => (
             title="Desarrollo a la medida"
             description="El único sistema de punto de venta que se adecua al giro específico de tu giro comercial."
             link="/productos/desarrollo-a-la-medida"
-            image={ProductPlaceholder}
+            image={Desarrollo}
             buttonText="Más información"
           />
         </Comp.Row>

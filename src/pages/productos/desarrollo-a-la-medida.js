@@ -2,52 +2,30 @@
 import React from "react";
 
 import Layout from "../../components/layout";
+import * as Comp from "../../components/layoutComponents";
 import SEO from "../../components/seo";
-import styled from "styled-components";
-import { BlueArea } from "../index";
+
+import HeroImage from "../../images/desarrollo-a-la-medida/hero-image.jpg";
+import SectionTitle from "../../components/sectionTitle";
+import BoletinBanner from "../../components/boletinBanner";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1 className="extended-medium">Desarrollo a la medida</h1>
+    <SEO
+      title="Desarrollo a la medida"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
+    <SectionTitle name="Desarrollo a la medida" />
+    <Comp.BannerContainer>
+      <Comp.BannerImage>
+        <img src={HeroImage} />
+      </Comp.BannerImage>
+      <Comp.BannerContent>
+        <h1 className="extended-medium">contenido here...</h1>
+      </Comp.BannerContent>
+    </Comp.BannerContainer>
+    <BoletinBanner />
   </Layout>
 );
 
 export default IndexPage;
-
-export const ProductBlueArea = styled(BlueArea)`
-  margin-top: 10rem;
-
-  > div {
-    margin-top: -10rem;
-  }
-`;
-
-export const CircleContainer = styled.div`
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem;
-  border-radius: 4rem;
-  position: relative;
-
-  > div {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    text-align: center;
-    left: 10%;
-    width: 80%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    font-size: 1.5rem;
-  }
-
-  span {
-    position: absolute;
-    bottom: -3rem;
-  }
-`;

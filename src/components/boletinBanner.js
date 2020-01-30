@@ -1,7 +1,7 @@
 import React from "react";
 import * as Layout from "./layoutComponents";
 
-import BoletinImage from "../images/home/banner-image.png";
+import BoletinImage from "../images/boletin.jpg";
 
 const BoletinBanner = () => (
   <Layout.BannerContainer>
