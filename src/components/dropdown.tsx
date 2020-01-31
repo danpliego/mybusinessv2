@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import styled, { css } from "styled-components";
 import { useOnClickOutside } from "./useOnClickOutside";
 import { Link } from "gatsby";
+import { theme } from "./theme";
 
 interface DropdownProps {
   dropdownToggle: JSX.Element;
@@ -48,6 +49,10 @@ export const DropdownContent = styled.div<{
 
 export const DropdownWrapper = styled.div`
   position: relative;
+
+  @media ${theme.breakpoint.onlyMobile} {
+    display: none;
+  }
 
   &:hover {
     ${DropdownContent} {

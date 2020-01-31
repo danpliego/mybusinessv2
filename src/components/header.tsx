@@ -65,6 +65,7 @@ export const Header: React.FC = () => {
           <CollapsableMenu flex={1} isOpen={openMenu}>
             <Menu>
               <MenuItem>
+                <MobileLink to="/productos">Productos</MobileLink>
                 <Dropdown dropdownToggle={<span>Productos</span>}>
                   <DropdownItem to="/productos/my-business">
                     MyBusiness POS
@@ -95,6 +96,7 @@ export const Header: React.FC = () => {
                 <Link to="/descargas/">Descargas</Link>
               </MenuItem>
               <MenuItem>
+                <MobileLink to="/capacitacion">Capacitacion</MobileLink>
                 <Dropdown dropdownToggle={<span>Capacitación</span>}>
                   <DropdownItem to="/capacitacion/cursos-virtuales-gratuitos">
                     Cursos Virtuales Gratuitos
@@ -106,6 +108,7 @@ export const Header: React.FC = () => {
                 </Dropdown>
               </MenuItem>
               <MenuItem>
+                <MobileLink to="/soporte">Soporte</MobileLink>
                 <Dropdown dropdownToggle={<span>Soporte</span>}>
                   <DropdownItem to="/soporte/preguntas-frecuentes">
                     Preguntas Frecuentes
@@ -194,6 +197,8 @@ export const CollapsableMenu = styled(Layout.Column)<{
         left: 0;
         background: ${theme.colors.bodyColor};
         padding: 0;
+        z-index: 1000;
+        height: 100vh;
 
         > div {
           flex-direction: column;
@@ -202,7 +207,7 @@ export const CollapsableMenu = styled(Layout.Column)<{
 
         a {
           color: #fff;
-          padding: 2rem;
+          padding: 1.5rem;
           text-align: center;
           border-bottom: 1px solid ${theme.colors.bodyLColor};
 
@@ -227,5 +232,11 @@ export const MobileMenu = styled.button`
 export const LogoContainer = styled(Layout.Column)`
   @media ${theme.breakpoint.onlyMobile} {
     flex: 1;
+  }
+`;
+
+export const MobileLink = styled(Link)`
+  @media ${theme.breakpoint.upFromMobile} {
+    display: none !important;
   }
 `;
