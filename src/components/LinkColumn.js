@@ -46,7 +46,7 @@ export const ProductColumnContainer = styled.div`
   }
 `;
 
-const IconLink = styled(Link)`
+export const IconLink = styled(Link)`
   width: 5rem;
   height: 5rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -57,6 +57,6 @@ const IconLink = styled(Link)`
 
   img {
     width: 32px;
-    height: auto;
+    height: 32px;
   }
 `;
