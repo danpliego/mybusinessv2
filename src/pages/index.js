@@ -83,7 +83,7 @@ const IndexPage = () => (
           />
         </Comp.Row>
       </RowButtons>
-      <Comp.BannerContainer style={{ height: "400px" }}>
+      <Comp.BannerContainer style={{ height: "600px" }}>
         <Comp.BannerImage>
           <img
             src={BannerImage}
