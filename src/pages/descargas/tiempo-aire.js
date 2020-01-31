@@ -33,7 +33,7 @@ const IndexPage = () => (
             </p>
             <div style={{ textAlign: "center", padding: "1rem 0 3rem" }}>
               <h5 className="extended">
-                Instalador de Servicios TAE 2011 - 2017
+                Instalador de Servicios TAE 2006-2012
               </h5>
               <Components.ButtonPrimary to="/Downloads/TiempoAireyServicios2006.zip">
                 Descarga
