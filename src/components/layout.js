@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import { GlobalStyle } from "./globalStyle";
 import { MainWrapper } from "./layoutComponents";
-import Header from "./header";
+import { Header } from "./header.tsx";
 import Footer from "./footer";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";

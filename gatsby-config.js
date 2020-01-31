@@ -28,7 +28,8 @@ module.exports = {
       }
     },
     `gatsby-plugin-styled-components`,
-    "gatsby-plugin-eslint"
+    "gatsby-plugin-eslint",
+    "gatsby-plugin-typescript"
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
