@@ -35,7 +35,10 @@ const IndexPage = () => (
               <h5 className="extended">
                 Instalador de Servicios TAE 2006-2012
               </h5>
-              <Components.ButtonPrimary to="/Downloads/TiempoAireyServicios2006.zip">
+              <Components.ButtonPrimary
+                as="a"
+                to="http://mybusinesspos.com/Downloads/TiempoAireyServicios2006.zip"
+              >
                 Descarga
               </Components.ButtonPrimary>
             </div>

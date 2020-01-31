@@ -43,7 +43,8 @@ const IndexPage = () => (
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <Components.ButtonPrimary
                   small
-                  to="/Downloads/SetupMyBusinessPOS2017.zip"
+                  as="a"
+                  to="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip"
                 >
                   Descargar ahora{" "}
                 </Components.ButtonPrimary>
@@ -58,11 +59,11 @@ const IndexPage = () => (
                 </p>
                 <p className="font-xs">
                   <strong>Otras descargas:</strong>
-                  <a href="/Downloads/TripticoMyBusinessPOS2017.pdf">
+                  <a href="http://mybusinesspos.com/Downloads/TripticoMyBusinessPOS2017.pdf">
                     Tríptico informativo (.pdf)
                   </a>{" "}
                   |{" "}
-                  <a href="/Downloads/MyBusinessPOS-2017-Manual-del-Usuario.pdf">
+                  <a href="http://mybusinesspos.com/Downloads/MyBusinessPOS-2017-Manual-del-Usuario.pdf">
                     Manual de usuario (.pdf)
                   </a>
                 </p>
@@ -86,7 +87,8 @@ const IndexPage = () => (
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <Components.ButtonPrimary
                   small
-                  to="/Downloads/SetupMyBusinessPOS2012.zip"
+                  as="a"
+                  to="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2012.zip"
                 >
                   Descargar ahora{" "}
                 </Components.ButtonPrimary>
@@ -102,11 +104,11 @@ const IndexPage = () => (
                 </p>
                 <p className="font-xs">
                   <strong>Otras descargas: </strong>
-                  <a href="/Downloads/TripticoMyBusinessPOS2012.pdf">
+                  <a href="http://mybusinesspos.com/Downloads/TripticoMyBusinessPOS2012.pdf">
                     Tríptico informativo (.pdf)
                   </a>{" "}
                   |{" "}
-                  <a href="/Downloads/ManualMyBusinessPOS2012.pdf">
+                  <a href="http://mybusinesspos.com/Downloads/ManualMyBusinessPOS2012.pdf">
                     Manual de usuario (.pdf)
                   </a>
                 </p>
@@ -133,7 +135,8 @@ const IndexPage = () => (
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <Components.ButtonPrimary
                   small
-                  to="/Downloads/SetupMyBusinessPOS2011.zip"
+                  as="a"
+                  to="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip"
                 >
                   Descargar ahora{" "}
                 </Components.ButtonPrimary>
@@ -159,7 +162,8 @@ const IndexPage = () => (
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <Components.ButtonPrimary
                   small
-                  to="/Downloads/SetupMyBusinessPOS2010.zip"
+                  as="a"
+                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2010.zip"
                 >
                   Descargar ahora{" "}
                 </Components.ButtonPrimary>
