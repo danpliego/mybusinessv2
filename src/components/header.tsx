@@ -4,10 +4,10 @@ import styled, { css } from "styled-components";
 import * as Layout from "./layoutComponents";
 import { Link } from "gatsby";
 import { theme } from "./theme";
+import { Dropdown, DropdownItem } from "./dropdown";
 
 export const Header: React.FC = () => {
   const [openMenu, setOpenMenu] = useState(false);
-  console.log(openMenu);
 
   return (
     <HeaderContainer>
@@ -65,7 +65,28 @@ export const Header: React.FC = () => {
           <CollapsableMenu flex={1} isOpen={openMenu}>
             <Menu>
               <MenuItem>
-                <Link to="/productos/my-business">MyBusiness POS</Link>
+                <Dropdown dropdownToggle={<span>Productos</span>}>
+                  <DropdownItem to="/productos/my-business">
+                    MyBusiness POS
+                  </DropdownItem>
+
+                  <DropdownItem to="/productos/facturacion-electronica">
+                    Facturación electrónica
+                  </DropdownItem>
+
+                  <DropdownItem to="/productos/tiempo-aire">
+                    Tiempo Aire
+                  </DropdownItem>
+                  <DropdownItem to="/productos/servicios-en-la-nube">
+                    Servicios en la Nube
+                  </DropdownItem>
+                  <DropdownItem to="/productos/pos-tools">
+                    Pos Tools
+                  </DropdownItem>
+                  <DropdownItem to="/productos/bill-pocket">
+                    Bill Pocket
+                  </DropdownItem>
+                </Dropdown>
               </MenuItem>
               <MenuItem>
                 <Link to="/productos/tiempo-aire">Venta Tiempo Aire</Link>
@@ -74,23 +95,27 @@ export const Header: React.FC = () => {
                 <Link to="/descargas/">Descargas</Link>
               </MenuItem>
               <MenuItem>
-                <Link to="/capacitacion/">Capacitación</Link>
+                <Dropdown dropdownToggle={<span>Capacitación</span>}>
+                  <DropdownItem to="/capacitacion/cursos-virtuales-gratuitos">
+                    Cursos Virtuales Gratuitos
+                  </DropdownItem>
+
+                  <DropdownItem to="/capacitacion/cursos-virtuales-con-certificacion">
+                    Cursos Virtuales con Certificación
+                  </DropdownItem>
+                </Dropdown>
               </MenuItem>
               <MenuItem>
-                <Link to="/soporte/">Soporte</Link>
-                {/* <ul>
-                <li>
-                  <Link to="/soporte/preguntas-frecuentes">
+                <Dropdown dropdownToggle={<span>Soporte</span>}>
+                  <DropdownItem to="/soporte/preguntas-frecuentes">
                     Preguntas Frecuentes
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/soporte/manuales">Manuales</Link>
-                </li>
-                <li>
-                  <Link to="/soporte/video-tutoriales">Video Tutoriales</Link>
-                </li>
-              </ul> */}
+                  </DropdownItem>
+
+                  <DropdownItem to="/soporte/manuales">Manuales</DropdownItem>
+                  <DropdownItem to="/soporte/video-tutoriales">
+                    Videotutoriales
+                  </DropdownItem>
+                </Dropdown>
               </MenuItem>
               <MenuItem>
                 <Link to="/contacto/">Contacto</Link>
@@ -124,12 +149,14 @@ export const Menu = styled.div`
 
 export const MenuItem = styled.div`
   transition: all 0.3s ease-in-out;
-  a {
+  font-size: 0.9rem;
+
+  > a,
+  span {
     padding: 1rem 1.5rem;
     display: block;
     position: relative;
     font-weight: bold;
-    font-size: 0.9rem;
 
     &:after {
       content: " ";
