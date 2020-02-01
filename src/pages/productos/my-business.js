@@ -31,7 +31,7 @@ const IndexPage = () => (
           comercios más…
         </h2>
         <div className="text-center">
-          <Comp.ButtonInverse to="tienda-virtual/my-business">
+          <Comp.ButtonInverse to="/tienda-virtual/my-business">
             Comprar ahora
           </Comp.ButtonInverse>
         </div>
@@ -108,7 +108,7 @@ const IndexPage = () => (
             <h3 className="extended text-center">
               Ó compra la versión completa
             </h3>
-            <Comp.ButtonDownload as={Link} to="tienda-virtual/my-business">
+            <Comp.ButtonDownload as={Link} to="/tienda-virtual/my-business">
               Comprar ahora
             </Comp.ButtonDownload>
           </div>
