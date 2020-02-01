@@ -136,23 +136,43 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
-    font-size: 2.75em;
+    font-size: 2.75rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 2.25rem;
+    }
   }
 
   h2 {
     font-size: 2.5rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 2rem;
+    }
   }
 
   h3 {
     font-size: 2rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 1.75rem;
+    }
   }
 
   h4 {
     font-size: 1.5rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 1.25rem;
+    }
   }
 
   h5 {
     font-size: 1.25rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 1.2rem;
+    }
   }
 
   h6 {

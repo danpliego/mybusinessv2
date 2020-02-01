@@ -171,6 +171,7 @@ export const BannerImage = styled.div`
   overflow: hidden;
   position: absolute;
   margin-bottom: -1rem;
+  height: 100%;
 
   &:after {
     content: " ";
@@ -185,13 +186,14 @@ export const BannerImage = styled.div`
 
   > img {
     margin-bottom: -1rem;
-    width: 100vw;
     max-width: none;
+    height: 100%;
+    width: auto;
+    min-height: 380px;
 
     @media ${theme.breakpoint.onlyMobile} {
-      width: 800px;
       max-width: none;
-      position: absolute;
+      margin-left: -25%;
     }
   }
 `;
@@ -207,10 +209,6 @@ export const BannerContent = styled.div`
   p {
     color: white;
     text-align: center;
-
-    @media ${theme.breakpoint.onlyMobile} {
-      font-size: 22px;
-    }
   }
 `;
 

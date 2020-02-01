@@ -24,8 +24,8 @@ const IndexPage = () => (
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <Hero>
         <Comp.Row mobile>
-          <HeroContent style={{ paddingTop: "4rem" }}>
-            <h1 className="extended" style={{ margin: "2rem 0" }}>
+          <HeroContent>
+            <h1 className="extended">
               La forma simple de administrar tu negocio.{" "}
             </h1>
             <p className="body-l" style={{ marginBottom: "2rem" }}>
@@ -83,14 +83,14 @@ const IndexPage = () => (
           />
         </Comp.Row>
       </RowButtons>
-      <Comp.BannerContainer style={{ height: "600px" }}>
+      <HomeBannerContainer>
         <Comp.BannerImage>
           <img
             src={BannerImage}
             alt="MyBusiness POS sistema de punto de venta gratis"
           />
         </Comp.BannerImage>
-      </Comp.BannerContainer>
+      </HomeBannerContainer>
       <Comp.Container style={{ marginTop: "3rem" }}>
         <h4 style={{ textAlign: "center", marginBottom: "3rem" }}>
           Más soluciones para tu Negocio.
@@ -131,19 +131,38 @@ export const HeroContent = styled(Comp.Column)`
   @media ${theme.breakpoint.upFromMobile} {
     width: 45%;
     padding-right: 3rem;
+    padding-top: 4rem;
+
+    h1 {
+      margin: 2rem 0;
+    }
   }
 
   @media ${theme.breakpoint.onlyMobile} {
     margin-bottom: 2rem;
+    order: 2;
+
+    h1 {
+      margin: -1rem 0 1rem;
+    }
   }
 `;
 
 export const BlueArea = styled.div`
   background: #f0f4f6;
   padding: 3rem 0;
-  margin-top: -6rem;
+
+  @media ${theme.breakpoint.upFromMobile} {
+    margin-top: -6rem;
+  }
 `;
 
 export const RowButtons = styled(Comp.Container)`
   padding: 1.5rem;
+`;
+
+const HomeBannerContainer = styled(Comp.BannerContainer)`
+  @media ${theme.breakpoint.upFromMobile} {
+    height: 600px;
+  }
 `;
