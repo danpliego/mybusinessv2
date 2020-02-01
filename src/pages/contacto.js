@@ -16,8 +16,8 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "3rem" }}>
-            <Components.FlexContainer>
+          <Components.Width75>
+            <Components.Row mobile>
               <Components.Column style={{ flex: 1, paddingRight: "3rem" }}>
                 <h5 className="uppercase font-xs">INFORMACIÓN Y VENTAS</h5>
                 <p className="body-l">
@@ -34,7 +34,7 @@ const IndexPage = () => (
                   <a href="#">contacta a nuestro equipo aquí.</a>
                 </p>
               </Components.Column>
-            </Components.FlexContainer>
+            </Components.Row>
             <hr />
             <div style={{ textAlign: "center", marginTop: "1rem" }}>
               <h5 className="uppercase font-xs">Nuestras oficinas</h5>

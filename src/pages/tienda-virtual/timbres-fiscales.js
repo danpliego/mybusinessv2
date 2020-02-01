@@ -23,7 +23,7 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "3rem" }}>
+          <Components.Width75>
           <strong>La licencia de MyCFDI 3.3 tiene un costo de $2,320.00 I.V.A. incluido y aplica para licencias nuevas o anteriores.</strong>
 
 <ul className="list-unstyled icon-list">
@@ -40,6 +40,7 @@ const IndexPage = () => (
     Es necesario capturar el RFC al que se hará la transferencia de los timbres.
   </li>
 </ul>
+<Components.TableResponsive>
 <table className="table table-bordered">
   <tr>
     <th>Volumen de timbres comprados</th>
@@ -343,6 +344,7 @@ const IndexPage = () => (
   </tr>
 </table>
 
+</Components.TableResponsive>
 
 
           </Components.Width75>

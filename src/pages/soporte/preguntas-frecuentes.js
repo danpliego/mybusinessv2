@@ -21,7 +21,7 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "2rem" }}>
+          <Components.Width75>
             <h4 className="extended">MyBusiness POS</h4>
             <FrequentQuestion question="¿Qué es MyBusiness POS?">
               MyBusiness POS es un programa de administración para Windows que

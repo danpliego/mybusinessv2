@@ -14,6 +14,7 @@ import MyForm from "../../components/download_form";
 import SectionTitle from "../../components/sectionTitle";
 import BoletinBanner from "../../components/boletinBanner";
 import { Link } from "gatsby";
+import { theme } from "../../components/theme";
 
 const IndexPage = () => (
   <Layout>
@@ -46,7 +47,7 @@ const IndexPage = () => (
     </Comp.Container>
     <ProductBlueArea>
       <Comp.Container>
-        <Comp.FlexCenterChild>
+        <Comp.Row mobile style={{ marginBottom: "3rem" }}>
           <CircleContainer>
             <img src={Circle1} />
             <div>
@@ -82,7 +83,7 @@ const IndexPage = () => (
               </span>
             </div>
           </CircleContainer>
-        </Comp.FlexCenterChild>
+        </Comp.Row>
         <Comp.Width75>
           <h2 className="extended text-center">Características</h2>
           <ul className="font-xl">
@@ -121,10 +122,11 @@ const IndexPage = () => (
 export default IndexPage;
 
 export const ProductBlueArea = styled(BlueArea)`
-  margin-top: 10rem;
-
-  > div {
-    margin-top: -10rem;
+  @media ${theme.breakpoint.upFromMobile} {
+    margin-top: 10rem;
+    > div {
+      margin-top: -10rem;
+    }
   }
 `;
 
@@ -149,6 +151,10 @@ export const CircleContainer = styled.div`
     justify-content: center;
     color: white;
     font-size: 1.5rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 1.25rem;
+    }
   }
 
   span {

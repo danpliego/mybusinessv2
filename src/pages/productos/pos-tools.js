@@ -13,6 +13,7 @@ import HeroImage from "../../images/pos-tools/hero-image.jpg";
 import Circle1 from "../../images/circle-1.png";
 import Circle2 from "../../images/circle-2.png";
 import GooglePlay from "../../images/google-play.png";
+import { theme } from "../../components/theme";
 
 const IndexPage = () => (
   <Layout>
@@ -40,7 +41,7 @@ const IndexPage = () => (
     </Comp.Container>
     <ProductBlueArea>
       <Comp.Container>
-        <Comp.FlexCenterChild>
+        <Comp.Row mobile>
           <CircleContainer>
             <img src={Circle1} />
             <div>
@@ -68,7 +69,7 @@ const IndexPage = () => (
               </p>
             </div>
           </CircleContainer>
-        </Comp.FlexCenterChild>
+        </Comp.Row>
         <Comp.Width50>
           <h2 className="extended text-center">
             Descárgala gratis y descubre lo sencillo que es controlar tu
@@ -118,6 +119,10 @@ export const CircleContainer = styled.div`
     justify-content: center;
     color: white;
     font-size: 1.5rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 1.25rem;
+    }
   }
 
   span {

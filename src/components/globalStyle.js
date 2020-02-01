@@ -487,6 +487,11 @@ export const GlobalStyle = createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      max-width: 100%;
+      height: 250px!important;
+    }
   }
   hr {
     margin-left: 0;
@@ -639,10 +644,18 @@ export const GlobalStyle = createGlobalStyle`
 
   .font-lg {
     font-size: 1.1rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 1rem;
+    }
   }
 
   .font-xl {
     font-size: 1.25rem;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      font-size: 1.15rem;
+    }
   }
 
   .font-sm {

@@ -20,24 +20,20 @@ const IndexPage = () => (
       <Components.Container>
         <Components.BannerBox>
           <Components.Width50 style={{ padding: "2rem 0" }}>
-            <Components.FlexCenterChild>
-              <Components.Flex1>
-                <LinkColumn
-                  title="Cursos Virtuales Gratuitos"
-                  link="/capacitacion/cursos-virtuales-gratuitos"
-                  image={Cursos}
-                  buttonText="Visitar"
-                />
-              </Components.Flex1>
-              <Components.Flex1>
-                <LinkColumn
-                  title="Cursos virtuales con costo"
-                  link="/capacitacion/cursos-virtuales-con-certificacion"
-                  image={Cursos}
-                  buttonText="Visitar"
-                />
-              </Components.Flex1>
-            </Components.FlexCenterChild>
+            <Components.Row mobile>
+              <LinkColumn
+                title="Cursos Virtuales Gratuitos"
+                link="/capacitacion/cursos-virtuales-gratuitos"
+                image={Cursos}
+                buttonText="Visitar"
+              />
+              <LinkColumn
+                title="Cursos virtuales con costo"
+                link="/capacitacion/cursos-virtuales-con-certificacion"
+                image={Cursos}
+                buttonText="Visitar"
+              />
+            </Components.Row>
           </Components.Width50>
         </Components.BannerBox>
       </Components.Container>

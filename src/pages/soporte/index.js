@@ -20,32 +20,26 @@ const IndexPage = () => (
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75 style={{ padding: "2rem 0" }}>
-            <Components.FlexCenterChild>
-              <Components.Flex1>
-                <LinkColumn
-                  title="Preguntas Frecuentes"
-                  link="/soporte/preguntas-frecuentes/"
-                  image={Ayuda}
-                  buttonText="Visitar"
-                />
-              </Components.Flex1>
-              <Components.Flex1>
-                <LinkColumn
-                  title="Manuales"
-                  link="/soporte/manuales/"
-                  image={Ayuda}
-                  buttonText="Visitar"
-                />
-              </Components.Flex1>
-              <Components.Flex1>
-                <LinkColumn
-                  title="Video Tutoriales"
-                  link="/soporte/video-tutoriales/"
-                  image={Ayuda}
-                  buttonText="Visitar"
-                />
-              </Components.Flex1>
-            </Components.FlexCenterChild>
+            <Components.Row mobile>
+              <LinkColumn
+                title="Preguntas Frecuentes"
+                link="/soporte/preguntas-frecuentes/"
+                image={Ayuda}
+                buttonText="Visitar"
+              />
+              <LinkColumn
+                title="Manuales"
+                link="/soporte/manuales/"
+                image={Ayuda}
+                buttonText="Visitar"
+              />
+              <LinkColumn
+                title="Video Tutoriales"
+                link="/soporte/video-tutoriales/"
+                image={Ayuda}
+                buttonText="Visitar"
+              />
+            </Components.Row>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>

@@ -9,6 +9,7 @@ import HeroImage from "../../images/descargas.jpg";
 import Box2017 from "../../images/mybusiness/boxMBP2017.png";
 import Box2012 from "../../images/mybusiness/boxMBP2012.jpg";
 import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
+import Box2010 from "../../images/mybusiness/boxMBP2010.jpg";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
 
@@ -25,8 +26,9 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "2rem" }}>
-            <Components.FlexContainer
+          <Components.Width75>
+            <Components.Row
+              mobile
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
@@ -68,9 +70,10 @@ const IndexPage = () => (
                   </a>
                 </p>
               </Components.Column>
-            </Components.FlexContainer>
+            </Components.Row>
 
-            <Components.FlexContainer
+            <Components.Row
+              mobile
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
@@ -113,9 +116,10 @@ const IndexPage = () => (
                   </a>
                 </p>
               </Components.Column>
-            </Components.FlexContainer>
+            </Components.Row>
 
-            <Components.FlexContainer
+            <Components.Row
+              mobile
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
@@ -146,15 +150,22 @@ const IndexPage = () => (
                   Mínimo 3.2 GHZ.
                 </p>
               </Components.Column>
-            </Components.FlexContainer>
+            </Components.Row>
 
-            <Components.FlexContainer
+            <Components.Row
+              mobile
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
                 borderBottom: "1px solid #f4f4f4"
               }}
             >
+              <Components.Column>
+                <img
+                  src={Box2010}
+                  style={{ width: "236px", maxWidth: "none" }}
+                />
+              </Components.Column>
               <Components.Column style={{ marginLeft: "2rem" }}>
                 <h4 className="extended" style={{ margin: "1rem 0 0" }}>
                   MyBusiness POS 2010
@@ -173,7 +184,7 @@ const IndexPage = () => (
                   Mínimo 3.2 GHZ.
                 </p>
               </Components.Column>
-            </Components.FlexContainer>
+            </Components.Row>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>

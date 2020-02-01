@@ -57,6 +57,11 @@ const Footer = () => (
               <li>
                 <Link to="/productos/bill-pocket">Bill Pocket</Link>
               </li>
+              <li>
+                <Link to="/productos/desarrollo-a-la-medida">
+                  Desarrollo a la medida
+                </Link>
+              </li>
             </FooterMenu>
           </Comp.Column>
           <Comp.Column flex={1}>

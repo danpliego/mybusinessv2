@@ -20,7 +20,7 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "2rem", fontSize: ".9rem" }}>
+          <Components.Width75 style={{ fontSize: ".9rem" }}>
             <p>
               Aviso dirigido a los titulares de datos personales que obran en
               posesión de MyBusiness POS Desarrollos, S.A. de C.V.:

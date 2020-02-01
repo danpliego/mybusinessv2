@@ -20,7 +20,7 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "3rem" }}>
+          <Components.Width75>
             <h4
               className="extended text-center"
               style={{ marginBottom: "2rem" }}

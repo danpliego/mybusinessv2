@@ -69,7 +69,7 @@ export const DropdownToggleContainer = styled.div`
 export const DropdownItem = styled(Link)`
   width: 100%;
   white-space: nowrap;
-  padding: 1rem;
+  padding: 1rem 2rem;
   text-align: left;
   outline: 0;
   display: block;

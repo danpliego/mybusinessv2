@@ -21,7 +21,7 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "4rem" }}>
+          <Components.Width75>
             <p>
               Si aún no registras tu licencia, existen dos formas de hacerlo.
             </p>

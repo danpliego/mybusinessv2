@@ -36,10 +36,14 @@ export default LinkColumn;
 
 export const ProductColumnContainer = styled.div`
   padding: 0.33rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   transition: all 0.15s ease-in-out;
   text-align: center;
   position: relative;
+
+  @media ${theme.breakpoint.upFromMobile} {
+    padding-bottom: 3rem;
+  }
 
   &:hover {
     transform: scale(1.02);
@@ -54,6 +58,16 @@ export const IconLink = styled(Link)`
   border-radius: 5rem;
   align-items: center;
   justify-content: center;
+
+  @media ${theme.breakpoint.onlyMobile} {
+    width: 3rem;
+    height: 3rem;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
 
   img {
     width: 32px;

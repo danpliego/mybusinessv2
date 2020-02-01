@@ -18,7 +18,7 @@ const IndexPage = () => (
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
-          <Components.Width75 style={{ padding: "4rem" }}>
+          <Components.Width75>
             <p>
               MyBusiness POS Desarrollos nació en 1991 como una empresa mexicana
               dedicada a la fabricación de software de punto de venta, control

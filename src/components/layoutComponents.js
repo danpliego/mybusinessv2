@@ -147,23 +147,32 @@ export const TextRight = styled.div`
 
 export const sharedContainer = css`
   margin: 0px auto;
-  padding: 5rem 0 3rem;
+  padding: 3rem 1rem;
+
+  @media ${theme.breakpoint.upFromMobile} {
+    padding: 5rem 3rem 3rem;
+  }
 `;
 
 export const Width75 = styled.div`
   ${sharedContainer}
-  max-width: 75%;
+
+  @media ${theme.breakpoint.upFromMobile} {
+    max-width: 75%;
+  }
+
 `;
 
 export const Width50 = styled.div`
   ${sharedContainer}
-  max-width: 50%;
+  @media ${theme.breakpoint.upFromMobile} {
+    max-width: 50%;
+  }
 `;
 
 export const BannerContainer = styled.div`
   position: relative;
   overflow: hidden;
-  min-height: 380px;
 `;
 
 export const BannerImage = styled.div`
@@ -171,7 +180,11 @@ export const BannerImage = styled.div`
   overflow: hidden;
   position: absolute;
   margin-bottom: -1rem;
-  height: 100%;
+  min-width: 100%;
+
+  @media ${theme.breakpoint.upFromMobile} {
+    height: 100%;
+  }
 
   &:after {
     content: " ";
@@ -186,13 +199,14 @@ export const BannerImage = styled.div`
 
   > img {
     margin-bottom: -1rem;
-    max-width: none;
-    height: 100%;
     width: auto;
-    min-height: 380px;
+    max-width: none;
+    min-width: 100%;
+    min-height: 100%;
 
     @media ${theme.breakpoint.onlyMobile} {
       max-width: none;
+      max-height: 400px;
       margin-left: -25%;
     }
   }
@@ -210,13 +224,24 @@ export const BannerContent = styled.div`
     color: white;
     text-align: center;
   }
+
+  @media ${theme.breakpoint.onlyMobile} {
+    h1,
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 export const BannerBox = styled.div`
-  margin: 5rem 0;
   position: relative;
   z-index: 1;
   width: 100%;
+  margin: 3rem 0;
+
+  @media ${theme.breakpoint.upFromMobile} {
+    margin: 5rem 0;
+  }
 
   > div {
     background: #fff;
@@ -224,6 +249,11 @@ export const BannerBox = styled.div`
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
     padding: 2rem;
   }
+`;
+
+export const TableResponsive = styled.div`
+  max-width: 100%;
+  overflow: scroll;
 `;
 
 // Margin Utilities

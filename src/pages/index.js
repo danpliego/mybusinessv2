@@ -162,6 +162,8 @@ export const RowButtons = styled(Comp.Container)`
 `;
 
 const HomeBannerContainer = styled(Comp.BannerContainer)`
+  min-height: 380px;
+
   @media ${theme.breakpoint.upFromMobile} {
     height: 600px;
   }

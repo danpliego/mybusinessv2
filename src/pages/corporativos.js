@@ -19,6 +19,7 @@ import Lealtad from "../images/corporativos/loyal.png";
 import Conexion from "../images/corporativos/conexion.png";
 import Distribuidores from "../images/corporativos/distribuidores.png";
 import CorporativosForm from "../components/corporativos_form";
+import { theme } from "../components/theme";
 
 const IndexPage = () => (
   <Layout>
@@ -38,9 +39,9 @@ const IndexPage = () => (
     </Comp.BannerContainer>
     <div style={{ background: "#F5F1EB" }}>
       <Comp.Width75>
-        <Comp.FlexContainer>
+        <Comp.Row mobile>
           <Comp.Column padded>
-            <Comp.FlexContainer>
+            <Comp.Row>
               <Comp.Column padded>
                 <IconLink to="/">
                   <img src={Sucursales} />
@@ -53,11 +54,11 @@ const IndexPage = () => (
                   tiendas.
                 </p>
               </Comp.Column>
-            </Comp.FlexContainer>
+            </Comp.Row>
 
             <hr />
 
-            <Comp.FlexContainer>
+            <Comp.Row>
               <Comp.Column padded>
                 <IconLink to="/">
                   <img src={Franquicias} />
@@ -70,11 +71,11 @@ const IndexPage = () => (
                   venden? Controla ventas, traspasos intersucursales y más.
                 </p>
               </Comp.Column>
-            </Comp.FlexContainer>
+            </Comp.Row>
 
             <hr />
 
-            <Comp.FlexContainer>
+            <Comp.Row>
               <Comp.Column padded>
                 <IconLink to="/">
                   <img src={Lealtad} />
@@ -88,10 +89,10 @@ const IndexPage = () => (
                   de descuento, etc…
                 </p>
               </Comp.Column>
-            </Comp.FlexContainer>
+            </Comp.Row>
           </Comp.Column>
           <Comp.Column padded>
-            <Comp.FlexContainer>
+            <Comp.Row>
               <Comp.Column padded>
                 <IconLink to="/">
                   <img src={Conexion} />
@@ -104,11 +105,11 @@ const IndexPage = () => (
                   tiendas.
                 </p>
               </Comp.Column>
-            </Comp.FlexContainer>
+            </Comp.Row>
 
             <hr />
 
-            <Comp.FlexContainer>
+            <Comp.Row>
               <Comp.Column padded>
                 <IconLink to="/">
                   <img src={Distribuidores} />
@@ -121,9 +122,9 @@ const IndexPage = () => (
                   venden? Controla ventas, traspasos intersucursales y más.
                 </p>
               </Comp.Column>
-            </Comp.FlexContainer>
+            </Comp.Row>
           </Comp.Column>
-        </Comp.FlexContainer>
+        </Comp.Row>
       </Comp.Width75>
     </div>
     <div style={{ background: "#Fff" }}>
@@ -159,6 +160,11 @@ const IconLink = styled(Link)`
   border-radius: 5rem;
   align-items: center;
   justify-content: center;
+
+  @media ${theme.breakpoint.onlyMobile} {
+    width: 3rem;
+    height: 3rem;
+  }
 
   img {
     width: 32px;

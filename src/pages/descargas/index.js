@@ -22,32 +22,26 @@ const IndexPage = () => (
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75 style={{ padding: "2rem 0" }}>
-            <Components.FlexCenterChild>
-              <Components.Flex1>
-                <LinkColumn
-                  title="MyBusiness"
-                  link="/descargas/my-business"
-                  image={MyBusiness}
-                  buttonText="Descarga"
-                />
-              </Components.Flex1>
-              <Components.Flex1>
-                <LinkColumn
-                  title="Facturación electrónica"
-                  link="/descargas/facturacion-electronica"
-                  image={Facturacion}
-                  buttonText="Descarga"
-                />
-              </Components.Flex1>
-              <Components.Flex1>
-                <LinkColumn
-                  title="Tiempo Aire"
-                  link="/descargas/tiempo-aire"
-                  image={TiempoAire}
-                  buttonText="Descarga"
-                />
-              </Components.Flex1>
-            </Components.FlexCenterChild>
+            <Components.Row mobile>
+              <LinkColumn
+                title="MyBusiness"
+                link="/descargas/my-business"
+                image={MyBusiness}
+                buttonText="Descarga"
+              />
+              <LinkColumn
+                title="Facturación electrónica"
+                link="/descargas/facturacion-electronica"
+                image={Facturacion}
+                buttonText="Descarga"
+              />
+              <LinkColumn
+                title="Tiempo Aire"
+                link="/descargas/tiempo-aire"
+                image={TiempoAire}
+                buttonText="Descarga"
+              />
+            </Components.Row>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>
