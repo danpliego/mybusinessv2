@@ -41,8 +41,17 @@ export default class MyForm extends React.Component {
           placeholder="Giro Comercial"
         />
         {status === "SUCCESS" ? (
-          <p style={{ padding: "1rem", textAlign: "center" }}>
-            Gracias! Tu descarga está por iniciar
+          <p
+            style={{
+              padding: "1.5rem",
+              textAlign: "center",
+              background: "#B7DFC2"
+            }}
+          >
+            Todo listo! Descarga la version de prueba de MyBusiness POS{" "}
+            <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip">
+              aquí
+            </a>
           </p>
         ) : (
           <ButtonDownload>Enviar</ButtonDownload>
