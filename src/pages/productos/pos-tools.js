@@ -64,8 +64,7 @@ const IndexPage = () => (
               <p className="extended">Sincronización con sucursales.</p>
               <p className="extended">Lector de código QR.</p>
               <p className="extended">
-                Cobro con efectivo, tarjeta de crédito o débito, PaypalMR y
-                PayuMR
+                Cobro con efectivo, tarjeta de crédito o débito, Paypal y Payu
               </p>
             </div>
           </CircleContainer>

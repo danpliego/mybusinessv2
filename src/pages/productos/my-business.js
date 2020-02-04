@@ -106,7 +106,7 @@ const IndexPage = () => (
         <Comp.Width50>
           <div className="text-center">
             <h3 className="extended text-center">
-              Ó compra la versión completa
+              o compra la versión completa
             </h3>
             <Comp.ButtonDownload as={Link} to="/tienda-virtual/my-business">
               Comprar ahora

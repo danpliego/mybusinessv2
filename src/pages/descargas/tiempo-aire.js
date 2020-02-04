@@ -28,9 +28,6 @@ const IndexPage = () => (
               Descarga aquí el instalable para vender recargas desde MyBusiness
               POS.
             </h4>
-            <p>
-              Venta de tiempo aire para todas las versiones de MyBusiness POS.
-            </p>
             <div style={{ textAlign: "center", padding: "1rem 0 3rem" }}>
               <h5 className="extended">
                 Instalador de Servicios TAE 2006-2012

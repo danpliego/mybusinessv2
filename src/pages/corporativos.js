@@ -118,8 +118,9 @@ const IndexPage = () => (
               <Comp.Column padded>
                 <h5>Control de Distribuciones.</h5>
                 <p>
-                  ¿Deseas tener control certero de lo que tus franquicias
-                  venden? Controla ventas, traspasos intersucursales y más.
+                  ¿Deseas saber qué, cuándo y dónde se venden tus productos con
+                  tus tiendas distribuidoras? No tienes que hacer encuestas.
+                  Nuestro software te da toda esa información en línea.
                 </p>
               </Comp.Column>
             </Comp.Row>

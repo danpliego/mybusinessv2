@@ -8,6 +8,7 @@ import SEO from "../../components/seo";
 import HeroImage from "../../images/facturacion/hero-image.jpg";
 import SectionTitle from "../../components/sectionTitle";
 import BoletinBanner from "../../components/boletinBanner";
+import { Link } from "gatsby";
 
 const IndexPage = () => (
   <Layout>
@@ -75,10 +76,7 @@ const IndexPage = () => (
           </li>
           <li>
             Después de utilizar tu timbre de prueba, puedes comprar Timbres
-            Fiscales{" "}
-            <a href="https://www.mybusinesspos.com/donde-comprar/tienda-virtual/timbres-fiscales/">
-              aquí.
-            </a>
+            Fiscales <Link to="/tienda-virtual/timbres-fiscales/">aquí.</Link>
           </li>
         </ul>
       </Comp.Width75>

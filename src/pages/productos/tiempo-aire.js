@@ -27,20 +27,29 @@ const IndexPage = () => (
     </Comp.BannerContainer>
     <Comp.Container>
       <Comp.Width75>
+        <h4 className="extended text-center">
+          Pero… ¿Cuál es la ganancia para mí?
+        </h4>
         <p className="font-lg">
-          <strong>Pero… ¿Cuál es la ganancia para mí? </strong>Además de atraer
-          más clientes, nuestro servicio de Tiempo Aire otorga las comisiones
-          más altas del mercado. Y lo mejor de todo es que no hay restricciones,
-          puedes ofrecer recargas para todas las compañias y pago de servicios.
-          Todo esto, desde MyBusiness POS o desde nuestro{" "}
+          Además de atraer más clientes, nuestro servicio de Tiempo Aire otorga
+          las comisiones más altas del mercado. Y lo mejor de todo es que no hay
+          restricciones, puedes ofrecer recargas para todas las compañias y pago
+          de servicios. Todo esto, desde MyBusiness POS o desde nuestro{" "}
           <a href="https://tiempoaire.mybusinesspos.net/">
             portal de tiempo aire
           </a>
           .
         </p>
+        <hr />
+        <p className="font-lg text-center">
+          <strong>
+            Para comenzar a vender solo debes registrarte y generar un usuario y
+            contraseña.
+          </strong>
+        </p>
+        <hr />
         <p className="font-lg">
-          Para comenzar a vender solo debes registrarte y generar un usuario y
-          contraseña. Puedes hacerlo de alguna de las siguientes formas:
+          Puedes hacerlo de alguna de las siguientes formas:
         </p>
         <ul className="font-lg">
           <li>
