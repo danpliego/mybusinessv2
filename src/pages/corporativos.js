@@ -132,7 +132,7 @@ const IndexPage = () => (
       <Comp.Container>
         <Comp.Width75>
           <h4 style={{ marginBottom: "2rem", textAlign: "center" }}>
-            La opinión de nuestros clientes es nuestra carta de presentación.
+            Nuestros clientes son nuestra carta de presentación.
           </h4>
           <img src={Banner} />
         </Comp.Width75>

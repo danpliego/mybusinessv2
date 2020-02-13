@@ -68,7 +68,7 @@ export const Header: React.FC = () => {
                 <MobileLink to="/productos">Productos</MobileLink>
                 <Dropdown dropdownToggle={<span>Productos</span>}>
                   <DropdownItem to="/productos/my-business">
-                    MyBusiness POS
+                    Software MyBusiness POS
                   </DropdownItem>
 
                   <DropdownItem to="/productos/facturacion-electronica">
@@ -76,19 +76,19 @@ export const Header: React.FC = () => {
                   </DropdownItem>
 
                   <DropdownItem to="/productos/tiempo-aire">
-                    Tiempo Aire
+                    Recargas de Tiempo Aire
                   </DropdownItem>
                   <DropdownItem to="/productos/servicios-en-la-nube">
                     Servicios en la Nube
                   </DropdownItem>
                   <DropdownItem to="/productos/pos-tools">
-                    Pos Tools
+                    Venta en ruta para Android
                   </DropdownItem>
                   <DropdownItem to="/productos/bill-pocket">
-                    Bill Pocket
+                    Cobro con tarjeta (Bill Pocket)
                   </DropdownItem>
                   <DropdownItem to="/productos/desarrollo-a-la-medida">
-                    Desarrollo a la medida
+                    Modificaciones a la medida
                   </DropdownItem>
                 </Dropdown>
               </MenuItem>

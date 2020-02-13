@@ -54,14 +54,14 @@ const IndexPage = () => (
         <Comp.Row padded mobile>
           <ProductColumn
             title="Venta de Tiempo Aire"
-            description="Aumenta tus ganancias ofreciendo recargas y pago de servicios. "
+            description="Aumenta tus ganancias y flujo de clientes ofreciendo recargas y pago de servicios."
             link="/productos/tiempo-aire"
             image={TiempoAire}
             buttonText="Más información"
           />
           <ProductColumn
             title="Facturación Electrónica"
-            description="Adquiere paquetes de timbres y otorga facturas electrónicas en tu negocio."
+            description="Adquiere paquetes para generar facturas electrónicas en tu negocio."
             link="/productos/facturacion-electronica"
             image={Facturacion}
             buttonText="Más información"
@@ -69,14 +69,14 @@ const IndexPage = () => (
           />
           <ProductColumn
             title="Corporativos"
-            description="Controla tus sucursales o franquicias con un sistema adaptado a la medida."
+            description="Controla tus sucursales o franquicias con una solución adaptada a tu medida."
             link="/corporativos"
             image={Corporativos}
             buttonText="Más información"
           />
           <ProductColumn
             title="Servicios en la nube"
-            description="Respalda toda tu información y accede a ella en el momento que lo necesites."
+            description="Respalda tu información importante y accede a ella en el momento que lo necesites."
             link="/productos/servicios-en-la-nube"
             image={Servicios}
             buttonText="Más información"
@@ -98,7 +98,7 @@ const IndexPage = () => (
         <Comp.Row padded mobile>
           <ProductColumn
             title="Billpocket"
-            description="Incrementa las visitas a tu establecimiento recibiendo pagos con tarjeta."
+            description="Genera ventas y levanta pedidos desde tu celular."
             link="/productos/bill-pocket"
             image={BillPocket}
             buttonText="Más información"
@@ -112,7 +112,7 @@ const IndexPage = () => (
           />
           <ProductColumn
             title="Desarrollo a la medida"
-            description="El único sistema de punto de venta que se adecua al giro específico de tu giro comercial."
+            description="El único sistema de punto de venta que se adecúa a tu requerimiento particular o giro comercial."
             link="/productos/desarrollo-a-la-medida"
             image={Desarrollo}
             buttonText="Más información"

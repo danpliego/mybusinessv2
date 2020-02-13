@@ -19,7 +19,7 @@ import Box208 from "../../images/mybusiness/boxMBP2008.jpg";
 const IndexPage = () => (
   <Layout>
     <SEO title="Tienda Virtual" keywords={[`gatsby`, `application`, `react`]} />
-    <SectionTitle name="Tienda Virtual: My Business" />
+    <SectionTitle name="Tienda Virtual: My Business POS" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />
@@ -45,8 +45,10 @@ const IndexPage = () => (
                   </td>
                   <td>
                     <h6>
-                      2,200.00
-                      <span className="font-size-xs body-xl-color">MXN</span>
+                      $2,970
+                      <span className="font-size-xs body-xl-color">
+                        MXN Netos
+                      </span>
                     </h6>
                   </td>
                   <td className="text-center">
@@ -101,8 +103,10 @@ const IndexPage = () => (
                   </td>
                   <td>
                     <h6>
-                      2,200.00
-                      <span className="font-size-xs body-xl-color">MXN</span>
+                      $2,970
+                      <span className="font-size-xs body-xl-color">
+                        MXN Netos
+                      </span>
                     </h6>
                   </td>
                   <td className="text-center">
@@ -157,8 +161,10 @@ const IndexPage = () => (
                   </td>
                   <td>
                     <h6>
-                      2,200.00
-                      <span className="font-size-xs body-xl-color">MXN</span>
+                      $2,970
+                      <span className="font-size-xs body-xl-color">
+                        MXN Netos
+                      </span>
                     </h6>
                   </td>
                   <td className="text-center">
@@ -213,8 +219,10 @@ const IndexPage = () => (
                   </td>
                   <td>
                     <h6>
-                      2,200.00
-                      <span className="font-size-xs body-xl-color">MXN</span>
+                      $2,970
+                      <span className="font-size-xs body-xl-color">
+                        MXN Netos
+                      </span>
                     </h6>
                   </td>
                   <td className="text-center">
@@ -269,8 +277,10 @@ const IndexPage = () => (
                   </td>
                   <td>
                     <h6>
-                      2,200.00
-                      <span className="font-size-xs body-xl-color">MXN</span>
+                      $2,970
+                      <span className="font-size-xs body-xl-color">
+                        MXN Netos
+                      </span>
                     </h6>
                   </td>
                   <td className="text-center">
@@ -315,7 +325,9 @@ const IndexPage = () => (
             <div className="text-center">
               <strong>
                 En la compra de cualquier licencia usted recibirá un correo
-                electrónico con número de serie para el registro de su licencia.
+                electrónico que incluye un certificado con el número de serie
+                para el registro de su licencia y una liga para generarse su
+                factura.
               </strong>
             </div>
             <hr />
@@ -323,7 +335,7 @@ const IndexPage = () => (
             <h4>Notas:</h4>
             <ul className="list-unstyled">
               <li>* Licencia electrónica.</li>
-              <li>* El precio de la licencia es por terminal.</li>
+              <li>* El precio de la licencia es por computadora instalada.</li>
               <li>
                 <strong>(1)</strong> Compatibles con Windows XP, Windows Vista,
                 Windows 7, Windows 8, Windows 8.1

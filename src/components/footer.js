@@ -16,7 +16,7 @@ const Footer = () => (
         <Comp.Row mobile>
           <Comp.Column flex={1}>
             <FooterMenu>
-              <h6>MyBusiness</h6>
+              <h6>MyBusiness POS Desarrollos</h6>
               <li>
                 <Link to="/nosotros/">Nosotros</Link>
               </li>

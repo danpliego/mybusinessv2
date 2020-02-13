@@ -60,7 +60,7 @@ export default class ContactForm extends React.Component {
         />
         {status === "SUCCESS" ? (
           <p style={{ padding: "1rem", textAlign: "center" }}>
-            Gracias! Tu descarga está por iniciar
+            Gracias! Tu mensaje ha sido enviado.
           </p>
         ) : (
           <ButtonDownload>Enviar</ButtonDownload>

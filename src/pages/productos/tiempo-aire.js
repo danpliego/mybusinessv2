@@ -31,8 +31,8 @@ const IndexPage = () => (
           Pero… ¿Cuál es la ganancia para mí?
         </h4>
         <p className="font-lg">
-          Además de atraer más clientes, nuestro servicio de Tiempo Aire otorga
-          las comisiones más altas del mercado. Y lo mejor de todo es que no hay
+          Además de atraer más flujo de clientes a tu negocio, nuestro servicio
+          de Tiempo Aire te otorga comisiones. Y lo mejor de todo es que no hay
           restricciones, puedes ofrecer recargas para todas las compañias y pago
           de servicios. Todo esto, desde MyBusiness POS o desde nuestro{" "}
           <a href="https://tiempoaire.mybusinesspos.net/">
@@ -57,10 +57,10 @@ const IndexPage = () => (
             de Tiempo Aire.
           </li>
           <li>
-            A través de un distribuidor o escribiéndonos directamente a:
+            A través de tu distribuidor o escribiéndonos directamente a:
             <a href="mailto:tiempoaire@mybusinespos.com">
               {" "}
-              tiempoaire@mybusinespos.com
+              TiempoAire@MyBusinessPOS.com
             </a>
           </li>
         </ul>

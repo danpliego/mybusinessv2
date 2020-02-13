@@ -18,19 +18,15 @@ import { theme } from "../../components/theme";
 const IndexPage = () => (
   <Layout>
     <SEO title="POS Tools" keywords={[`gatsby`, `application`, `react`]} />
-    <SectionTitle
-      name="POS Tools"
-      subtitle="Administra tu negocio desde donde estés."
-    />
+    <SectionTitle name="POS Tools" />
     <Comp.BannerContainer>
       <Comp.BannerImage>
         <img src={HeroImage} />
       </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">
-          POS TOOLS es la aplicación de MyBusiness POS, que te permite realizar
-          las mismas operaciones que haces en tu punto de venta principal, pero
-          desde tu celular.
+          POS Tools es una app de movilidad que te permite vender y levantar
+          pedidos a través de tu celular o tableta con Android.
         </h1>
       </Comp.BannerContent>
     </Comp.BannerContainer>

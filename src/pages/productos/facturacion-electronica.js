@@ -23,8 +23,7 @@ const IndexPage = () => (
       </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">
-          Mantén en orden las finanzas de tu negocio con nuestro sistema de
-          facturación electrónica.
+          Genera facturas electrónicas para tus clientes de forma fácil.
         </h1>
       </Comp.BannerContent>
     </Comp.BannerContainer>
@@ -32,7 +31,7 @@ const IndexPage = () => (
       <Comp.Width75 style={{ paddingBottom: "5rem" }}>
         <h4 className="extended text-center" style={{ marginBottom: "2rem" }}>
           Estos son algunos de los beneficios de emitir facturas en tu
-          establecimiento:{" "}
+          establecimiento con nosotros:
         </h4>
         <ul className="font-xl">
           <li>Facilidad al realizar auditorías.</li>

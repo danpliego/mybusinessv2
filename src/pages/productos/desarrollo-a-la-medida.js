@@ -23,9 +23,10 @@ const IndexPage = () => (
         <Components.BannerBox>
           <Components.Width50>
             <p>
-              Tu negocio merece un sistema de punto de venta hecho completamente
-              a la medida, por eso MyBusiness POS es el único software que puede
-              adecuarse a los requerimientos de tu giro comercial. <br />
+              Sabemos que puedes requerir que el software se modifique para
+              adaptarse al funcionamiento de tu negocio. MyBusiness POS tiene la
+              importante característica de poder ser adecuado por programación.
+              <br />
               <br />
               Si requieres más información déjanos tus datos y haznos saber que
               te gustaría modificar en el sistema.

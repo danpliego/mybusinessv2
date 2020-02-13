@@ -30,14 +30,14 @@ export default class CorporativosForm extends React.Component {
         />
         <input
           className="form-control"
-          type="text"
-          name="telefono"
+          type="email"
+          name="correo"
           placeholder="Correo"
         />
         <input
           className="form-control"
-          type="email"
-          name="email"
+          type="text"
+          name="giro-comercial"
           placeholder="Giro Comercial"
         />
         <input
@@ -48,7 +48,7 @@ export default class CorporativosForm extends React.Component {
         />
         {status === "SUCCESS" ? (
           <p style={{ padding: "1rem", textAlign: "center" }}>
-            Gracias! Tu descarga está por iniciar
+            Gracias! Tu mensaje ha sido enviado.
           </p>
         ) : (
           <ButtonDownload>Enviar</ButtonDownload>

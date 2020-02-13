@@ -19,16 +19,16 @@ import { theme } from "../../components/theme";
 const IndexPage = () => (
   <Layout>
     <SEO title="MyBusiness" keywords={[`gatsby`, `application`, `react`]} />
-    <SectionTitle name="MyBusiness" />
+    <SectionTitle name="MyBusiness POS" />
     <Comp.BannerContainer>
       <Comp.BannerImage>
         <img src={HeroImage} />
       </Comp.BannerImage>
       <Comp.BannerContent>
         <h2 className="extended-medium" style={{ marginBottom: "3rem" }}>
-          MyBusiness POS funciona como punto de venta de abarrotes, ferreterías,
-          carnicerías, papelerías, refaccionarias, tlapalerías y muchos
-          comercios más…
+          MyBusiness POS funciona como punto de venta de abarrotes, farmacias,
+          ferreterías, carnicerías, papelerías, refaccionarias, tlapalerías y
+          muchos comercios más…
         </h2>
         <div className="text-center">
           <Comp.ButtonInverse to="/tienda-virtual/my-business">
@@ -75,11 +75,11 @@ const IndexPage = () => (
           <CircleContainer>
             <img src={Circle2} />
             <div>
-              <p className="extended">Programación</p>
+              <p className="extended">Programación *</p>
               <p className="extended">Venta de recargas electrónicas</p>
               <p className="extended">y más...</p>
               <span className="body-l font-sm">
-                *(se adapta a tu giro de negocio)
+                * se adapta a tu giro de negocio.
               </span>
             </div>
           </CircleContainer>
@@ -87,12 +87,9 @@ const IndexPage = () => (
         <Comp.Width75>
           <h2 className="extended text-center">Características</h2>
           <ul className="font-xl">
+            <li>Fácil de usar</li>
             <li>Licencia por máquina.</li>
-            <li>La licencia solo se paga una vez.</li>
-            <li>
-              Se puede instalar a partir de Windows 7 service pack 1 hasta
-              Windows 10.
-            </li>
+            <li>Sistema operativo Windows</li>
             <li>
               Puedes cambiar a la versión más reciente pagando una
               actualización.
@@ -100,7 +97,7 @@ const IndexPage = () => (
           </ul>
         </Comp.Width75>
         <Comp.Width50 style={{ paddingBottom: "0" }}>
-          <h3 className="extended text-center">Descarga la prueba grátis</h3>
+          <h3 className="extended text-center">Descarga la prueba gratis</h3>
           <MyForm />
         </Comp.Width50>
         <Comp.Width50>

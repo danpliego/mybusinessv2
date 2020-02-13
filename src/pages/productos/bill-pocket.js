@@ -32,9 +32,9 @@ const IndexPage = () => (
     <Comp.Container>
       <Comp.Width75 style={{ textAlign: "center", paddingBottom: "0" }}>
         <p className="font-lg">
-          Los lectores Billpocket son mucho más seguros que una terminal
-          tradicional para tarjetas bancarias, ya que cifran el contenido de la
-          banda magnética o chip para proteger los datos de tu cliente.{" "}
+          Los lectores Billpocket son tan seguros como una terminal bancaria
+          tradicional, ya que cifran el contenido de la banda magnética o chip
+          para proteger los datos de tu cliente.
         </p>
         <iframe
           width="700"
@@ -57,14 +57,14 @@ const IndexPage = () => (
             Ventajas de cobrar con Billpocket
           </h2>
           <ul className="font-xl">
-            <li>Paga solo el 3.5% de comisión. </li>
+            <li>Paga sólo el 3.5% + IVA de comisión.</li>
             <li>Recibe el dinero de tus ventas al siguiente día hábil.</li>
             <li>
               Tienes cobertura nacional, solo necesitas una conexión a internet.
             </li>
             <li>
-              Ofrece promociones a 3, 6, 9 y hasta 12 Meses Sin Intereses en tus
-              ventas.
+              Ofrece promociones a 3, 6, 9 y hasta 12 meses con o sin intereses
+              en tus ventas.
             </li>
             <li>
               Recibe notificaciones de cada transacción realizada, tus depósitos
