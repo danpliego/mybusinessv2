@@ -125,7 +125,7 @@ const IndexPage = () => (
               ¿En qué le beneficia ser Distribuidor Certificado MyBusiness POS?
             </h3>
 
-            <h4>1Mayor captación de clientes.</h4>
+            <h4>Mayor captación de clientes.</h4>
 
             <p>
               Después de convertirse en DISTRIBUIDOR CERTIFICADO MYBUSINESS POS

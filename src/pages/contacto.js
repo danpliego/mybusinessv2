@@ -23,7 +23,7 @@ const IndexPage = () => (
                 <p className="body-l">
                   ¿Aún tienes dudas para adquirir MyBusinessPOS? escríbenos a:{" "}
                   <a href="mailto:ventas@mybusinesspos.com">
-                    ventas@mybusinesspos.com
+                    Ventas@MyBusinessPOS.com
                   </a>
                 </p>
               </Components.Column>
@@ -40,16 +40,21 @@ const IndexPage = () => (
             <hr />
             <div style={{ textAlign: "center", marginTop: "1rem" }}>
               <h5 className="uppercase font-xs">Nuestras oficinas</h5>
+              <p>
+                <strong>MyBusiness POS</strong>
+              </p>
               <p className="body-l">
                 <strong>Toluca, Estado de México.</strong>
                 <br />
                 <a href="tell:722740404">722 74 04 04</a>
                 <br />
+                <a href="tell:722740404">(800) 350 6070</a>
+                <br />
                 <br /> Leona Vicario 1232, Oficina 104. <br /> Col. La Purísima,
                 CP 52156 Metepec. <br />
                 <br />
                 <strong>Horario de atención:</strong> <br />
-                Lunes a viernes de 9:00 am a 6:00 pm.
+                Lunes a viernes de 8:00 am a 6:00 pm.
               </p>
             </div>
           </Components.Width75>
