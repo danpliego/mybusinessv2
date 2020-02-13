@@ -34,25 +34,48 @@ const IndexPage = () => (
           establecimiento con nosotros:
         </h4>
         <ul className="font-xl">
-          <li>Facilidad al realizar auditorías.</li>
-          <li>Reducción de falsificaciones.</li>
-          <li>Mejor control para una sana contabilidad electrónica.</li>
-          <li>Facilidad en el cálculo de impuestos.</li>
+          <li>
+            Podrás generar las facturas fácil y rápidamente a tus clientes.
+          </li>
+          <li>
+            Tendrás un portal para visualizar, reportear, cancelar y descargar
+            tus facturas.
+          </li>
+          <li>
+            Podrás adquirir paquetes de facturas fiscales según tus necesidades.
+          </li>
           <li>Confidencialidad en el manejo de la información.</li>
           <li>Eficiencia en el proceso de pago de facturas.</li>
         </ul>
         <hr />
-        <p className="font-xl body-l">
-          Además, puedes hacerlo desde tu punto de venta o desde el portal de
-          facturación.{" "}
-        </p>
+        <h4 className="extended text-center" style={{ marginBottom: "2rem" }}>
+          Puedes generar facturas electrónicas de dos maneras:
+        </h4>
+        <ol>
+          <li className="font-xl">
+            Si usas MyBusiness POS puedes instalar los módulos para generar las
+            facturas directamente desde tu software.
+          </li>
+          <li className="font-xl">
+            Si no usas MyBusiness POS puedes generar facturas directamente{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://cfdimobile.mybusinesspos.net/"
+            >
+              desde nuestro portal
+            </a>
+          </li>
+        </ol>
         <hr />
         <h4 className="extended text-center" style={{ marginBottom: "2rem" }}>
           Para empezar a Facturar Electrónicamente solo debes seguir estos
           pasos:
         </h4>
         <ul className="font-xl">
-          <li>Tramita un certificado de sello digital, con tu Fiel.</li>
+          <li>
+            Tramita ante el SAT con tu FIEL un certificado de sello digital
+          </li>
           <li>
             <a href="https://cfdimobile.mybusinesspos.net/Registrarse.aspx">
               Date de alta
@@ -60,22 +83,23 @@ const IndexPage = () => (
             y obtendrás 1 folio de prueba
           </li>
           <li>
+            Para actualización MyBusiness POS 2017:{" "}
             <a href="https://www.mybusinesspos.com/Downloads/SQLCLoud.zip">
               Descarga
             </a>{" "}
-            e instala nuestro módulo de Facturación Electrónica: SQLCloud (Para
-            MyBusiness POS 2017 Actualización){" "}
+            e instala nuestro módulo de Facturación Electrónica SQLCloud.
           </li>
           <li>
+            Para MyBusiness POS 2012 y anteriores:{" "}
             <a href="https://www.mybusinesspos.com/Downloads/MyCFDI.zip">
               Descarga
             </a>{" "}
-            e instala el módulo de Facturación Electrónica: MyCFDI (Para
-            MyBusiness POS 2012 y anteriores)
+            e instala el módulo de Facturación Electrónica MyCFDI.
           </li>
           <li>
-            Después de utilizar tu timbre de prueba, puedes comprar Timbres
-            Fiscales <Link to="/tienda-virtual/timbres-fiscales/">aquí.</Link>
+            Después de utilizar tu folio de prueba, puedes comprar Facturas
+            Electrónicas{" "}
+            <Link to="/tienda-virtual/timbres-fiscales/">aquí.</Link>
           </li>
         </ul>
       </Comp.Width75>

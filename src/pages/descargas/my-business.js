@@ -46,7 +46,7 @@ const IndexPage = () => (
                 <Components.ButtonPrimary
                   small
                   as="a"
-                  to="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip"
+                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip"
                 >
                   Descargar ahora{" "}
                 </Components.ButtonPrimary>
@@ -91,7 +91,7 @@ const IndexPage = () => (
                 <Components.ButtonPrimary
                   small
                   as="a"
-                  to="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2012.zip"
+                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2012.zip"
                 >
                   Descargar ahora{" "}
                 </Components.ButtonPrimary>
@@ -140,7 +140,7 @@ const IndexPage = () => (
                 <Components.ButtonPrimary
                   small
                   as="a"
-                  to="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip"
+                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip"
                 >
                   Descargar ahora{" "}
                 </Components.ButtonPrimary>
