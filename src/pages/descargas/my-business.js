@@ -12,6 +12,8 @@ import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
 import Box2010 from "../../images/mybusiness/boxMBP2010.jpg";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
+import { SignupModal } from "../../components/signup_modal";
+import MyForm from "../../components/download_form";
 
 const IndexPage = () => (
   <Layout>
@@ -43,13 +45,19 @@ const IndexPage = () => (
                   MyBusiness POS 2017
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
-                <Components.ButtonPrimary
-                  small
-                  as="a"
-                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip"
-                >
-                  Descargar ahora{" "}
-                </Components.ButtonPrimary>
+                <SignupModal>
+                  <MyForm
+                    successText={
+                      <>
+                        Todo listo! Descarga la version de prueba de
+                        MyBusinessPOS 2017 POS{" "}
+                        <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip">
+                          aquí
+                        </a>
+                      </>
+                    }
+                  />
+                </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación:</strong>Windows 7
                   Service Pack 1 o superior.
@@ -88,13 +96,19 @@ const IndexPage = () => (
                   MyBusiness POS 2012
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
-                <Components.ButtonPrimary
-                  small
-                  as="a"
-                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2012.zip"
-                >
-                  Descargar ahora{" "}
-                </Components.ButtonPrimary>
+                <SignupModal>
+                  <MyForm
+                    successText={
+                      <>
+                        Todo listo! Descarga la version de prueba de
+                        MyBusinessPOS 2012 POS{" "}
+                        <a href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2012.zip">
+                          aquí
+                        </a>
+                      </>
+                    }
+                  />
+                </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación: </strong>Windows XP
                   Service Pack 3 o superior.
@@ -137,13 +151,19 @@ const IndexPage = () => (
                   MyBusiness POS 2011
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
-                <Components.ButtonPrimary
-                  small
-                  as="a"
-                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip"
-                >
-                  Descargar ahora{" "}
-                </Components.ButtonPrimary>
+                <SignupModal>
+                  <MyForm
+                    successText={
+                      <>
+                        Todo listo! Descarga la version de prueba de
+                        MyBusinessPOS 2011 POS{" "}
+                        <a href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip">
+                          aquí
+                        </a>
+                      </>
+                    }
+                  />
+                </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación: </strong>Windows 7, 8
                   y 10. Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador
@@ -171,13 +191,19 @@ const IndexPage = () => (
                   MyBusiness POS 2010
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
-                <Components.ButtonPrimary
-                  small
-                  as="a"
-                  href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2010.zip"
-                >
-                  Descargar ahora{" "}
-                </Components.ButtonPrimary>
+                <SignupModal>
+                  <MyForm
+                    successText={
+                      <>
+                        Todo listo! Descarga la version de prueba de
+                        MyBusinessPOS 2010 POS{" "}
+                        <a href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2010.zip">
+                          aquí
+                        </a>
+                      </>
+                    }
+                  />
+                </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación: </strong>Windows 7, 8
                   y 10. Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador

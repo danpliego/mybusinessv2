@@ -54,7 +54,18 @@ export default class MyForm extends React.Component {
         ) : (
           <ButtonDownload>Enviar</ButtonDownload>
         )}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        {status === "ERROR" && (
+          <p
+            style={{
+              padding: "1.5rem",
+              textAlign: "center",
+              background: "#F8B8B8",
+              marginTop: "1rem"
+            }}
+          >
+            Completa el formulario para recibir tu link de descarga
+          </p>
+        )}
       </form>
     );
   }

@@ -80,6 +80,19 @@ export const ButtonPrimary = styled(Link)`
   }
 `;
 
+export const BtnPrimary = styled.button`
+  ${sharedButton}
+  border-color: ${props => props.theme.colors.bodyColor};
+  background: ${props => props.theme.colors.bodyColor};
+  color: ${props => props.theme.colors.whiteColor};
+
+  &:hover {
+    border-color: ${props => props.theme.colors.primaryColor};
+    background: ${props => props.theme.colors.primaryColor};
+    color: ${props => props.theme.colors.bodyColor};
+  }
+`;
+
 export const ButtonSecondary = styled(Link)`
   ${sharedButton}
   color: ${props => props.theme.colors.bodyColor};
