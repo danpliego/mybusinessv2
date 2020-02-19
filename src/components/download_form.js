@@ -4,6 +4,7 @@
 
 import React from "react";
 import { ButtonDownload } from "./layoutComponents";
+import PropTypes from "prop-types";
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -48,10 +49,7 @@ export default class MyForm extends React.Component {
               background: "#B7DFC2"
             }}
           >
-            Todo listo! Descarga la version de prueba de MyBusiness POS{" "}
-            <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip">
-              aquí
-            </a>
+            {this.props.successText}
           </p>
         ) : (
           <ButtonDownload>Enviar</ButtonDownload>
@@ -83,3 +81,7 @@ export default class MyForm extends React.Component {
     xhr.send(data);
   }
 }
+
+MyForm.propTypes = {
+  successText: PropTypes.Component
+};

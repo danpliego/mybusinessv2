@@ -98,7 +98,16 @@ const IndexPage = () => (
         </Comp.Width75>
         <Comp.Width50 style={{ paddingBottom: "0" }}>
           <h3 className="extended text-center">Descarga la prueba gratis</h3>
-          <MyForm />
+          <MyForm
+            successText={
+              <>
+                Todo listo! Descarga la version de prueba de MyBusiness POS{" "}
+                <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip">
+                  aquí
+                </a>
+              </>
+            }
+          />
         </Comp.Width50>
         <Comp.Width50>
           <div className="text-center">
