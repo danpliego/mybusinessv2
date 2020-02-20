@@ -18,6 +18,8 @@ import TiempoAire from "../images/tiempo-aire/home-image.jpg";
 import Corporativos from "../images/corporativos/home-image.jpg";
 import Facturacion from "../images/facturacion/home-image.jpg";
 
+import Slider from "infinite-react-carousel";
+
 const IndexPage = () => (
   <Layout>
     <Comp.Container>
@@ -90,6 +92,41 @@ const IndexPage = () => (
             alt="MyBusiness POS sistema de punto de venta gratis"
           />
         </Comp.BannerImage>
+        <CarouselContainer>
+          <Slider autoplay>
+            <div>
+              <h3 className="expanded">
+                MyBusiness POS me ayuda a controlar inventarios, medir las
+                ventas del día y llevar un registro del dinero. En pocas
+                palabras, nos ayuda a vender mejor
+              </h3>
+              <h6>Javier Sánchez Navarrete propietario de Súper 24</h6>
+            </div>
+            <div>
+              <h3 className="expanded">
+                Con MyBusiness POS llevo un mejor control y me ayuda a agilizar
+                el proceso de venta gracias a la simpleza en la interfaz del
+                punto de venta.
+              </h3>
+              <h6>Angie Durán propietaria de Ferremas México</h6>
+            </div>
+            <div>
+              <h3 className="expanded">
+                MyBusiness POS es la columna vertebral de mi negocio, con el
+                controlo, programo, superviso y administro todo de forma rápida
+                y sencilla.
+              </h3>
+              <h6>Aurelio Arratia propietario de Lechería Victoria</h6>
+            </div>
+            <div>
+              <h3 className="expanded">
+                MyBusiness POS me ha ayudado a desarrollar oportunidades de
+                negocio en áreas de comercio al por mayor.
+              </h3>
+              <h6>Gustavo Mendoza propietario de IntegraBits</h6>
+            </div>
+          </Slider>
+        </CarouselContainer>
       </HomeBannerContainer>
       <Comp.Container style={{ marginTop: "3rem" }}>
         <h4 style={{ textAlign: "center", marginBottom: "3rem" }}>
@@ -161,8 +198,75 @@ export const RowButtons = styled(Comp.Container)`
   padding: 1.5rem;
 `;
 
+const CarouselContainer = styled.div`
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  z-index: 10000;
+  top: 15%;
+
+  @media ${theme.breakpoint.upFromMobile} {
+    top: 30%;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  h3,
+  h6 {
+    color: #fff;
+    max-width: 70%;
+    margin: 1rem auto;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .carousel-arrow {
+    color: #000;
+    background: #fff;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &:before {
+      font-size: 1rem;
+      display: block;
+      background: none;
+      padding-top: 9px;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-next {
+    right: 2rem;
+    top: 3rem;
+  }
+
+  .carousel-prev {
+    left: 2rem;
+    top: 3rem;
+  }
+
+  .carousel-next:before {
+    content: ">";
+  }
+
+  .carousel-prev:before {
+    content: "<";
+  }
+`;
+
 const HomeBannerContainer = styled(Comp.BannerContainer)`
   min-height: 380px;
+
+  img {
+    opacity: 0.8;
+  }
 
   @media ${theme.breakpoint.upFromMobile} {
     height: 600px;
