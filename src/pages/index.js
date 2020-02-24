@@ -208,10 +208,6 @@ const CarouselContainer = styled.div`
 
   @media ${theme.breakpoint.upFromMobile} {
     top: 30%;
-
-    h3 {
-      font-size: 1rem;
-    }
   }
 
   div {
