@@ -18,8 +18,6 @@ const BoletinBanner = () => (
           src="http://mybusinessv2.danielpliego.com/mybusiness-form.html"
           border="0"
           frameBorder="0"
-          width="50%"
-          height="280px"
         />
       </div>
     </Layout.BannerContent>

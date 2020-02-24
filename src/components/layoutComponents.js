@@ -244,6 +244,16 @@ export const BannerContent = styled.div`
       font-size: 1.5rem;
     }
   }
+
+  iframe {
+    width: 50%;
+    height: 280px;
+
+    @media ${theme.breakpoint.onlyMobile} {
+      width: 100%;
+      height: 300px !important;
+    }
+  }
 `;
 
 export const BannerBox = styled.div`

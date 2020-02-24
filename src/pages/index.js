@@ -208,6 +208,10 @@ const CarouselContainer = styled.div`
 
   @media ${theme.breakpoint.upFromMobile} {
     top: 30%;
+
+    h3 {
+      font-size: 1rem;
+    }
   }
 
   div {
@@ -223,7 +227,7 @@ const CarouselContainer = styled.div`
   }
 
   .carousel-arrow {
-    color: #000;
+    color: #000 !important;
     background: #fff;
     width: 3rem;
     height: 3rem;
@@ -259,10 +263,35 @@ const CarouselContainer = styled.div`
   .carousel-prev:before {
     content: "<";
   }
+
+  @media ${theme.breakpoint.onlyMobile} {
+    h3 {
+      font-size: 1rem;
+    }
+
+    .carousel-arrow {
+      color: #000 !important;
+      background: #fff;
+      width: 2rem;
+      height: 2rem;
+
+      &:before {
+        font-size: 0.8rem;
+      }
+
+      &.carousel-next {
+        right: 1rem;
+      }
+
+      &.carousel-prev {
+        left: 1rem;
+      }
+    }
+  }
 `;
 
 const HomeBannerContainer = styled(Comp.BannerContainer)`
-  min-height: 380px;
+  min-height: 300px;
 
   img {
     opacity: 0.8;
