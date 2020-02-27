@@ -37,6 +37,57 @@ const IndexPage = () => (
                 borderBottom: "1px solid #f4f4f4"
               }}
             >
+              <Components.Column
+                style={{ minWidth: "236px" }}
+              ></Components.Column>
+              <Components.Column style={{ marginLeft: "2rem" }}>
+                <h4 className="extended" style={{ margin: "1rem 0 0" }}>
+                  MyBusiness POS 2020
+                </h4>
+                <p className="body-l">¡Pruébalo por 30 días! </p>
+                <SignupModal>
+                  <MyForm
+                    successText={
+                      <>
+                        Todo listo! Descarga la version de prueba de
+                        MyBusinessPOS 2017 POS{" "}
+                        <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS20.zip">
+                          aquí
+                        </a>
+                      </>
+                    }
+                  />
+                </SignupModal>
+                <p style={{ marginTop: "2rem" }} className="font-xs">
+                  <strong>Requisitos para su instalación:</strong>Windows 7
+                  Service Pack 1 o superior.
+                </p>
+                <p className="font-xs">
+                  <strong>Nota importante: </strong>Se debe ejecutar el sistema
+                  como administrador, dando clic derecho sobre el ícono de
+                  MyBusiness POS y seleccionando Ejecutar como administrador.
+                </p>
+                <p className="font-xs">
+                  <strong>Otras descargas:</strong>
+                  <a href="http://mybusinesspos.com/Downloads/TripticoMyBusinessPOS2017.pdf">
+                    Tríptico informativo (.pdf)
+                  </a>{" "}
+                  |{" "}
+                  <a href="http://mybusinesspos.com/Downloads/MyBusinessPOS-2017-Manual-del-Usuario.pdf">
+                    Manual de usuario (.pdf)
+                  </a>
+                </p>
+              </Components.Column>
+            </Components.Row>
+
+            <Components.Row
+              mobile
+              style={{
+                marginBottom: "2rem",
+                paddingBottom: "2rem",
+                borderBottom: "1px solid #f4f4f4"
+              }}
+            >
               <Components.Column style={{ minWidth: "236px" }}>
                 <img src={Box2017} />
               </Components.Column>

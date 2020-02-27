@@ -30,6 +30,62 @@ const IndexPage = () => (
             <Components.TableResponsive>
               <table className="table table-bordered">
                 <tr>
+                  <td></td>
+                  <td>
+                    <strong>
+                      MyBusiness POS V. 20 Software de Punto de Venta y Control
+                      Administrativo (3)*
+                    </strong>
+                    <br />
+                    <span className="font-size-xs body-xl-color">
+                      ID: 7507945042186
+                    </span>
+                  </td>
+                  <td>
+                    <h6>
+                      $2,970
+                      <span className="font-size-xs body-xl-color">
+                        MXN Netos
+                      </span>
+                    </h6>
+                  </td>
+                  <td className="text-center">
+                    <strong>Paypal</strong>
+                    <form
+                      action="https://www.paypal.com/cgi-bin/webscr"
+                      method="post"
+                      target="_blank"
+                    >
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input
+                        type="hidden"
+                        name="hosted_button_id"
+                        value="GZJLHRS92QFY8"
+                      />
+                      <input
+                        type="image"
+                        src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif"
+                        border="0"
+                        name="submit"
+                        alt="PayPal, la forma más segura y rápida de pagar en línea."
+                      />
+                    </form>
+                    <hr />
+                    <strong>PayU</strong>
+                    <div className="padding-lv2-ver">
+                      <img width="83" height="35" src={PayU} />
+                    </div>
+                    <a
+                      href="https://compraspayu.mybusinesspos.net/?articulo=7507945042186"
+                      className="btn btn-sm btn-primary"
+                    >
+                      Comprar Ahora
+                    </a>
+                    &nbsp;
+                    <br />
+                  </td>
+                </tr>
+                <tr>
                   <td>
                     <img src={Box2017} width="176" />
                   </td>
@@ -343,6 +399,10 @@ const IndexPage = () => (
               <li>
                 <strong>(2)</strong> Compatibles con Windows 7, Windows 8,
                 Windows 8.1, Windows 10
+              </li>
+              <li>
+                <strong>(3)</strong>Compatible con Windows 8, Windows 8.1,
+                Windows 10
               </li>
             </ul>
           </Components.Width75>
