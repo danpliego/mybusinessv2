@@ -28,7 +28,7 @@ const IndexPage = () => (
           <Components.Width75 style={{ padding: "2rem 0" }}>
             <Components.Row mobile>
               <LinkColumn
-                title="My Business POS"
+                title="MyBusiness POS"
                 link="/productos/my-business"
                 image={MyBusiness}
                 buttonText="Visitar"

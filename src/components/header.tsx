@@ -72,7 +72,7 @@ export const Header: React.FC = () => {
                   </DropdownItem>
 
                   <DropdownItem to="/productos/facturacion-electronica">
-                    Facturación electrónica
+                    Facturación Electrónica
                   </DropdownItem>
 
                   <DropdownItem to="/productos/tiempo-aire">

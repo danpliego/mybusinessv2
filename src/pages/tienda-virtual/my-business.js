@@ -19,7 +19,7 @@ import Box208 from "../../images/mybusiness/boxMBP2008.jpg";
 const IndexPage = () => (
   <Layout>
     <SEO title="Tienda Virtual" keywords={[`gatsby`, `application`, `react`]} />
-    <SectionTitle name="Tienda Virtual: My Business POS" />
+    <SectionTitle name="Tienda Virtual: MyBusiness POS" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />

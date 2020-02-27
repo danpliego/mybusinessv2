@@ -43,7 +43,7 @@ const IndexPage = () => (
         <hr />
         <p className="font-lg text-center">
           <strong>
-            Para comenzar a vender solo debes registrarte y generar un usuario y
+            Para comenzar a vender sólo debes registrarte y generar un usuario y
             contraseña.
           </strong>
         </p>
@@ -53,7 +53,7 @@ const IndexPage = () => (
         </p>
         <ul className="font-lg">
           <li>
-            Si cuentas con la App de POS Tools, solo ingresa tus datos en Venta
+            Si cuentas con la App de POS Tools, sólo ingresa tus datos en Venta
             de Tiempo Aire.
           </li>
           <li>

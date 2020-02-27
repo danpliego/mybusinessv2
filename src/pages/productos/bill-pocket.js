@@ -60,7 +60,7 @@ const IndexPage = () => (
             <li>Paga sólo el 3.5% + IVA de comisión.</li>
             <li>Recibe el dinero de tus ventas al siguiente día hábil.</li>
             <li>
-              Tienes cobertura nacional, solo necesitas una conexión a internet.
+              Tienes cobertura nacional, sólo necesitas una conexión a internet.
             </li>
             <li>
               Ofrece promociones a 3, 6, 9 y hasta 12 meses con o sin intereses
@@ -92,7 +92,7 @@ const IndexPage = () => (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=352c8e82ede88&mfid=1579641978584_352c8e82ede88#/checkout/openButton"
+              href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f6efac64c4ed5&mfid=1582814350879_f6efac64c4ed5#/checkout/openButton"
             >
               Compra tu lector aquí
             </a>

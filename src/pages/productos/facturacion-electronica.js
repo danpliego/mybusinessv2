@@ -45,7 +45,6 @@ const IndexPage = () => (
             Podrás adquirir paquetes de facturas fiscales según tus necesidades.
           </li>
           <li>Confidencialidad en el manejo de la información.</li>
-          <li>Eficiencia en el proceso de pago de facturas.</li>
         </ul>
         <hr />
         <h4 className="extended text-center" style={{ marginBottom: "2rem" }}>
@@ -69,7 +68,7 @@ const IndexPage = () => (
         </ol>
         <hr />
         <h4 className="extended text-center" style={{ marginBottom: "2rem" }}>
-          Para empezar a Facturar Electrónicamente solo debes seguir estos
+          Para empezar a Facturar Electrónicamente sólo debes seguir estos
           pasos:
         </h4>
         <ul className="font-xl">

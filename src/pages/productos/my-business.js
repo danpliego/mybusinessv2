@@ -79,7 +79,7 @@ const IndexPage = () => (
               <p className="extended">Venta de recargas electrónicas</p>
               <p className="extended">y más...</p>
               <span className="body-l font-sm">
-                * se adapta a tu giro de negocio.
+                * se adapta a tus requerimientos o giro de negocio.
               </span>
             </div>
           </CircleContainer>
@@ -165,6 +165,6 @@ export const CircleContainer = styled.div`
 
   span {
     position: absolute;
-    bottom: -3rem;
+    bottom: -5rem;
   }
 `;

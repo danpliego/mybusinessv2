@@ -43,18 +43,6 @@ export default class ContactForm extends React.Component {
         <input
           className="form-control"
           type="text"
-          name="ciudad"
-          placeholder="Ciudad"
-        />
-        <input
-          className="form-control"
-          type="text"
-          name="estado"
-          placeholder="Estado"
-        />
-        <input
-          className="form-control"
-          type="text"
           name="descripcion"
           placeholder="Descripción del requerimiento"
         />

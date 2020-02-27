@@ -18,10 +18,10 @@ import MyForm from "../../components/download_form";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Descargas: My Business POS"
+      title="Descargas: MyBusiness POS"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle name="Descargas: My Business POS" />
+    <SectionTitle name="Descargas: MyBusiness POS" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />

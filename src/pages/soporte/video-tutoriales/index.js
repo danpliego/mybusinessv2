@@ -10,7 +10,7 @@ import SEO from "../../../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Video Tutoriales: My Business"
+      title="Video Tutoriales: MyBusiness POS"
       keywords={[`gatsby`, `application`, `react`]}
     />
     <SectionTitle name="Video Tutoriales" subtitle="MyBusiness" />
