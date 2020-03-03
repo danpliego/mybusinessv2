@@ -18,7 +18,7 @@ import { theme } from "../../components/theme";
 const IndexPage = () => (
   <Layout>
     <SEO title="POS Tools" keywords={[`gatsby`, `application`, `react`]} />
-    <SectionTitle name="POS Tools" />
+    <SectionTitle name="Venta en ruta para Android" />
     <Comp.BannerContainer>
       <Comp.BannerImage>
         <img src={HeroImage} />

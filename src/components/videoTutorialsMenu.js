@@ -22,7 +22,7 @@ const VideoTutorialsMenu = () => (
     </Link>
     <Link to="/soporte/video-tutoriales/bill-pocket/">
       <img src={BillPocket} width="22" alt="" className="hidden-xs" />
-      Bill Pocket
+      BillPocket
     </Link>
     <Link to="/soporte/video-tutoriales/varios">
       <img src={Otros} width="20" alt="" className="hidden-xs" />

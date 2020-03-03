@@ -61,7 +61,7 @@ const IndexPage = () => (
               />
 
               <LinkColumn
-                title="Bill Pocket"
+                title="BillPocket"
                 link="/productos/bill-pocket"
                 image={BillPocket}
                 buttonText="Visitar"

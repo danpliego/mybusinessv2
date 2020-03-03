@@ -13,7 +13,7 @@ const IndexPage = () => (
       title="Video Tutoriales: Bill Pocker"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle name="Video Tutoriales" subtitle="Bill Pocket" />
+    <SectionTitle name="Video Tutoriales" subtitle="BillPocket" />
     <Components.Container>
       <VideoTutorialsMenu />
       <iframe

@@ -11,10 +11,10 @@ import ContactForm from "../../components/contact_form";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Desarrollo a la medida"
+      title="Modificaciones a la medida"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle name="Desarrollo a la medida" />
+    <SectionTitle name="Modificaciones a la medida" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />

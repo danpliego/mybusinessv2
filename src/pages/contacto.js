@@ -21,7 +21,7 @@ const IndexPage = () => (
               <Components.Column style={{ flex: 1, paddingRight: "3rem" }}>
                 <h5 className="uppercase font-xs">INFORMACIÓN Y VENTAS</h5>
                 <p className="body-l">
-                  ¿Aún tienes dudas para adquirir MyBusinessPOS? escríbenos a:{" "}
+                  ¿Aún tienes dudas para adquirir MyBusiness POS? escríbenos a:{" "}
                   <a href="mailto:ventas@mybusinesspos.com">
                     Ventas@MyBusinessPOS.com
                   </a>
@@ -41,7 +41,7 @@ const IndexPage = () => (
             <div style={{ textAlign: "center", marginTop: "1rem" }}>
               <h5 className="uppercase font-xs">Nuestras oficinas</h5>
               <p>
-                <strong>MyBusiness POS</strong>
+                <strong>MyBusiness POS Desarrollos, S. A. de C. V.</strong>
               </p>
               <p className="body-l">
                 <strong>Toluca, Estado de México.</strong>

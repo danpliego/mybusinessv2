@@ -60,7 +60,7 @@ const Footer = () => (
                 <Link to="/productos/pos-tools">Pos Tools</Link>
               </li>
               <li>
-                <Link to="/productos/bill-pocket">Bill Pocket</Link>
+                <Link to="/productos/bill-pocket">BillPocket</Link>
               </li>
               <li>
                 <Link to="/productos/desarrollo-a-la-medida">

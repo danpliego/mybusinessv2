@@ -42,7 +42,7 @@ const IndexPage = () => (
               ></Components.Column>
               <Components.Column style={{ marginLeft: "2rem" }}>
                 <h4 className="extended" style={{ margin: "1rem 0 0" }}>
-                  MyBusiness POS 2020
+                  MyBusiness POS 20
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <SignupModal>
@@ -50,7 +50,7 @@ const IndexPage = () => (
                     successText={
                       <>
                         Todo listo! Descarga la version de prueba de
-                        MyBusinessPOS 2017 POS{" "}
+                        MyBusinessPOS 2020{" "}
                         <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS20.zip">
                           aquí
                         </a>
@@ -59,13 +59,12 @@ const IndexPage = () => (
                   />
                 </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
-                  <strong>Requisitos para su instalación:</strong>Windows 7
-                  Service Pack 1 o superior.
+                  <strong>Requisitos para su instalación:</strong> Windows 8,
+                  8.1 o 10
                 </p>
                 <p className="font-xs">
-                  <strong>Nota importante: </strong>Se debe ejecutar el sistema
-                  como administrador, dando clic derecho sobre el ícono de
-                  MyBusiness POS y seleccionando Ejecutar como administrador.
+                  <strong>Nota importante: </strong>Ejecutar ambos archivos como
+                  Administrador, comenzando por el SQLServr2012
                 </p>
                 <p className="font-xs">
                   <strong>Otras descargas:</strong>

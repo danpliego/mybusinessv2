@@ -55,7 +55,7 @@ const IndexPage = () => (
       <RowButtons>
         <Comp.Row padded mobile>
           <ProductColumn
-            title="Venta de Tiempo Aire"
+            title="Recargas de Tiempo Aire"
             description="Aumenta tus ganancias y flujo de clientes ofreciendo recargas y pago de servicios."
             link="/productos/tiempo-aire"
             image={TiempoAire}

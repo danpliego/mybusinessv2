@@ -18,8 +18,11 @@ import { theme } from "../../components/theme";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="MyBusiness" keywords={[`gatsby`, `application`, `react`]} />
-    <SectionTitle name="MyBusiness POS" />
+    <SEO
+      title="Software MyBusiness POS"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
+    <SectionTitle name="Software MyBusiness POS" />
     <Comp.BannerContainer>
       <Comp.BannerImage>
         <img src={HeroImage} />

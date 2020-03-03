@@ -12,7 +12,7 @@ import BoletinBanner from "../../components/boletinBanner";
 const IndexPage = () => (
   <Layout>
     <SEO title="Tiempo Aire" keywords={[`gatsby`, `application`, `react`]} />
-    <SectionTitle name="Venta de tiempo aire" />
+    <SectionTitle name="Recargas de Tiempo Aire" />
     <Comp.BannerContainer>
       <Comp.BannerImage>
         <img src={HeroImage} />

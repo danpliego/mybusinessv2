@@ -12,9 +12,12 @@ import BoletinBanner from "../../components/boletinBanner";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Bill Pocket" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Cobro con tarjeta (Billpocket)"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <SectionTitle
-      name="Bill Pocket"
+      name="Cobro con tarjeta (Billpocket)"
       subtitle="Acepta pagos con tarjeta y aumenta tus ventas. "
     />
     <Comp.BannerContainer>
