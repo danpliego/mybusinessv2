@@ -15,6 +15,8 @@ import SEO from "../../components/seo";
 import { SignupModal } from "../../components/signup_modal";
 import MyForm from "../../components/download_form";
 
+import Box20 from "../../images/mybusiness/logov20.png";
+
 const IndexPage = () => (
   <Layout>
     <SEO
@@ -37,9 +39,9 @@ const IndexPage = () => (
                 borderBottom: "1px solid #f4f4f4"
               }}
             >
-              <Components.Column
-                style={{ minWidth: "236px" }}
-              ></Components.Column>
+              <Components.Column style={{ minWidth: "236px" }}>
+                <img src={Box20} width="210" />
+              </Components.Column>
               <Components.Column style={{ marginLeft: "2rem" }}>
                 <h4 className="extended" style={{ margin: "1rem 0 0" }}>
                   MyBusiness POS 20

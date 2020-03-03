@@ -10,6 +10,7 @@ import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
 
 import HeroImage from "../../images/mybusiness/hero-image.jpg";
+import Box20 from "../../images/mybusiness/logov20.png";
 import Box2017 from "../../images/mybusiness/boxMBP2017.png";
 import Box2012 from "../../images/mybusiness/boxMBP2012.jpg";
 import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
@@ -30,7 +31,9 @@ const IndexPage = () => (
             <Components.TableResponsive>
               <table className="table table-bordered">
                 <tr>
-                  <td></td>
+                  <td>
+                    <img src={Box20} width="250" />
+                  </td>
                   <td>
                     <strong>
                       MyBusiness POS V. 20 Software de Punto de Venta y Control
