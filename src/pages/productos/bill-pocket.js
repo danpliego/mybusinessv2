@@ -92,7 +92,7 @@ const IndexPage = () => (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f6efac64c4ed5&mfid=1582814350879_f6efac64c4ed5#/checkout/openButton"
+              href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=5d8db6b931fd7&mfid=1583256878050_5d8db6b931fd7#/checkout/openButton"
             >
               Compra tu lector aquí
             </a>
