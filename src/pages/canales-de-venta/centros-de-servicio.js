@@ -112,7 +112,7 @@ const IndexPage = () => (
                     </strong>
                   </td>
                   <td>
-                    SPECTRUM{" "}
+                    SPECTRUM <br />
                     <a href="www.spectrum-mexico.com/">
                       www.spectrum-mexico.com/
                     </a>
@@ -329,6 +329,102 @@ const IndexPage = () => (
                     <a href="mailto:soporte@ideati.mx ">
                       soporte@ideati.mx{" "}
                     </a>{" "}
+                    <br />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="20%">
+                    <strong>URUAPAN, MICHOACAN</strong>
+                  </td>
+                  <td>
+                    SMART SOLUTION SYSTEMS{" "}
+                    <a href="http://www.smartsolutionsystem.com.mx">
+                      http://www.smartsolutionsystem.com.mx
+                    </a>
+                  </td>
+                  <td>SELENE GOMEZ</td>
+                  <td>
+                    Móvil: 452 127 2699
+                    <br /> Oficina: 452 523 5338
+                  </td>
+                  <td>
+                    <a href="mailto:sele_09@hotmail.com ">
+                      sele_09@hotmail.com{" "}
+                    </a>{" "}
+                    <br />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="20%">
+                    <strong>CIUDAD DE MEXICO Y AREA METROPOLITANA</strong>
+                  </td>
+                  <td>
+                    My business Pos Grupo NV{" "}
+                    <a href="https://www.facebook.com/My-business-Pos-Grupo-NV-500403050016514/">
+                      https://www.facebook.com/My-business-Pos-Grupo-NV-500403050016514/
+                    </a>
+                  </td>
+                  <td>Ing. ALFONSO CARMONA / JORGE ESCOBEDO</td>
+                  <td>
+                    Móvil: 55 5030 2047
+                    <br /> Oficina: 55 5569 2553
+                  </td>
+                  <td>
+                    <a href="mailto:sele_09@hotmail.com ">
+                      sele_09@hotmail.com{" "}
+                    </a>{" "}
+                    <br />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="20%">
+                    <strong>Ciudad de México</strong>
+                  </td>
+                  <td>
+                    Blumitech <br />
+                    <a href="http://www.blumitech.com.mx">
+                      http://www.blumitech.com.mx
+                    </a>
+                  </td>
+                  <td>ING. FERNANDO MORRIL</td>
+                  <td>
+                    Oficina: 55 5264 6382
+                    <br /> Oficina: 55 7155 1094
+                  </td>
+                  <td>
+                    <a href="mailto:servicio@blumitech.com.mx ">
+                      servicio@blumitech.com.mx{" "}
+                    </a>{" "}
+                    <br />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="20%">
+                    <strong>
+                      Estado de México (Lerma, San Mateo Atenco, Ocoyoacac,
+                      Tenango, Tenancingo, Toluca, Zinacantepec, Almoloya de
+                      Juarez, Ixtlahuaca, Atlacomulco, Metepec, Mexicalcingo,
+                      Xonacatlán, Huixquilucan)
+                    </strong>
+                  </td>
+                  <td>
+                    ByR SISTEMAS <br />
+                    <a href="http://www.blumitech.com.mx">
+                      http://www.blumitech.com.mx
+                    </a>
+                  </td>
+                  <td>RUBEN RODRIGUEZ AGUIRRE</td>
+                  <td>Oficina: 729 130 3809</td>
+                  <td>
+                    <a href="mailto:rubenra09@gmail.com ">
+                      rubenra09@gmail.com{" "}
+                    </a>{" "}
+                    <br />
+                    Skype: Rubenra01
                     <br />
                   </td>
                 </tr>
