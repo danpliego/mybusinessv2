@@ -19,7 +19,7 @@ export default class ContactForm extends React.Component {
     return (
       <form
         onSubmit={this.submitForm}
-        action="https://formspree.io/mzbrbpyp"
+        action="https://formspree.io/xknbpdge"
         method="POST"
       >
         <input
