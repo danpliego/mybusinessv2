@@ -9,7 +9,6 @@ import HeroImage from "../../images/descargas.jpg";
 import Box2017 from "../../images/mybusiness/boxMBP2017.png";
 import Box2012 from "../../images/mybusiness/boxMBP2012.jpg";
 import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
-import Box2010 from "../../images/mybusiness/boxMBP2010.jpg";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
 import { SignupModal } from "../../components/signup_modal";
@@ -210,46 +209,6 @@ const IndexPage = () => (
                         Todo listo! Descarga la version de prueba de
                         MyBusinessPOS 2011 POS{" "}
                         <a href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip">
-                          aquí
-                        </a>
-                      </>
-                    }
-                  />
-                </SignupModal>
-                <p style={{ marginTop: "2rem" }} className="font-xs">
-                  <strong>Requisitos para su instalación: </strong>Windows 7, 8
-                  y 10. Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador
-                  Mínimo 3.2 GHZ.
-                </p>
-              </Components.Column>
-            </Components.Row>
-
-            <Components.Row
-              mobile
-              style={{
-                marginBottom: "2rem",
-                paddingBottom: "2rem",
-                borderBottom: "1px solid #f4f4f4"
-              }}
-            >
-              <Components.Column>
-                <img
-                  src={Box2010}
-                  style={{ width: "236px", maxWidth: "none" }}
-                />
-              </Components.Column>
-              <Components.Column style={{ marginLeft: "2rem" }}>
-                <h4 className="extended" style={{ margin: "1rem 0 0" }}>
-                  MyBusiness POS 2010
-                </h4>
-                <p className="body-l">¡Pruébalo por 30 días! </p>
-                <SignupModal>
-                  <MyForm
-                    successText={
-                      <>
-                        Todo listo! Descarga la version de prueba de
-                        MyBusinessPOS 2010 POS{" "}
-                        <a href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2010.zip">
                           aquí
                         </a>
                       </>

@@ -14,8 +14,6 @@ import Box20 from "../../images/mybusiness/logov20.png";
 import Box2017 from "../../images/mybusiness/boxMBP2017.png";
 import Box2012 from "../../images/mybusiness/boxMBP2012.jpg";
 import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
-import Box2010 from "../../images/mybusiness/boxMBP2010.jpg";
-import Box208 from "../../images/mybusiness/boxMBP2008.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -248,122 +246,6 @@ const IndexPage = () => (
                     </div>
                     <a
                       href="https://compraspayu.mybusinesspos.net/?articulo=7507362115715"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
-                    &nbsp;
-                    <br />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src={Box2010} width="176" />
-                  </td>
-                  <td>
-                    <strong>
-                      MyBusiness POS V. 2010 Software de Punto de Venta y
-                      Control Administrativo (1)*
-                    </strong>
-                    <br />
-                    <span className="font-size-xs body-xl-color">
-                      ID: 507362115715
-                    </span>
-                  </td>
-                  <td>
-                    <h6>
-                      $2,970
-                      <span className="font-size-xs body-xl-color">
-                        MXN Netos
-                      </span>
-                    </h6>
-                  </td>
-                  <td className="text-center">
-                    <strong>Paypal</strong>
-                    <form
-                      action="https://www.paypal.com/cgi-bin/webscr"
-                      method="post"
-                      target="_blank"
-                    >
-                      <input type="hidden" name="cmd" value="_s-xclick" />
-                      <input
-                        type="hidden"
-                        name="hosted_button_id"
-                        value="YE29N7DG2K978"
-                      />
-                      <input
-                        type="image"
-                        src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif"
-                        border="0"
-                        name="submit"
-                        alt="PayPal, la forma más segura y rápida de pagar en línea."
-                      />
-                    </form>
-                    <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=7507051056053"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
-                    &nbsp;
-                    <br />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src={Box208} width="176" />
-                  </td>
-                  <td>
-                    <strong>
-                      MyBusiness POS V. 2008 Software de Punto de Venta y
-                      Control Administrativo (1)*
-                    </strong>
-                    <br />
-                    <span className="font-size-xs body-xl-color">
-                      ID: 507362115715
-                    </span>
-                  </td>
-                  <td>
-                    <h6>
-                      $2,970
-                      <span className="font-size-xs body-xl-color">
-                        MXN Netos
-                      </span>
-                    </h6>
-                  </td>
-                  <td className="text-center">
-                    <strong>Paypal</strong>
-                    <form
-                      action="https://www.paypal.com/cgi-bin/webscr"
-                      method="post"
-                      target="_blank"
-                    >
-                      <input type="hidden" name="cmd" value="_s-xclick" />
-                      <input
-                        type="hidden"
-                        name="hosted_button_id"
-                        value="UBRUP9TW4J3CE"
-                      />
-                      <input
-                        type="image"
-                        src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif"
-                        border="0"
-                        name="submit"
-                        alt="PayPal, la forma más segura y rápida de pagar en línea."
-                      />
-                    </form>
-                    <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=MYB2008"
                       className="btn btn-sm btn-primary"
                     >
                       Comprar Ahora
