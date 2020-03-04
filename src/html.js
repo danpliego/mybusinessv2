@@ -1,10 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-if (typeof window !== `undefined`) {
-  window._ctct_m = "7ea89593a1a2608140f0eb885dbe8aa3";
-}
-
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
@@ -16,12 +12,6 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-        <script
-          id="signupScript"
-          src="http://static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js"
-          async="async"
-          defer="defer"
-        ></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

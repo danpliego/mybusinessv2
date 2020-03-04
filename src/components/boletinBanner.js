@@ -15,7 +15,7 @@ const BoletinBanner = () => (
       </h1>
       <div style={{ textAlign: "center" }}>
         <iframe
-          src="http://mybusinessv2.danielpliego.com/mybusiness-form.html"
+          src="https://www.mybusinesspos.com/mybusiness-form.html"
           border="0"
           frameBorder="0"
         />
