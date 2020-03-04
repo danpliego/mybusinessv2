@@ -41,6 +41,10 @@ export default VideoTutorialsMenu;
 const VideoTutorialsMenuContainer = styled(Layout.FlexContainer)`
   margin-bottom: 3rem;
 
+  @media ${theme.breakpoint.onlyMobile} {
+    flex-direction: column;
+  }
+
   img {
     margin-right: 1rem;
   }
@@ -51,12 +55,15 @@ const VideoTutorialsMenuContainer = styled(Layout.FlexContainer)`
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    border-right: 1px solid #dbe4ea;
     border-bottom: 1px solid #dbe4ea;
     color: ${theme.colors.bodyColor};
 
-    &:last-child {
-      border-right: 0;
+    @media ${theme.breakpoint.upFromMobile} {
+      border-right: 1px solid #dbe4ea;
+
+      &:last-child {
+        border-right: 0;
+      }
     }
 
     &:hover {

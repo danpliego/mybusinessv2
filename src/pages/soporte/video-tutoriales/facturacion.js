@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Components.Container>
       <VideoTutorialsMenu />
       <h4 className="unmargin-top text-center">Errores Frecuentes</h4>
-      <Components.FlexCenterChild>
+      <Components.Row mobile justifyContent="center">
         <Components.Column padded style={{ textAlign: "center" }}>
           <p className="text-center font-sm">
             Error: XML Mal formado Attribute &apos;Unidad&apos; mujst appear in
@@ -46,8 +46,8 @@ const IndexPage = () => (
             allowFullScreen
           ></iframe>
         </Components.Column>
-      </Components.FlexCenterChild>
-      <Components.FlexCenterChild>
+      </Components.Row>
+      <Components.Row mobile justifyContent="center">
         <Components.Column padded style={{ textAlign: "center" }}>
           <p className="text-center font-sm">
             Error: No se puede insertar una fila clave duplicada en el objeto
@@ -89,11 +89,11 @@ const IndexPage = () => (
             allowFullScreen
           ></iframe>
         </Components.Column>
-      </Components.FlexCenterChild>
+      </Components.Row>
       <hr />
 
       <h4 className="unmargin-top text-center">Formato de impresion</h4>
-      <Components.FlexCenterChild>
+      <Components.Row mobile justifyContent="center">
         <Components.Column padded style={{ textAlign: "center" }}>
           <p className="text-center font-sm">
             Habilitar las observaciones de la venta del Receptor
@@ -121,8 +121,8 @@ const IndexPage = () => (
             allowFullScreen
           ></iframe>
         </Components.Column>
-      </Components.FlexCenterChild>
-      <Components.FlexCenterChild>
+      </Components.Row>
+      <Components.Row mobile justifyContent="center">
         <Components.Column padded style={{ textAlign: "center" }}>
           <p className="text-center font-sm">
             Como colocar el logo a tu formato de factura
@@ -162,11 +162,11 @@ const IndexPage = () => (
             allowFullScreen
           ></iframe>
         </Components.Column>
-      </Components.FlexCenterChild>
+      </Components.Row>
       <hr />
 
       <h4 className="unmargin-top text-center">Funcionalidad General</h4>
-      <Components.FlexCenterChild>
+      <Components.Row mobile justifyContent="center">
         <Components.Column padded style={{ textAlign: "center" }}>
           <p className="text-center font-sm">
             Consultar el número de timbres disponibles para facturar.
@@ -193,8 +193,8 @@ const IndexPage = () => (
             allowFullScreen
           ></iframe>
         </Components.Column>
-      </Components.FlexCenterChild>
-      <Components.FlexCenterChild style={{ marginBottom: "3rem" }}>
+      </Components.Row>
+      <Components.Row style={{ marginBottom: "3rem" }} mobile>
         <Components.Column padded style={{ textAlign: "center" }}>
           <p className="text-center font-sm">
             Cómo dar de alta un cliente para facturar en MyBusiness POS.
@@ -247,7 +247,7 @@ const IndexPage = () => (
             allowFullScreen
           ></iframe>
         </Components.Column>
-      </Components.FlexCenterChild>
+      </Components.Row>
     </Components.Container>
   </Layout>
 );

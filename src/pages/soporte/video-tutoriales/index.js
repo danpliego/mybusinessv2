@@ -19,7 +19,7 @@ const IndexPage = () => (
       <h4 className="unmargin-top text-center" style={{ marginBottom: "2rem" }}>
         Primeros Pasos
       </h4>
-      <Components.FlexContainer>
+      <Components.Row mobile>
         <Components.Column padded>
           <iframe
             width="400"
@@ -71,70 +71,12 @@ const IndexPage = () => (
             Cómo instalar SQL Server Managment Studio
           </p>
         </Components.Column>
-      </Components.FlexContainer>
-      <hr />
-      <h4 className="unmargin-top text-center" style={{ marginBottom: "2rem" }}>
-        Errores Frecuentes
-      </h4>
-      <Components.FlexContainer>
-        <Components.Column padded>
-          <h6 className="text-center">
-            Errores frecuentes en la versión Delta 2006
-          </h6>
-          <iframe
-            width="500"
-            height="200"
-            src="https://www.youtube.com/embed/2Fzg8-Swn64"
-            frameBorder="0"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-          ></iframe>
-          <p className="font-sm text-center">
-            No se encontro el elemento en la colección en la línea 272.
-          </p>
-        </Components.Column>
-        <Components.Column padded>
-          <h6 className="text-center">
-            Errores más frecuentes de la Versión 2012
-          </h6>
-          <Components.FlexCenterChild>
-            <Components.Column padded style={{ textAlign: "center" }}>
-              <iframe
-                width="350"
-                height="200"
-                src="https://www.youtube.com/embed/OV9JlCMKhtE"
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              ></iframe>
-              <p className="font-sm text-center">
-                Exíste un error al intentar hacer la conexión. No se puede abrir
-                la base de datos, solicitada por el inicio de sesión. Código
-                duro 5.
-              </p>
-            </Components.Column>
-            <Components.Column padded style={{ textAlign: "center" }}>
-              <iframe
-                width="350"
-                height="200"
-                src="https://www.youtube.com/embed/X0OB_Yq_5zk"
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              ></iframe>
-              <p className="font-sm text-center">
-                Existe un error al hacer la conexión, Proveedor de
-                canalizaciones, No se pudo abrir la conexión, código duro 58.
-              </p>
-            </Components.Column>
-          </Components.FlexCenterChild>
-        </Components.Column>
-      </Components.FlexContainer>
+      </Components.Row>
       <hr />
       <h4 className="unmargin-top text-center" style={{ marginBottom: "2rem" }}>
         Acceso al sistema
       </h4>
-      <Components.FlexCenterChild>
+      <Components.Row mobile justifyContent="center">
         <Components.Column padded>
           <iframe
             width="400"
@@ -161,12 +103,12 @@ const IndexPage = () => (
             Deshabilitar el botón &quot;Usuario por defecto&quot;
           </p>
         </Components.Column>
-      </Components.FlexCenterChild>
+      </Components.Row>
       <hr />
       <h4 className="unmargin-top text-center" style={{ marginBottom: "2rem" }}>
         Punto de Venta
       </h4>
-      <Components.FlexContainer>
+      <Components.Row mobile>
         <Components.Column padded>
           <iframe
             width="400"
@@ -206,7 +148,7 @@ const IndexPage = () => (
             Cómo cambiar el tamaño de la letra del Ticket
           </p>
         </Components.Column>
-      </Components.FlexContainer>
+      </Components.Row>
 
       <hr />
 
@@ -214,7 +156,7 @@ const IndexPage = () => (
         Inventarios
       </h4>
 
-      <Components.FlexContainer>
+      <Components.Row mobile justifyContent="center">
         <Components.Column padded>
           <iframe
             width="400"
@@ -241,7 +183,7 @@ const IndexPage = () => (
             Borrar las existencias y dejar todo en cero
           </p>
         </Components.Column>
-      </Components.FlexContainer>
+      </Components.Row>
       <hr />
       <h4 className="unmargin-top text-center" style={{ marginBottom: "2rem" }}>
         Business Manager
