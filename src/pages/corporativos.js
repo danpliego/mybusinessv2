@@ -101,8 +101,9 @@ const IndexPage = () => (
               <Comp.Column padded>
                 <h5>Conexión con ERPs.</h5>
                 <p>
-                  Te proporcionamos las ventas e inventarios reales de tus
-                  tiendas.
+                  ¿Tienes SAP Industrial y quieren integrar prácticas Retail?
+                  Tenemos interfaces con SAP B1, SAP ByDesign, Oracle, Totvs /
+                  Proteus y otros.
                 </p>
               </Comp.Column>
             </Comp.Row>

@@ -24,7 +24,7 @@ const IndexPage = () => (
           <div style={{ padding: "3rem" }}>
             <div className="text-center" style={{ marginBottom: "1rem" }}>
               <h4 className="extended">
-                Si requieres atención personalizada, comunicate con el centro de
+                Si requieres atención personalizada, comunícate con el centro de
                 servicio más cercano a ti.
               </h4>
               <p className="font-sm body-l" style={{ marginBottom: "3rem" }}>

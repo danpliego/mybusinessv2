@@ -247,7 +247,7 @@ export const BannerContent = styled.div`
 
   iframe {
     width: 50%;
-    height: 280px;
+    height: 350px;
 
     @media ${theme.breakpoint.onlyMobile} {
       width: 100%;

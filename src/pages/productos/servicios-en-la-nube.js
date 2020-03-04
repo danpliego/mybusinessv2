@@ -22,8 +22,7 @@ const IndexPage = () => (
       </Comp.BannerImage>
       <Comp.BannerContent>
         <h1 className="extended-medium">
-          Controla todas tus sucursales o franquicias desde desde cualquier
-          lugar.
+          Controla todas tus sucursales o franquicias desde cualquier lugar.
         </h1>
       </Comp.BannerContent>
     </Comp.BannerContainer>

@@ -66,8 +66,8 @@ const IndexPage = () => (
               Tienes cobertura nacional, sólo necesitas una conexión a internet.
             </li>
             <li>
-              Ofrece promociones a 3, 6, 9 y hasta 12 meses con o sin intereses
-              en tus ventas.
+              Ofrece promociones a 3, 6, 9 y hasta 12 meses sin intereses en tus
+              ventas.
             </li>
             <li>
               Recibe notificaciones de cada transacción realizada, tus depósitos

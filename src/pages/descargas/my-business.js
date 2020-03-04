@@ -66,7 +66,7 @@ const IndexPage = () => (
                 </p>
                 <p className="font-xs">
                   <strong>Nota importante: </strong>Ejecutar ambos archivos como
-                  Administrador, comenzando por el SQLServr2012
+                  Administrador, comenzando por el SQLServer2012
                 </p>
                 <p className="font-xs">
                   <strong>Otras descargas:</strong>

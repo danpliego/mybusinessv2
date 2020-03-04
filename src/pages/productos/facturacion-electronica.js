@@ -38,7 +38,7 @@ const IndexPage = () => (
             Podrás generar las facturas fácil y rápidamente a tus clientes.
           </li>
           <li>
-            Tendrás un portal para visualizar, reportear, cancelar y descargar
+            Tendrás un portal para visualizar, reportar, cancelar y descargar
             tus facturas.
           </li>
           <li>

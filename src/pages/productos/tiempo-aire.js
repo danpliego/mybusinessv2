@@ -102,7 +102,7 @@ const IndexPage = () => (
         </p>
         <hr />
         <p className="font-lg">
-          Para último, reporta el pago desde MyBusiness POS en el módulo de
+          Por último, reporta el pago desde MyBusiness POS en el módulo de
           tiempo aire. O bien, si ya estás registrado, repórtalo desde{" "}
           <a href="https://tiempoaire.mybusinesspos.net/">el portal.</a>
         </p>

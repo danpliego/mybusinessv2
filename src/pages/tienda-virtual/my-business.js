@@ -57,13 +57,13 @@ const IndexPage = () => (
                     <form
                       action="https://www.paypal.com/cgi-bin/webscr"
                       method="post"
-                      target="_blank"
+                      target="_top"
                     >
                       <input type="hidden" name="cmd" value="_s-xclick" />
                       <input
                         type="hidden"
                         name="hosted_button_id"
-                        value="GZJLHRS92QFY8"
+                        value="S8VRUBE2NYPZ6"
                       />
                       <input
                         type="image"
@@ -72,20 +72,14 @@ const IndexPage = () => (
                         name="submit"
                         alt="PayPal, la forma más segura y rápida de pagar en línea."
                       />
+                      <img
+                        alt=""
+                        border="0"
+                        src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif"
+                        width="1"
+                        height="1"
+                      />
                     </form>
-                    <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=7507945042186"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
-                    &nbsp;
-                    <br />
                   </td>
                 </tr>
                 <tr>
