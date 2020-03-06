@@ -135,14 +135,14 @@ const IndexPage = () => (
         <Comp.Row padded mobile>
           <ProductColumn
             title="Billpocket"
-            description="Genera ventas y levanta pedidos desde tu celular."
+            description="Cobra fácilmente con tarjeta de crédito o débito con este pequeño dispositivo."
             link="/productos/bill-pocket"
             image={BillPocket}
             buttonText="Más información"
           />
           <ProductColumn
             title="POS Tools"
-            description="Controla el inventario, ventas y pagos de tu negocio desde tu celular."
+            description="Genera ventas y levanta pedidos desde tu celular."
             link="/productos/pos-tools"
             image={PosTools}
             buttonText="Más información"
