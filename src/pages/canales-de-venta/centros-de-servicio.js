@@ -371,12 +371,7 @@ const IndexPage = () => (
                     Móvil: 55 5030 2047
                     <br /> Oficina: 55 5569 2553
                   </td>
-                  <td>
-                    <a href="mailto:sele_09@hotmail.com ">
-                      sele_09@hotmail.com{" "}
-                    </a>{" "}
-                    <br />
-                  </td>
+                  <td></td>
                 </tr>
 
                 <tr>
@@ -413,9 +408,6 @@ const IndexPage = () => (
                   </td>
                   <td>
                     ByR SISTEMAS <br />
-                    <a href="http://www.blumitech.com.mx">
-                      http://www.blumitech.com.mx
-                    </a>
                   </td>
                   <td>RUBEN RODRIGUEZ AGUIRRE</td>
                   <td>Oficina: 729 130 3809</td>

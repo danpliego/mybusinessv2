@@ -216,9 +216,9 @@ const IndexPage = () => (
                   />
                 </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
-                  <strong>Requisitos para su instalación: </strong>Windows 7, 8
-                  y 10. Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador
-                  Mínimo 3.2 GHZ.
+                  <strong>Requisitos para su instalación: </strong>8 y 10.
+                  Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador Mínimo
+                  3.2 GHZ.
                 </p>
               </Components.Column>
             </Components.Row>

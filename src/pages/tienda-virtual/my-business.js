@@ -272,12 +272,10 @@ const IndexPage = () => (
               <li>* Licencia electrónica.</li>
               <li>* El precio de la licencia es por computadora instalada.</li>
               <li>
-                <strong>(1)</strong> Compatibles con Windows XP, Windows Vista,
-                Windows 7, Windows 8, Windows 8.1
+                <strong>(1)</strong> Windows 8, Windows 8.1
               </li>
               <li>
-                <strong>(2)</strong> Compatibles con Windows 7, Windows 8,
-                Windows 8.1, Windows 10
+                <strong>(2)</strong> , Windows 8, Windows 8.1, Windows 10
               </li>
               <li>
                 <strong>(3)</strong>Compatible con Windows 8, Windows 8.1,

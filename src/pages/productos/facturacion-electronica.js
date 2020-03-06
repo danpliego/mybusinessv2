@@ -25,6 +25,11 @@ const IndexPage = () => (
         <h1 className="extended-medium">
           Genera facturas electrónicas para tus clientes de forma fácil.
         </h1>
+        <div className="text-center">
+          <Comp.ButtonInverse to="/tienda-virtual/timbres-fiscales/">
+            Comprar timbres fiscales
+          </Comp.ButtonInverse>
+        </div>
       </Comp.BannerContent>
     </Comp.BannerContainer>
     <Comp.Container>

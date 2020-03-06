@@ -31,6 +31,12 @@ export default class MyForm extends React.Component {
         />
         <input
           className="form-control"
+          type="text"
+          name="phone"
+          placeholder="Teléfono"
+        />
+        <input
+          className="form-control"
           type="email"
           name="email"
           placeholder="Email"

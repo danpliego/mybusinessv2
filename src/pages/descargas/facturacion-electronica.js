@@ -46,7 +46,7 @@ const IndexPage = () => (
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.mybusinesspos.com/Downloads/MyCFDI.zip"
+                href="https://www.mybusinesspos.com/Downloads/SQLCLoud.zip"
               >
                 Descargar
               </a>
