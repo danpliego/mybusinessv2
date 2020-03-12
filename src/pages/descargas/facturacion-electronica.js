@@ -42,7 +42,7 @@ const IndexPage = () => (
               </a>
             </p>
             <p>
-              Versión 2017 y actualización:{" "}
+              Versión 2017:{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"

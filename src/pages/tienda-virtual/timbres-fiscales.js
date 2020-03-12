@@ -21,11 +21,6 @@ const IndexPage = () => (
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75>
-            <strong>
-              La licencia de MyCFDI 3.3 tiene un costo de $2,320.00 I.V.A.
-              incluido y aplica para licencias nuevas o anteriores.
-            </strong>
-
             <ul className="list-unstyled icon-list">
               <li>
                 <i className="fas fa-long-arrow-alt-right margin-lv2-right"></i>
