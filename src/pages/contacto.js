@@ -46,7 +46,7 @@ const IndexPage = () => (
               <p className="body-l">
                 <strong>Toluca, Estado de México.</strong>
                 <br />
-                <a href="tell:722740404">722 74 04 04</a>
+                <a href="tell:7222740404">722 274 04 04</a>
                 <br />
                 <a href="tell:722740404">(800) 350 6070</a>
                 <br />
