@@ -175,7 +175,7 @@ const FloatingButton = styled.a`
   justify-content: center;
   right: 2rem;
   background: ${props => props.theme.colors.primaryColor};
-  z-index: 2000;
+  z-index: 1000;
   transition: all 0.15s ease-in-out;
 
   &:hover {
