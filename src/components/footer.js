@@ -70,7 +70,7 @@ const Footer = () => (
             </FooterMenu>
           </Comp.Column>
           <Comp.Column flex={1}>
-            <FooterMenu>
+            <FooterMenu style={{ marginBottom: "0" }}>
               <h6>Canales de Venta</h6>
               <li>
                 <Link to="/canales-de-venta/centros-de-servicio/">
@@ -83,6 +83,15 @@ const Footer = () => (
                 </Link>
               </li>
             </FooterMenu>
+            <FooterMenu style={{ marginBottom: "0" }}>
+              <h6>Soporte Técnico</h6>
+              <li>
+                <a href="javascript:void(window.open('https://chat.mybusinesspos.net/chat.php?a=a1da5','','width=590,height=760,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
+                  Chat Online
+                </a>
+              </li>
+            </FooterMenu>
+
             <FooterMenu>
               <h6>Redes Sociales</h6>
               <a
