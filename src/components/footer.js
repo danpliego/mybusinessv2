@@ -8,6 +8,7 @@ import Facebook from "../images/icons/facebook.svg";
 import Twitter from "../images/icons/twitter.svg";
 import Instagram from "../images/icons/instagram.svg";
 import Youtube from "../images/icons/youtube.svg";
+import ChatIcon from "../images/chat-icon.svg";
 
 const Footer = () => (
   <FooterContainer>
@@ -83,14 +84,6 @@ const Footer = () => (
                 </Link>
               </li>
             </FooterMenu>
-            <FooterMenu style={{ marginBottom: "0" }}>
-              <h6>Soporte Técnico</h6>
-              <li>
-                <a href="javascript:void(window.open('https://chat.mybusinesspos.net/chat.php?a=a1da5','','width=590,height=760,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
-                  Chat Online
-                </a>
-              </li>
-            </FooterMenu>
 
             <FooterMenu>
               <h6>Redes Sociales</h6>
@@ -122,6 +115,9 @@ const Footer = () => (
           </Comp.Column>
         </Comp.Row>
       </FooterContent>
+      <FloatingButton href="javascript:void(window.open('https://chat.mybusinesspos.net/chat.php?a=a1da5','','width=590,height=760,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
+        <img src={ChatIcon} />
+      </FloatingButton>
       <BodyFooter>
         © {new Date().getFullYear()}, MyBusiness POS Desarrollos, S. A. de C. V.
       </BodyFooter>
@@ -164,6 +160,32 @@ const BodyFooter = styled.div`
 
 const FooterContent = styled.div`
   padding-top: 2rem;
+`;
+
+const FloatingButton = styled.a`
+  display: block;
+  position: fixed;
+  width: 3.5rem;
+  height: 3.5rem;
+  bottom: 2rem;
+  border-radius: 3.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 2rem;
+  background: ${props => props.theme.colors.primaryColor};
+  z-index: 2000;
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    transform: translate(0px, -2px);
+  }
+
+  img {
+    width: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
 `;
 
 export default Footer;
