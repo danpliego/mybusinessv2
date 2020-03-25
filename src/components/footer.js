@@ -116,7 +116,8 @@ const Footer = () => (
         </Comp.Row>
       </FooterContent>
       <FloatingButton href="javascript:void(window.open('https://chat.mybusinesspos.net/chat.php?a=a1da5','','width=590,height=760,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
-        <img src={ChatIcon} />
+        <img src={ChatIcon} />{" "}
+        <strong style={{ marginLeft: "0.5rem" }}>Chat</strong>
       </FloatingButton>
       <BodyFooter>
         © {new Date().getFullYear()}, MyBusiness POS Desarrollos, S. A. de C. V.
@@ -165,10 +166,9 @@ const FooterContent = styled.div`
 const FloatingButton = styled.a`
   display: block;
   position: fixed;
-  width: 3.5rem;
-  height: 3.5rem;
   bottom: 2rem;
   border-radius: 3.5rem;
+  padding: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
@@ -183,8 +183,7 @@ const FloatingButton = styled.a`
   }
 
   img {
-    width: 1.5rem;
-    margin-bottom: 0.25rem;
+    width: 1.25rem;
   }
 `;
 
