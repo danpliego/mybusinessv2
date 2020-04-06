@@ -4,6 +4,7 @@ import React from "react";
 import Layout from "../../components/layout";
 
 import * as Components from "../../components/layoutComponents";
+import { PaypalForm } from "../../components/paypal_mybusiness";
 
 import PayU from "../../images/mybusiness/pagospayu.png";
 import SectionTitle from "../../components/sectionTitle";
@@ -52,32 +53,7 @@ const IndexPage = () => (
                   </td>
                   <td className="text-center">
                     <strong>Paypal</strong>
-                    <form
-                      action="https://www.paypal.com/cgi-bin/webscr"
-                      method="post"
-                      target="_top"
-                    >
-                      <input type="hidden" name="cmd" value="_s-xclick" />
-                      <input
-                        type="hidden"
-                        name="hosted_button_id"
-                        value="S8VRUBE2NYPZ6"
-                      />
-                      <input
-                        type="image"
-                        src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif"
-                        border="0"
-                        name="submit"
-                        alt="PayPal, la forma más segura y rápida de pagar en línea."
-                      />
-                      <img
-                        alt=""
-                        border="0"
-                        src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif"
-                        width="1"
-                        height="1"
-                      />
-                    </form>
+                    <PaypalForm buttonID="S8VRUBE2NYPZ6" />
                   </td>
                 </tr>
                 <tr>
@@ -104,25 +80,7 @@ const IndexPage = () => (
                   </td>
                   <td className="text-center">
                     <strong>Paypal</strong>
-                    <form
-                      action="https://www.paypal.com/cgi-bin/webscr"
-                      method="post"
-                      target="_blank"
-                    >
-                      <input type="hidden" name="cmd" value="_s-xclick" />
-                      <input
-                        type="hidden"
-                        name="hosted_button_id"
-                        value="GZJLHRS92QFY8"
-                      />
-                      <input
-                        type="image"
-                        src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif"
-                        border="0"
-                        name="submit"
-                        alt="PayPal, la forma más segura y rápida de pagar en línea."
-                      />
-                    </form>
+                    <PaypalForm buttonID="GZJLHRS92QFY8" />
                     <hr />
                     <strong>PayU</strong>
                     <div className="padding-lv2-ver">
@@ -162,25 +120,7 @@ const IndexPage = () => (
                   </td>
                   <td className="text-center">
                     <strong>Paypal</strong>
-                    <form
-                      action="https://www.paypal.com/cgi-bin/webscr"
-                      method="post"
-                      target="_blank"
-                    >
-                      <input type="hidden" name="cmd" value="_s-xclick" />
-                      <input
-                        type="hidden"
-                        name="hosted_button_id"
-                        value="PCA8D6N97MB5S"
-                      />
-                      <input
-                        type="image"
-                        src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif"
-                        border="0"
-                        name="submit"
-                        alt="PayPal, la forma más segura y rápida de pagar en línea."
-                      />
-                    </form>
+                    <PaypalForm buttonID="PCA8D6N97MB5S" />
                     <hr />
                     <strong>PayU</strong>
                     <div className="padding-lv2-ver">
@@ -220,25 +160,7 @@ const IndexPage = () => (
                   </td>
                   <td className="text-center">
                     <strong>Paypal</strong>
-                    <form
-                      action="https://www.paypal.com/cgi-bin/webscr"
-                      method="post"
-                      target="_blank"
-                    >
-                      <input type="hidden" name="cmd" value="_s-xclick" />
-                      <input
-                        type="hidden"
-                        name="hosted_button_id"
-                        value="G694ZN8UU6JYJ"
-                      />
-                      <input
-                        type="image"
-                        src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif"
-                        border="0"
-                        name="submit"
-                        alt="PayPal, la forma más segura y rápida de pagar en línea."
-                      />
-                    </form>
+                    <PaypalForm buttonID="G694ZN8UU6JYJ" />
                     <hr />
                     <strong>PayU</strong>
                     <div className="padding-lv2-ver">
