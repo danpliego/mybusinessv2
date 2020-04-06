@@ -83,7 +83,7 @@ const IndexPage = () => (
                   </td>
                   <td>
                     ZAVS INFORMÁTICA APLICADA{" "}
-                    <a href="www.zavs-informatica.net">
+                    <a href="http://www.zavs-informatica.net">
                       www.zavs-informatica.net
                     </a>
                   </td>
@@ -113,7 +113,7 @@ const IndexPage = () => (
                   </td>
                   <td>
                     SPECTRUM <br />
-                    <a href="www.spectrum-mexico.com/">
+                    <a href="http://www.spectrum-mexico.com/">
                       www.spectrum-mexico.com/
                     </a>
                   </td>
