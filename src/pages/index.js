@@ -51,6 +51,12 @@ const IndexPage = () => (
         </Comp.Row>
       </Hero>
     </Comp.Container>
+    <iframe
+      src="https://www.mybusinesspos.com/avisos-sitio-web.html"
+      width="100%"
+      height="200px"
+      frameBorder="0"
+    ></iframe>
     <BlueArea>
       <RowButtons>
         <Comp.Row padded mobile>
