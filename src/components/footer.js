@@ -128,7 +128,7 @@ const Footer = () => (
 
 const FooterContainer = styled.footer`
   background: ${theme.colors.bodyColor};
-  color: ${props => props.theme.colors.whiteColor};
+  color: ${(props) => props.theme.colors.whiteColor};
 `;
 
 const FooterMenu = styled.ul`
@@ -136,18 +136,22 @@ const FooterMenu = styled.ul`
   padding-left: 0;
   list-style: none;
 
+  h6 {
+    color: #fff;
+  }
+
   li {
     margin-bottom: 0.33rem;
   }
 
   li a {
     font-size: 0.8rem;
-    color: ${props => props.theme.colors.whiteColor};
+    color: ${(props) => props.theme.colors.whiteColor};
     opacity: 0.8;
 
     &:hover {
       opacity: 1;
-      color: ${props => props.theme.colors.whiteColor};
+      color: ${(props) => props.theme.colors.whiteColor};
     }
   }
 `;
@@ -174,7 +178,7 @@ const FloatingButton = styled.a`
   align-items: center;
   justify-content: center;
   right: 2rem;
-  background: ${props => props.theme.colors.primaryColor};
+  background: ${(props) => props.theme.colors.primaryColor};
   z-index: 1000;
   transition: all 0.15s ease-in-out;
 
