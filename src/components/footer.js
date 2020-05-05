@@ -19,22 +19,34 @@ const Footer = () => (
             <FooterMenu>
               <h6>MyBusiness POS Desarrollos</h6>
               <li>
-                <Link to="/nosotros/">Nosotros</Link>
+                <Link target="_parent" to="/nosotros/">
+                  Nosotros
+                </Link>
               </li>
               <li>
-                <Link to="/registro-de-licencias/">Registro de licencias</Link>
+                <Link target="_parent" to="/registro-de-licencias/">
+                  Registro de licencias
+                </Link>
               </li>
               <li>
-                <Link to="/homologaciones">Homologaciones</Link>
+                <Link target="_parent" to="/homologaciones">
+                  Homologaciones
+                </Link>
               </li>
               <li>
-                <Link to="/corporativos">Corporativos</Link>
+                <Link target="_parent" to="/corporativos">
+                  Corporativos
+                </Link>
               </li>
               <li>
-                <Link to="/descargas">Descargas</Link>
+                <Link target="_parent" to="/descargas">
+                  Descargas
+                </Link>
               </li>
               <li>
-                <Link to="/aviso-de-privacidad/">Aviso de privacidad</Link>
+                <Link target="_parent" to="/aviso-de-privacidad/">
+                  Aviso de privacidad
+                </Link>
               </li>
             </FooterMenu>
           </Comp.Column>
@@ -42,29 +54,37 @@ const Footer = () => (
             <FooterMenu>
               <h6>Productos</h6>
               <li>
-                <Link to="/productos/my-business">MyBusiness POS</Link>
+                <Link target="_parent" to="/productos/my-business">
+                  MyBusiness POS
+                </Link>
               </li>
               <li>
-                <Link to="/productos/facturacion-electronica">
+                <Link target="_parent" to="/productos/facturacion-electronica">
                   Facturación electrónica
                 </Link>
               </li>
               <li>
-                <Link to="/productos/tiempo-aire">Tiempo Aire</Link>
+                <Link target="_parent" to="/productos/tiempo-aire">
+                  Tiempo Aire
+                </Link>
               </li>
               <li>
-                <Link to="/productos/servicios-en-la-nube">
+                <Link target="_parent" to="/productos/servicios-en-la-nube">
                   Servicios en la Nube
                 </Link>
               </li>
               <li>
-                <Link to="/productos/pos-tools">Pos Tools</Link>
+                <Link target="_parent" to="/productos/pos-tools">
+                  Pos Tools
+                </Link>
               </li>
               <li>
-                <Link to="/productos/bill-pocket">BillPocket</Link>
+                <Link target="_parent" to="/productos/bill-pocket">
+                  BillPocket
+                </Link>
               </li>
               <li>
-                <Link to="/productos/desarrollo-a-la-medida">
+                <Link target="_parent" to="/productos/desarrollo-a-la-medida">
                   Desarrollo a la medida
                 </Link>
               </li>
@@ -74,12 +94,15 @@ const Footer = () => (
             <FooterMenu style={{ marginBottom: "0" }}>
               <h6>Canales de Venta</h6>
               <li>
-                <Link to="/canales-de-venta/centros-de-servicio/">
+                <Link
+                  target="_parent"
+                  to="/canales-de-venta/centros-de-servicio/"
+                >
                   Centros de servicio
                 </Link>
               </li>
               <li>
-                <Link to="/canales-de-venta/distribuidores/">
+                <Link target="_parent" to="/canales-de-venta/distribuidores/">
                   Distribuidores certificados
                 </Link>
               </li>
@@ -90,24 +113,28 @@ const Footer = () => (
               <a
                 style={{ marginRight: "0.66rem" }}
                 href="https://www.facebook.com/MyBusinessPOSD/"
+                target="_parent"
               >
                 <img src={Facebook} />
               </a>
               <a
                 style={{ marginRight: "0.66rem" }}
                 href="https://www.instagram.com/mybusinessposd/"
+                target="_parent"
               >
                 <img src={Instagram} />
               </a>
               <a
                 style={{ marginRight: "0.66rem" }}
                 href="https://twitter.com/mybusinessposd"
+                target="_parent"
               >
                 <img src={Twitter} />
               </a>
               <a
                 style={{ marginRight: "0.66rem" }}
                 href="https://www.youtube.com/user/MyBusinessPOSD"
+                target="_parent"
               >
                 <img src={Youtube} />
               </a>
