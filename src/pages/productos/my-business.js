@@ -10,7 +10,6 @@ import { BlueArea } from "../index";
 import HeroImage from "../../images/mybusiness/hero-image.jpg";
 import Circle1 from "../../images/circle-1.png";
 import Circle2 from "../../images/circle-2.png";
-import MyForm from "../../components/download_form";
 import SectionTitle from "../../components/sectionTitle";
 import BoletinBanner from "../../components/boletinBanner";
 import { Link } from "gatsby";
@@ -101,15 +100,12 @@ const IndexPage = () => (
         </Comp.Width75>
         <Comp.Width50 style={{ paddingBottom: "0" }}>
           <h3 className="extended text-center">Descarga la prueba gratis</h3>
-          <MyForm
-            successText={
-              <>
-                Todo listo! Descarga la version de prueba de MyBusiness POS{" "}
-                <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip">
-                  aquí
-                </a>
-              </>
-            }
+          <iframe
+            src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
+            border="0"
+            frameBorder="0"
+            width="100%"
+            height="750px"
           />
         </Comp.Width50>
         <Comp.Width50>

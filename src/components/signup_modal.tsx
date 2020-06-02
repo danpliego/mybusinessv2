@@ -30,7 +30,7 @@ export const ModalWrapper = styled.div<{
 }>`
   display: none;
 
-  ${props =>
+  ${(props) =>
     props.isModalOpen &&
     css`
       display: block;
@@ -44,10 +44,12 @@ export const ModalContent = styled.div`
   border-radius: 18px;
   box-shadow: 0 5px 30px (0, 0, 0, 0.3);
   left: 25%;
-  top: 10%;
+  top: 3%;
   z-index: 2;
   margin: 0px auto;
   padding: 2rem;
+  max-height: 94vh;
+  overflow: auto;
 
   @media ${theme.breakpoint.onlyMobile} {
     width: 100%;

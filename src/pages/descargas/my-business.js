@@ -12,7 +12,6 @@ import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
 import { SignupModal } from "../../components/signup_modal";
-import MyForm from "../../components/download_form";
 
 import Box20 from "../../images/mybusiness/logov20.png";
 
@@ -35,7 +34,7 @@ const IndexPage = () => (
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
-                borderBottom: "1px solid #f4f4f4"
+                borderBottom: "1px solid #f4f4f4",
               }}
             >
               <Components.Column style={{ minWidth: "236px" }}>
@@ -47,16 +46,12 @@ const IndexPage = () => (
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <SignupModal>
-                  <MyForm
-                    successText={
-                      <>
-                        Todo listo! Descarga la version de prueba de
-                        MyBusinessPOS 2020{" "}
-                        <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS20.zip">
-                          aquí
-                        </a>
-                      </>
-                    }
+                  <iframe
+                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
+                    border="0"
+                    frameBorder="0"
+                    width="100%"
+                    height="750px"
                   />
                 </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
@@ -85,7 +80,7 @@ const IndexPage = () => (
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
-                borderBottom: "1px solid #f4f4f4"
+                borderBottom: "1px solid #f4f4f4",
               }}
             >
               <Components.Column style={{ minWidth: "236px" }}>
@@ -97,16 +92,12 @@ const IndexPage = () => (
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <SignupModal>
-                  <MyForm
-                    successText={
-                      <>
-                        Todo listo! Descarga la version de prueba de
-                        MyBusinessPOS 2017 POS{" "}
-                        <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip">
-                          aquí
-                        </a>
-                      </>
-                    }
+                  <iframe
+                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
+                    border="0"
+                    frameBorder="0"
+                    width="100%"
+                    height="750px"
                   />
                 </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
@@ -136,7 +127,7 @@ const IndexPage = () => (
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
-                borderBottom: "1px solid #f4f4f4"
+                borderBottom: "1px solid #f4f4f4",
               }}
             >
               <Components.Column style={{ minWidth: "236px" }}>
@@ -148,16 +139,12 @@ const IndexPage = () => (
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <SignupModal>
-                  <MyForm
-                    successText={
-                      <>
-                        Todo listo! Descarga la version de prueba de
-                        MyBusinessPOS 2012 POS{" "}
-                        <a href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2012.zip">
-                          aquí
-                        </a>
-                      </>
-                    }
+                  <iframe
+                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
+                    border="0"
+                    frameBorder="0"
+                    width="100%"
+                    height="750px"
                   />
                 </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
@@ -188,7 +175,7 @@ const IndexPage = () => (
               style={{
                 marginBottom: "2rem",
                 paddingBottom: "2rem",
-                borderBottom: "1px solid #f4f4f4"
+                borderBottom: "1px solid #f4f4f4",
               }}
             >
               <Components.Column>
@@ -203,16 +190,12 @@ const IndexPage = () => (
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
                 <SignupModal>
-                  <MyForm
-                    successText={
-                      <>
-                        Todo listo! Descarga la version de prueba de
-                        MyBusinessPOS 2011 POS{" "}
-                        <a href="http://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip">
-                          aquí
-                        </a>
-                      </>
-                    }
+                  <iframe
+                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
+                    border="0"
+                    frameBorder="0"
+                    width="100%"
+                    height="750px"
                   />
                 </SignupModal>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
