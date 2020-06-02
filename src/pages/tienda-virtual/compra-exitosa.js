@@ -20,8 +20,17 @@ const IndexPage = () => (
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75>
-            <h4 style={{ textAlign: "center" }}>¡Compra Exitosa!</h4>
-            <p>texto aqui</p>
+            <h4 style={{ textAlign: "center" }}>¡Gracias por tu compra!</h4>
+            <p>
+              Has decidido llevar tu negocio a otro nivel. Y para que explotes
+              por completo tu punto de venta, te recomendamos ver nuestros
+              cursos gratuitos de implementación.{" "}
+            </p>
+            <p>
+              No olvides suscribirte a nuestro boletín y seguirnos en nuestras
+              redes sociales para enterarte de nuestras promociones y tutoriales
+              antes que nadie.
+            </p>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>

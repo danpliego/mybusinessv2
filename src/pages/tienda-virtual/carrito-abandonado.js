@@ -20,8 +20,11 @@ const IndexPage = () => (
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75>
-            <h4 style={{ textAlign: "center" }}>Carrito abandonado</h4>
-            <p>texto aqui</p>
+            <h4 style={{ textAlign: "center" }}>¿Olvidaste algo?</h4>
+            <p>
+              Estás a punto de llevar tu negocio a otro nivel, regresa por tus
+              productos y obtén un 10% de descuento en tu siguiente compra.{" "}
+            </p>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>

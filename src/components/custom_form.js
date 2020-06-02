@@ -23,6 +23,11 @@ export default class CorporativosForm extends React.Component {
         method="POST"
       >
         <input
+          type="hidden"
+          name="_subject"
+          value="Formulario Temporal - Nueva entrada!"
+        />
+        <input
           className="form-control"
           type="text"
           name="nombre"

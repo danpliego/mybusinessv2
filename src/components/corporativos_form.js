@@ -10,7 +10,7 @@ export default class CorporativosForm extends React.Component {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
@@ -22,6 +22,11 @@ export default class CorporativosForm extends React.Component {
         action="https://formspree.io/moqwpgvp"
         method="POST"
       >
+        <input
+          type="hidden"
+          name="_subject"
+          value="Formulario de Corporativos - Nueva entrada!"
+        />
         <input
           className="form-control"
           type="text"
