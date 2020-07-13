@@ -78,7 +78,13 @@ const IndexPage = () => (
                 <tr>
                   <td width="20%">
                     <strong>
-                      CDMX. Ecatepec. Coacalco. Satélite. Tultitlán.
+                      CDMX. Ecatepec. Coacalco. Satélite. Tultitlán
+                      <br />
+                      <br />
+                      Yurecuaro y Tanhuato, Michoacan
+                      <br />
+                      <br />
+                      La Barca, Ayotlan y Atotonilco, Jalisco
                     </strong>
                   </td>
                   <td>
