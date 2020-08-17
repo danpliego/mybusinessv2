@@ -65,7 +65,7 @@ const IndexPage = () => (
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://videos.mybusinesspos.net/ImplementaMyBusinessPOS/implementamybusinesspos_parte1/ImplementaMyBusinessPOS_Parte2.html"
+                            href="https://videos.mybusinesspos.net/ImplementaMyBusinessPOS/implementamybusinesspos_parte2/ImplementaMyBusinessPOS_Parte2.html"
                           >
                             Sesión 2
                           </a>
@@ -87,7 +87,7 @@ const IndexPage = () => (
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://videos.mybusinesspos.net/ImplementaMyBusinessPOS/implementamybusinesspos_parte1/ImplementaMyBusinessPOS_Parte3.html"
+                            href="https://videos.mybusinesspos.net/ImplementaMyBusinessPOS/implementamybusinesspos_parte3/ImplementaMyBusinessPOS_Parte3.html"
                           >
                             Sesión 3
                           </a>
@@ -104,7 +104,7 @@ const IndexPage = () => (
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://videos.mybusinesspos.net/ImplementaMyBusinessPOS/implementamybusinesspos_parte1/ImplementaMyBusinessPOS_Parte4.html"
+                            href="https://videos.mybusinesspos.net/ImplementaMyBusinessPOS/implementamybusinesspos_parte4/ImplementaMyBusinessPOS_Parte4.html"
                           >
                             Sesión 4
                           </a>
@@ -158,7 +158,7 @@ const IndexPage = () => (
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://videos.mybusinesspos.net/FacturaElectronica/ImplementaLaFactura_Parte1/ImplementaLaFactura_Parte2.html"
+                            href="https://videos.mybusinesspos.net/FacturaElectronica/ImplementaLaFactura_Parte2/ImplementaLaFactura_Parte2.html"
                           >
                             Sesión 2
                           </a>
@@ -177,7 +177,7 @@ const IndexPage = () => (
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://videos.mybusinesspos.net/FacturaElectronica/ImplementaLaFactura_Parte1/ImplementaLaFactura_Parte3.html"
+                            href="https://videos.mybusinesspos.net/FacturaElectronica/ImplementaLaFactura_Parte3/ImplementaLaFactura_Parte3.html"
                           >
                             Sesión 3
                           </a>
