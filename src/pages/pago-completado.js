@@ -17,13 +17,16 @@ const IndexPage = () => (
       <Components.Container>
         <Components.BannerBox>
           <Components.Width75>
-            <p>
-              En breve te llegará un correo con tu número de serie.
-            </p>
-            <p>
-              Para más información escríbenos: 
-            </p>
-              <a href="www.google.com">info@mybusinesspos.com</a>
+            <div style={{ textAlign: 'center' }}>
+              <p>
+                En breve te llegará un correo con tu número de serie.
+              </p>
+              <p>
+                Para más información escríbenos: 
+                <br />
+                <a href="www.google.com">info@mybusinesspos.com</a>
+              </p>
+            </div>
           </Components.Width75>
         </Components.BannerBox>
       </Components.Container>
