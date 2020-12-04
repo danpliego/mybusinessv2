@@ -11,8 +11,8 @@ const IndexPage = () => (
     <SEO title="Pago completado" keywords={[`gatsby`, `application`, `react`]} />
     <SectionTitle name="Su pago ha sido completado con exito" />
     <Components.BannerContainer>
-      <Components.BannerImage style={{ height: "900px" }}>
-        <img src={HeroImage} />
+      <Components.BannerImage style={{ height: "500px" }}>
+        <img src={HeroImage} style={{ marginTop: '-200px' }} />
       </Components.BannerImage>
       <Components.Container>
         <Components.BannerBox>
@@ -24,7 +24,7 @@ const IndexPage = () => (
               <p>
                 Para más información escríbenos: 
                 <br />
-                <a href="www.google.com">info@mybusinesspos.com</a>
+                <a href="mailto:info@mybusinesspos.com">info@mybusinesspos.com</a>
               </p>
             </div>
           </Components.Width75>
