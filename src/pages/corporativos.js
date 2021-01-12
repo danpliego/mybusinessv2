@@ -142,7 +142,7 @@ const IndexPage = () => (
     <Comp.Container>
       <Comp.Width75>
         <h5 style={{ marginBottom: "2rem", textAlign: "center" }}>
-          Si requieres más información, déjanos tus datos y nos comunicaremos
+          Si requieres más información, <a target="_blank" href="https://wa.me/+527223945363?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20corporativo">contacta a un agente directamente por Whatsapp</a> o déjanos tus datos y nos comunicaremos
           contigo.
         </h5>
         <CorporativosForm />

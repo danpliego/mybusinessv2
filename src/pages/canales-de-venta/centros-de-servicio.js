@@ -426,6 +426,29 @@ const IndexPage = () => (
                     <br />
                   </td>
                 </tr>
+
+                <tr>
+                  <td width="20%">
+                    <strong>
+                    Estado de México (Lerma, San Mateo Atenco, Ocoyoacac, Tenango, Tenancingo, Santiago Tianguistenco, Toluca, Zinacantepec, Almoloya de Juárez, Ixtlahuaca, Atlacomulco, Metepec, Mexicaltzingo, Xonacatlán, Huixquilucan, Jilotepec), Ciudad de México, Michoacán, Guanajuato, Tabasco, Quintana Roo, Baja California, Chiapas
+                    </strong>
+                  </td>
+                  <td>
+                  Tecnología de Sistemas informáticos S.A. de C.V.
+                  </td>
+                  <td>Miguel Angel Mejía Zaragoza, Martha García Pichardo</td>
+                  <td>Fijo: 7225410676, Cel.  7224006881, 7223583843</td>
+                  <td>
+                
+                  <a href="mailto:MiguelMejia@TecnologiaDeSistemas.com">MiguelMejia@TecnologiaDeSistemas.com</a>
+                  <br />
+                  <a href="mailto:MarthaGarcia@TecnologiaDeSistemas.com">MarthaGarcia@TecnologiaDeSistemas.com</a>
+                  <br />
+                  <a href="mailto:Informacion@TecnologiaDeSistemas.com">Informacion@TecnologiaDeSistemas.com</a>
+                  <br />
+                  <a href="mailto:Ventas@TecnologiaDeSistemas.com">Ventas@TecnologiaDeSistemas.com</a>
+                  </td>
+                </tr>
               </table>
             </Components.TableResponsive>
           </div>
