@@ -1,4 +1,4 @@
-# Gatsby starter using styled-components 💅
+# Mybusiness site
 
 Gatsby default starter modified to use [styled-components](https://www.styled-components.com/).
 
