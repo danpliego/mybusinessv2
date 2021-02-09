@@ -8,6 +8,8 @@ import SEO from "../../components/seo";
 import HeroImage from "../../images/tiempo-aire/hero-image.jpg";
 import SectionTitle from "../../components/sectionTitle";
 import BoletinBanner from "../../components/boletinBanner";
+import TiempoAireForm from "../../components/tiempo_aire_form";
+import WhatsappIcon from "../../images/whatsapp.png";
 
 const IndexPage = () => (
   <Layout>
@@ -106,6 +108,16 @@ const IndexPage = () => (
           tiempo aire. O bien, si ya estás registrado, repórtalo desde{" "}
           <a href="https://tiempoaire.mybusinesspos.net/">el portal.</a>
         </p>
+      </Comp.Width75>
+    </Comp.Container>
+    <hr />
+    <Comp.Container>
+      <Comp.Width75>
+        <h5 style={{ marginBottom: "2rem", marginTop: '-4rem', textAlign: "center" }}>
+          Si requieres más información, <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+525519720841?text=Quiero%20vender%20tiempo%20aire%20en%20mi%20negocio">contacta a un agente directamente por <img src={WhatsappIcon} style={{ width: '22px' }} /><span>Whatsapp</span></a> o déjanos tus datos y nos comunicaremos
+          contigo.
+        </h5>
+        <TiempoAireForm />
       </Comp.Width75>
     </Comp.Container>
 
