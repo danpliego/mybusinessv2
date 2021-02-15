@@ -54,6 +54,19 @@ const IndexPage = () => (
                   <td className="text-center">
                     <strong>Paypal</strong>
                     <PaypalForm buttonID="S8VRUBE2NYPZ6" />
+                    <hr />
+                    <strong>PayU</strong>
+                    <div className="padding-lv2-ver">
+                         <img width="83" height="35" src={PayU} />
+                    </div>
+                    <a
+                     href="https://compraspayu.mybusinesspos.net/?articulo=MYB20"
+                     className="btn btn-sm btn-primary"
+                     >
+                     Comprar Ahora
+                    </a>
+                    &nbsp;
+                    <br />
                   </td>
                 </tr>
                 <tr>
@@ -107,7 +120,10 @@ const IndexPage = () => (
                     </strong>
                     <br />
                     <span className="font-size-xs body-xl-color">
-                      ID: 7507362119539
+                    ID: 7507362119539
+                    <p>
+                    Esta versión está descontinuada y ya no tiene Soporte. Se vende únicamente para quienes ya cuentan con esta versión en otros equipos y requieren compatibilidad. Lo recomendable es actualizarse a la última versión del software.
+                    </p>
                     </span>
                   </td>
                   <td>
@@ -147,7 +163,10 @@ const IndexPage = () => (
                     </strong>
                     <br />
                     <span className="font-size-xs body-xl-color">
-                      ID: 507362115715
+                     ID: 507362115715
+                    <p>
+                     Esta versión está descontinuada y ya no tiene Soporte. Se vende únicamente para quienes ya cuentan con esta versión en otros equipos y requieren compatibilidad. Lo recomendable es actualizarse a la última versión del software.
+                    </p>
                     </span>
                   </td>
                   <td>
