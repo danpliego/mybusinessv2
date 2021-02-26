@@ -137,7 +137,7 @@ const IndexPage = () => (
                 <h4 className="extended" style={{ margin: "1rem 0 0" }}>
                   MyBusiness POS 2012
                 </h4>
-                <p className="body-l">¡Pruébalo por 30 días! </p>
+                <p>Esta versión está descontinuada y ya no tiene Soporte. Se vende únicamente para quienes ya cuentan con esta versión en otros equipos y requieren compatibilidad. Lo recomendable es actualizarse a la última versión del software.</p>
                 <SignupModal>
                   <iframe
                     src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
@@ -188,7 +188,7 @@ const IndexPage = () => (
                 <h4 className="extended" style={{ margin: "1rem 0 0" }}>
                   MyBusiness POS 2011
                 </h4>
-                <p className="body-l">¡Pruébalo por 30 días! </p>
+                <p>Esta versión está descontinuada y ya no tiene Soporte. Se vende únicamente para quienes ya cuentan con esta versión en otros equipos y requieren compatibilidad. Lo recomendable es actualizarse a la última versión del software.</p>
                 <SignupModal>
                   <iframe
                     src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
