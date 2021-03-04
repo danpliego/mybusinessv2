@@ -86,6 +86,13 @@ const IndexPage = () => (
             </a>{" "}
             y obtendrás 1 folio de prueba
           </li>
+                    <li>
+                        Para actualización MyBusiness POS v20:{" "}
+                        <a href="https://www.mybusinesspos.com/Downloads/SQLCLoudv20.zip">
+                            Descarga
+            </a>{" "}
+            e instala nuestro módulo de Facturación Electrónica SQLCloud.
+          </li>
           <li>
             Para actualización MyBusiness POS 2017:{" "}
             <a href="https://www.mybusinesspos.com/Downloads/SQLCLoud.zip">
@@ -99,6 +106,9 @@ const IndexPage = () => (
               Descarga
             </a>{" "}
             e instala el módulo de Facturación Electrónica MyCFDI.
+                        <p>
+                            Fin de soporte para MyCFDI Julio de 2021, en caso de haber un cambio por parte del SAT, este ya no estara disponible a partir de esa fecha.
+                            </p>
           </li>
           <li>
             Después de utilizar tu folio de prueba, puedes comprar Facturas

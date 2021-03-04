@@ -25,28 +25,41 @@ const IndexPage = () => (
               className="extended text-center"
               style={{ marginBottom: "2rem" }}
             >
-              Instala MyCFDI para comenzar a facturar desde MyBusiness POS.{" "}
+              Instala para comenzar a facturar desde MyBusiness POS.{" "}
             </h4>
             <p>
-              Descarga el módulo de facturación electrónica: MyCFDI para cada
+              Descarga el módulo de facturación electrónica: para cada
               versión de MyBusiness POS.{" "}
-            </p>
+             <p>
+                                SQLCloud Versión 20:{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.mybusinesspos.com/Downloads/SQLCLoudv20.zip"
+                                >
+                                    Descargar
+              </a>
+             </p>
+             <p>
+                                SQLCloud Versión 2017:{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.mybusinesspos.com/Downloads/SQLCLoud.zip"
+                                >
+                                    Descargar
+              </a>
+             </p>
+             </p>
+                        <p>
+                            Fin de soporte para MyCFDI Julio de 2021, en caso de haber un cambio por parte del SAT, este ya no estara disponible a partir de esa fecha.
+                        </p>
             <p>
-              Versión 2012 y anteriores:{" "}
+              MyCFDI Versión 2012 y anteriores:{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.mybusinesspos.com/Downloads/MyCFDI.zip"
-              >
-                Descargar
-              </a>
-            </p>
-            <p>
-              Versión 2017:{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.mybusinesspos.com/Downloads/SQLCLoud.zip"
               >
                 Descargar
               </a>
