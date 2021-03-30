@@ -5,7 +5,9 @@
     "\\src\\pages",
     "\\src\\pages\\canales-de-venta",
     "\\src\\pages\\descargas",
+    "\\src\\pages\\productos",
     "\\src\\pages\\tienda-virtual"
   ],
+  "SelectedNode": "\\src\\pages\\descargas\\my-business.js",
   "PreviewInSolutionExplorer": false
 }

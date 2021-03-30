@@ -11,7 +11,7 @@ import Box2012 from "../../images/mybusiness/boxMBP2012.jpg";
 import Box2011 from "../../images/mybusiness/boxMBP2011.gif";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
-import { SignupModal } from "../../components/signup_modal";
+//import { SignupModal } from "../../components/signup_modal";
 
 import Box20 from "../../images/mybusiness/logov20.png";
 
@@ -45,15 +45,7 @@ const IndexPage = () => (
                   MyBusiness POS 20
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
-                <SignupModal>
-                  <iframe
-                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
-                    border="0"
-                    frameBorder="0"
-                    width="100%"
-                    height="750px"
-                  />
-                </SignupModal>
+                 <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS20.zip">Descarga ahora</a>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación:</strong> Windows 8,
                   8.1 o 10
@@ -91,15 +83,7 @@ const IndexPage = () => (
                   MyBusiness POS 2017
                 </h4>
                 <p className="body-l">¡Pruébalo por 30 días! </p>
-                <SignupModal>
-                  <iframe
-                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
-                    border="0"
-                    frameBorder="0"
-                    width="100%"
-                    height="750px"
-                  />
-                </SignupModal>
+                <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2017.zip">Descarga ahora</a>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación:</strong>Windows 7
                   Service Pack 1 o superior.
@@ -138,15 +122,7 @@ const IndexPage = () => (
                   MyBusiness POS 2012
                 </h4>
                 <p>Esta versión está descontinuada y ya no tiene Soporte. Se descarga únicamente para quienes ya cuentan con esta versión en otros equipos y requieren compatibilidad. Lo recomendable es actualizarse a la última versión del software.</p>
-                <SignupModal>
-                  <iframe
-                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
-                    border="0"
-                    frameBorder="0"
-                    width="100%"
-                    height="750px"
-                  />
-                </SignupModal>
+                <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2012.zip">Descarga ahora</a>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación: </strong>Windows XP
                   Service Pack 3 o superior.
@@ -189,15 +165,7 @@ const IndexPage = () => (
                   MyBusiness POS 2011
                 </h4>
                 <p>Esta versión está descontinuada y ya no tiene Soporte. Se descarga únicamente para quienes ya cuentan con esta versión en otros equipos y requieren compatibilidad. Lo recomendable es actualizarse a la última versión del software.</p>
-                <SignupModal>
-                  <iframe
-                    src="https://www.mybusinesspos.com/mybusiness-descarga-form.html"
-                    border="0"
-                    frameBorder="0"
-                    width="100%"
-                    height="750px"
-                  />
-                </SignupModal>
+                <a href="https://mybusinesspos.com/Downloads/SetupMyBusinessPOS2011.zip">Descarga ahora</a>
                 <p style={{ marginTop: "2rem" }} className="font-xs">
                   <strong>Requisitos para su instalación: </strong>8 y 10.
                   Mínimo 2 GB de RAM. Disco Duro con 500 GB. Procesador Mínimo

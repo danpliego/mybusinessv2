@@ -6,7 +6,7 @@ import Layout from "../../components/layout";
 import * as Components from "../../components/layoutComponents";
 
 import HeroImage from "../../images/facturacion/hero-image.jpg";
-import PayU from "../../images/mybusiness/pagospayu.png";
+//import PayU from "../../images/mybusiness/pagospayu.png";
 import SectionTitle from "../../components/sectionTitle";
 import SEO from "../../components/seo";
 
@@ -111,16 +111,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_101"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -191,16 +181,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_200"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -271,16 +251,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_500"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -351,16 +321,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_1000"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -431,16 +391,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_5000"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -511,16 +461,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_10000"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -591,16 +531,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_20000"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -671,16 +601,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_50000"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
@@ -751,16 +671,6 @@ const IndexPage = () => (
                       &nbsp;
                     </form>
                     <hr />
-                    <strong>PayU</strong>
-                    <div className="padding-lv2-ver">
-                      <img width="83" height="35" src={PayU} />
-                    </div>
-                    <a
-                      href="https://compraspayu.mybusinesspos.net/?articulo=Timbre_100000"
-                      className="btn btn-sm btn-primary"
-                    >
-                      Comprar Ahora
-                    </a>
                     &nbsp;
                     <br />
                   </td>
