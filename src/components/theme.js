@@ -4,7 +4,8 @@ export const theme = {
     primaryColor: "#A0D0D6",
     bodyColor: "#141943",
     bodyLColor: "#5B5E7B",
-    grayColor: "#f0f4f6"
+    grayColor: "#f0f4f6" ,
+    whatsappColor: "#14D471"
   },
   fontSizes: {
     body: "1rem",

@@ -15,6 +15,7 @@ export const Container = styled.div`
   padding: 0px 1.0875rem;
   padding-top: 0;
 `;
+
 export const Row = styled.div`
   display: flex;
   flex: ${props => (props.flex ? props.flex : "initial")};
@@ -114,6 +115,32 @@ export const ButtonInverse = styled(Link)`
     border-color: ${props => props.theme.colors.primaryColor};
     background: ${props => props.theme.colors.primaryColor};
     color: ${props => props.theme.colors.bodyColor};
+  }
+`;
+
+export const ButtonWhite = styled(Link)`
+  ${sharedButton}
+  color: ${props => props.theme.colors.bodyColor};
+  background: ${props => props.theme.colors.whiteColor};
+
+  &:hover {
+    border-color: ${props => props.theme.colors.primaryColor};
+    background: ${props => props.theme.colors.primaryColor};
+    color: ${props => props.theme.colors.bodyColor};
+  }
+`;
+
+export const ButtonWhats = styled.a`
+  ${sharedButton}
+  color: ${props => props.theme.colors.whiteColor};
+  border-radius: 100px;
+  background: ${props => props.theme.colors.whatsappColor};
+
+  &:hover {
+    border-color: #19B967;
+    border-radius: 100px;
+    background: #19B967;
+    color: ${props => props.theme.colors.whiteColor};
   }
 `;
 
