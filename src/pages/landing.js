@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import * as Comp from "../components/layoutComponents";
 import SEO from "../components/seo";
 import HeroImage from "../images/landing/heroimage.png";
+import SecondHeroImage from "../images/landing/heroimage-2.png";
 import BoletinBanner from "../components/boletinBanner";
 import ayuda from "../images/landing/mybusinesspos-te-ayuda.png";
 import rapidez from "../images/landing/rapidez.png";
@@ -16,6 +17,7 @@ import competitividad from "../images/landing/competitividad.png";
 import libertad from "../images/landing/libertad.png";
 import styled from "styled-components";
 import { theme } from "../components/theme";
+import Slider from "infinite-react-carousel";
 
 
 
@@ -23,24 +25,43 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Landing-prueba" keywords={[`gatsby`, `application`, `react`]} />
     
-    <Comp.BannerContainer>
-      <Comp.BannerImage>
-        <img src={HeroImage} />
-      </Comp.BannerImage>
-      <Comp.BannerContent>
-        <h1 className="extended-medium">
-        Convierte tu tienda en una cadena de tiendas. Usa MyBusiness POS
-        </h1>
-        
-        <Comp.TextCenter>
-          <Comp.ButtonWhite to="/tienda-virtual/my-business">
-            Comprar ahora
-          </Comp.ButtonWhite>
-        </Comp.TextCenter>
-        
 
-      </Comp.BannerContent>
-    </Comp.BannerContainer>
+
+    <Comp.Container>
+      <CarouselContainer>
+        <div>
+          <Slider autoplay>
+            <div>
+              <img src={HeroImage} />
+              <div className="carousel-content">
+                <h1 className="extended-medium">
+                Convierte tu tienda en una cadena de tiendas. Usa MyBusiness POS
+                </h1>
+                <Comp.TextCenter>
+                  <Comp.ButtonWhite to="/tienda-virtual/my-business">
+                    Comprar ahora
+                  </Comp.ButtonWhite>
+                </Comp.TextCenter>
+              </div>
+            </div>
+            <div>
+              <img src={SecondHeroImage} />
+              <div className="carousel-content">
+                <h1 className="extended-medium">
+                  No le tengas miedo a los tiburones. Conviértete en tiburón. Usa MyBusiness POS.
+                </h1>
+                <Comp.TextCenter>
+                  <Comp.ButtonWhite to="/tienda-virtual/my-business">
+                    Comprar ahora
+                  </Comp.ButtonWhite>
+                </Comp.TextCenter>
+              </div>
+            </div>
+          </Slider>
+        </div>
+      </CarouselContainer>
+
+  </Comp.Container>
 
     <div style={{ background: "#F5F1EB" }}>
       <Comp.Container mb1>
@@ -160,11 +181,13 @@ const IndexPage = () => (
               </h1>
             <Comp.Row mobile justifyContent="center">
               <Column50Mobile padded>
-                  <h2 className="extended-medium" >Control de Sucursales.</h2>
+                  <h2 className="extended-medium" >¡51,489 abarroteras usan nuestro software!</h2>
                   <p>
-                    Te proporcionamos las ventas e inventarios reales de tus
-                    tiendas.
-                  </p>  
+                  Si tienes una pequeña abarrotera, te ayudamos a controlar y luego ¡a crecer!
+                  </p>
+                  <Comp.ButtonPrimary to="/tienda-virtual/my-business">
+                    Comprar ahora
+                  </Comp.ButtonPrimary>
                 </Column50Mobile>
 
                 <Comp.Column padded>
@@ -224,5 +247,113 @@ const Column60Mobile = styled(Comp.Column)`
 const Column33Mobile = styled(Comp.Column)`
   @media ${theme.breakpoint.upFromMobile} {
     width: 33%;
+  }
+`;
+
+const CarouselContainer = styled.div`
+width: 100%;
+height: 500px;
+z-index: 10000;
+top: 15%;
+position: relative;
+
+
+@media ${theme.breakpoint.upFromMobile} {
+  top: 30%;
+}
+
+> div {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+  }
+
+  .carousel-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    color: #fff;
+    width: 100%;
+    padding: 10vw;
+
+    h1 {
+      color: #fff;
+    }
+  }
+
+  h3,
+  h6 {
+    color: #fff;
+    max-width: 70%;
+    margin: 1rem auto;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .carousel-arrow {
+    color: #000 !important;
+    background: #fff;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 40% !important;
+
+    &:before {
+      font-size: 1rem;
+      display: block;
+      background: none;
+      padding-top: 9px;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-next {
+    right: 2rem;
+    top: 3rem;
+  }
+
+  .carousel-prev {
+    left: 2rem;
+    top: 3rem;
+  }
+
+  .carousel-next:before {
+    content: ">";
+  }
+
+  .carousel-prev:before {
+    content: "<";
+  }
+
+  @media ${theme.breakpoint.onlyMobile} {
+    h3 {
+      font-size: 1rem;
+    }
+
+    .carousel-arrow {
+      color: #000 !important;
+      background: #fff;
+      width: 2rem;
+      height: 2rem;
+
+      &:before {
+        font-size: 0.8rem;
+      }
+
+      &.carousel-next {
+        right: 1rem;
+      }
+
+      &.carousel-prev {
+        left: 1rem;
+      }
+    }
   }
 `;
