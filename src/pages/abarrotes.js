@@ -34,7 +34,7 @@ const IndexPage = () => (
             <div>
               <img src={HeroImage} />
               <div className="carousel-content">
-                <h1 className="extended-medium">
+                <h1 className="extended-medium" style={{textAlign: "center" }}>
                 Convierte tu tienda en una cadena de tiendas. Usa MyBusiness POS
                 </h1>
                 <Comp.TextCenter>
@@ -47,7 +47,7 @@ const IndexPage = () => (
             <div>
               <img src={SecondHeroImage} />
               <div className="carousel-content">
-                <h1 className="extended-medium">
+                <h1 className="extended-medium"style={{textAlign: "center" }}>
                   No le tengas miedo a los tiburones. Conviértete en tiburón. Usa MyBusiness POS.
                 </h1>
                 <Comp.TextCenter>
