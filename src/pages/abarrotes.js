@@ -24,8 +24,6 @@ import Slider from "infinite-react-carousel";
 const IndexPage = () => (
   <Layout>
     <SEO title="Abarrotes" keywords={[`gatsby`, `application`, `react`]} />
-    
-
 
     <Comp.Container>
       <CarouselContainer>
@@ -256,6 +254,15 @@ height: 500px;
 z-index: 10000;
 top: 15%;
 position: relative;
+
+> div {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+  }
 
   .carousel-content {
     position: absolute;
