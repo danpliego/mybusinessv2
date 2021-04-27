@@ -160,7 +160,7 @@ const IndexPage = () => (
                 <img src={libertad} width="75px" />
                 <h5>Libertad</h5>
                 <p>
-                El control te dará más tiempo libre para tu familia/amigas o para abrir más tiendas.
+                El control te dará más tiempo libre para tu familia o para abrir más tiendas.
                 </p>
               </Comp.TextCenter>
             </Comp.mb3>
@@ -193,8 +193,8 @@ const IndexPage = () => (
                 <Comp.Column padded>
                   <iframe
                     width="400"
-                    height="200"
-                    src="https://www.youtube.com/watch?v=R8JeeXp0tbE"
+                    height="300"
+                    src="https://www.youtube.com/embed/R8JeeXp0tbE"
                     frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowFullScreen
