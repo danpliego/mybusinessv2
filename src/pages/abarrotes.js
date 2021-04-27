@@ -23,7 +23,7 @@ import Slider from "infinite-react-carousel";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Landing-prueba" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Abarrotes" keywords={[`gatsby`, `application`, `react`]} />
     
 
 
@@ -257,20 +257,6 @@ z-index: 10000;
 top: 15%;
 position: relative;
 
-
-@media ${theme.breakpoint.upFromMobile} {
-  top: 30%;
-}
-
-> div {
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: absolute;
-  }
-
   .carousel-content {
     position: absolute;
     left: 0;
@@ -355,5 +341,9 @@ position: relative;
         left: 1rem;
       }
     }
+  }
+
+  @media ${theme.breakpoint.upFromMobile} {
+    top: 30%;
   }
 `;
