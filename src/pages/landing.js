@@ -194,7 +194,7 @@ const IndexPage = () => (
                   <iframe
                     width="400"
                     height="200"
-                    src="https://www.youtube.com/embed/j500GzCS8j0"
+                    src="https://www.youtube.com/watch?v=R8JeeXp0tbE"
                     frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowFullScreen
@@ -302,7 +302,7 @@ position: relative;
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 40% !important;
+    top: 4  0% !important;
 
     &:before {
       font-size: 1rem;
@@ -316,12 +316,12 @@ position: relative;
 
   .carousel-next {
     right: 2rem;
-    top: 3rem;
+    top: 13rem;
   }
 
   .carousel-prev {
     left: 2rem;
-    top: 3rem;
+    top: 13rem;
   }
 
   .carousel-next:before {
