@@ -32,7 +32,7 @@ const IndexPage = () => (
             <div>
               <img src={HeroImage} />
               <div className="carousel-content">
-                <h1 className="extended-medium">
+                <h1 className="extended-medium" style={{textAlign: "center" }}>
                 Convierte tu tienda en una cadena de tiendas. Usa MyBusiness POS
                 </h1>
                 <Comp.TextCenter>
@@ -45,7 +45,7 @@ const IndexPage = () => (
             <div>
               <img src={SecondHeroImage} />
               <div className="carousel-content">
-                <h1 className="extended-medium">
+                <h1 className="extended-medium"style={{textAlign: "center" }}>
                   No le tengas miedo a los tiburones. Conviértete en tiburón. Usa MyBusiness POS.
                 </h1>
                 <Comp.TextCenter>
@@ -158,7 +158,7 @@ const IndexPage = () => (
                 <img src={libertad} width="75px" />
                 <h5>Libertad</h5>
                 <p>
-                El control te dará más tiempo libre para tu familia/amigas o para abrir más tiendas.
+                El control te dará más tiempo libre para tu familia o para abrir más tiendas.
                 </p>
               </Comp.TextCenter>
             </Comp.mb3>
@@ -191,8 +191,8 @@ const IndexPage = () => (
                 <Comp.Column padded>
                   <iframe
                     width="400"
-                    height="200"
-                    src="https://www.youtube.com/watch?v=R8JeeXp0tbE"
+                    height="300"
+                    src="https://www.youtube.com/embed/R8JeeXp0tbE"
                     frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowFullScreen
