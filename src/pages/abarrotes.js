@@ -186,7 +186,7 @@ const IndexPage = () => (
                   <p>
                   Si tienes una pequeña abarrotera, te ayudamos a controlar y luego ¡a crecer!
                   </p>
-                  <Comp.ButtonPrimary to="/tienda-virtual/my-business">
+                  <Comp.ButtonPrimary to="/tienda-virtual/my-business" style={{ marginBottom: "1rem"}}>
                     Comprar ahora
                   </Comp.ButtonPrimary>
                 </Column50Mobile>
@@ -358,12 +358,12 @@ position: relative;
       }
 
       &.carousel-next {
-        right: 1rem;
+        right: 1.25rem;
         top: 9rem;
       }
 
       &.carousel-prev {
-        left: 1rem;
+        left: 1.25rem;
         top: 9rem;
       }
     }
