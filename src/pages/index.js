@@ -17,6 +17,7 @@ import Desarrollo from "../images/desarrollo-a-la-medida/home-image.jpg";
 import TiempoAire from "../images/tiempo-aire/home-image.jpg";
 import Corporativos from "../images/corporativos/home-image.jpg";
 import Facturacion from "../images/facturacion/home-image.jpg";
+import Abarrotes from "../images/landing/abarroes-home.jpg";
 
 import Slider from "infinite-react-carousel";
 
@@ -61,6 +62,13 @@ const IndexPage = () => (
       <RowButtons>
         <Comp.Row padded mobile>
           <ProductColumn
+            title="Giro de negocios"
+            description="Crece tus negocio al siguiente nivel"
+            link="/abarrotes"
+            image={Abarrotes}
+            buttonText="Más información"
+          />
+          <ProductColumn
             title="Recargas de Tiempo Aire"
             description="Aumenta tus ganancias y flujo de clientes ofreciendo recargas y pago de servicios."
             link="/productos/tiempo-aire"
@@ -91,6 +99,9 @@ const IndexPage = () => (
           />
         </Comp.Row>
       </RowButtons>
+
+
+
       <HomeBannerContainer>
         <Comp.BannerImage>
           <img

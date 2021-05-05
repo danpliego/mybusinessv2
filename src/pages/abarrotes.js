@@ -29,6 +29,7 @@ const IndexPage = () => (
 
     <Comp.Container>
       <CarouselContainer>
+
         <div>
           <Slider autoplay>
             <div>
@@ -59,7 +60,9 @@ const IndexPage = () => (
             </div>
           </Slider>
         </div>
+        
       </CarouselContainer>
+
 
   </Comp.Container>
 
@@ -253,9 +256,19 @@ const Column33Mobile = styled(Comp.Column)`
 const CarouselContainer = styled.div`
 width: 100%;
 height: 500px;
-z-index: 10000;
+z-index: 0;
 top: 15%;
 position: relative;
+@media ${theme.breakpoint.onlyMobile} {
+  height: 340px;
+  .carousel-track {
+    height: 340px!important;
+    img {
+      max-width: 100%;
+      height: 400px;
+    }
+  }
+}
 
   .carousel-content {
     position: absolute;
@@ -319,6 +332,10 @@ position: relative;
   }
 
   @media ${theme.breakpoint.onlyMobile} {
+    h1 {
+      font-size: 1.25rem;
+    }
+
     h3 {
       font-size: 1rem;
     }
@@ -335,10 +352,12 @@ position: relative;
 
       &.carousel-next {
         right: 1rem;
+        top: 9rem;
       }
 
       &.carousel-prev {
         left: 1rem;
+        top: 9rem;
       }
     }
   }
