@@ -135,7 +135,7 @@ const IndexPage = () => (
                 <img src={conectividad} width="75px" />
                 <h5>Conectividad</h5>
                 <p>
-                Con básculas y estiquetadoras de difersas marcas
+                Con básculas y etiquetadoras de diversas marcas
                 </p>
               </Comp.TextCenter>
             </Comp.mb3>
@@ -214,11 +214,11 @@ const IndexPage = () => (
           <Comp.Row mobile justifyContent="center">
             <Column60Mobile paddeds>
               <h5 style={{ marginBottom: "2rem", textAlign: "center" }}>
-                Si requieres más información, <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+527223945363?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20corporativo">contacta a un agente directamente por Whatsapp</a>
+                Si requieres más información, <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+525545388954?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20corporativo">contacta a un agente directamente por Whatsapp</a>
               </h5>
               
               <Comp.TextCenter>
-                <Comp.ButtonWhats target="_blank" rel="noopener noreferrer" href="https://wa.me/+527223945363?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20corporativo">
+                <Comp.ButtonWhats target="_blank" rel="noopener noreferrer" href="https://wa.me/+525545388954?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20corporativo">
                   Contactar agente.
                 </Comp.ButtonWhats>
               </Comp.TextCenter>      
