@@ -62,7 +62,7 @@ const IndexPage = () => (
       <RowButtons>
         <Comp.Row padded mobile>
           <ProductColumn
-            title="Giros comerciales"
+            title="Giro de negocios"
             description="Nuestro software funciona en múltiples negocios, te mostramos cómo funciona en cada uno."
             link="/abarrotes"
             image={Abarrotes}
