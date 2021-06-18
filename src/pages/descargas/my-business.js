@@ -56,12 +56,12 @@ const IndexPage = () => (
                 </p>
                 <p className="font-xs">
                   <strong>Otras descargas:</strong>
-                  <a href="http://mybusinesspos.com/Downloads/TripticoMyBusinessPOS2017.pdf">
-                    Tríptico informativo (.pdf)
+                  <a href="http://mybusinesspos.com/Downloads/MyBusiness-POS-v20-Guía-Rápida-de-Instalación.pdf">
+                    Guía Rápida de Instalación (.pdf)
                   </a>{" "}
                   |{" "}
-                  <a href="http://mybusinesspos.com/Downloads/MyBusinessPOS-2017-Manual-del-Usuario.pdf">
-                    Manual de usuario (.pdf)
+                  <a href="http://mybusinesspos.com/Downloads/MyBusiness-POS-v20-Requerimientos-Arquitectura.pdf">
+                    Requerimientos de Arquitectura (.pdf)
                   </a>
                 </p>
               </Components.Column>
