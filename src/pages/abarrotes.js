@@ -214,11 +214,11 @@ const IndexPage = () => (
           <Comp.Row mobile justifyContent="center">
             <Column60Mobile paddeds>
               <h5 style={{ marginBottom: "2rem", textAlign: "center" }}>
-                Si requieres más información, <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+527223945363?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20corporativo">contacta a un agente directamente por Whatsapp</a>
+                Si requieres más información, <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5545388954?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20negocio">contacta a un agente directamente por Whatsapp</a>
               </h5>
               
               <Comp.TextCenter>
-                <Comp.ButtonWhats target="_blank" rel="noopener noreferrer" href="https://wa.me/+527223945363?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20corporativo">
+                <Comp.ButtonWhats target="_blank" rel="noopener noreferrer" href="https://wa.me/5545388954?text=Me%20interesa%20My%20BusinessPOS%20para%20mi%20negocio">
                   Contactar agente.
                 </Comp.ButtonWhats>
               </Comp.TextCenter>      
