@@ -16,6 +16,7 @@ Gatsby default starter modified to use [styled-components](https://www.styled-co
 
     ```sh
     cd mybusinessv2
+    npm install
     gatsby develop
     ```
 
