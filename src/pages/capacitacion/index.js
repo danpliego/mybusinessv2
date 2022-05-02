@@ -33,6 +33,12 @@ const IndexPage = () => (
                 image={Cursos}
                 buttonText="Visitar"
               />
+              <LinkColumn
+                title="Cursos operativo"
+                link="/capacitacion/cursos-virtuales-con-certificacion"
+                image={Cursos}
+                buttonText="Visitar"
+              />
             </Components.Row>
           </Components.Width50>
         </Components.BannerBox>

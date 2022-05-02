@@ -108,7 +108,10 @@ export const Header: React.FC = () => {
                   <DropdownItem to="/capacitacion/cursos-virtuales-con-certificacion">
                     Cursos Virtuales con Certificación
                   </DropdownItem>
-                </Dropdown>
+
+                  <DropdownItem to="/capacitacion/curso-operativo">
+                    Curso operativo
+                  </DropdownItem>                </Dropdown>
               </MenuItem>
               <MenuItem>
                 <MobileLink to="/soporte">Soporte</MobileLink>
@@ -182,7 +185,7 @@ export const MenuItem = styled.div`
   }
 `;
 
-export const CollapsableMenu = styled(Layout.Column)<{
+export const CollapsableMenu = styled(Layout.Column) <{
   isOpen: boolean;
 }>`
   @media ${theme.breakpoint.onlyMobile} {
