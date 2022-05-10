@@ -101,17 +101,16 @@ export const Header: React.FC = () => {
               <MenuItem>
                 <MobileLink to="/capacitacion">Capacitacion</MobileLink>
                 <Dropdown dropdownToggle={<span>Capacitación</span>}>
-                  <DropdownItem to="/capacitacion/cursos-virtuales-gratuitos">
-                    Cursos Virtuales Gratuitos
+                  <DropdownItem to="/capacitacion/mybusiness-17-curso-operativo">
+                    MyBusiness POS v2017
                   </DropdownItem>
-
-                  <DropdownItem to="/capacitacion/cursos-virtuales-con-certificacion">
-                    Cursos Virtuales con Certificación
+                  <DropdownItem to="/capacitacion/mybusiness-20-curso-operativo">
+                    MyBusiness POS v20
+                  </DropdownItem>{" "}
+                  <DropdownItem to="/capacitacion/certificaciones-para-pagos">
+                    Certificaciones (para pagos)
                   </DropdownItem>
-
-                  <DropdownItem to="/capacitacion/curso-operativo">
-                    Curso operativo
-                  </DropdownItem>                </Dropdown>
+                </Dropdown>
               </MenuItem>
               <MenuItem>
                 <MobileLink to="/soporte">Soporte</MobileLink>
@@ -185,14 +184,14 @@ export const MenuItem = styled.div`
   }
 `;
 
-export const CollapsableMenu = styled(Layout.Column) <{
+export const CollapsableMenu = styled(Layout.Column)<{
   isOpen: boolean;
 }>`
   @media ${theme.breakpoint.onlyMobile} {
     display: none;
   }
 
-  ${props =>
+  ${(props) =>
     props.isOpen &&
     css`
       @media ${theme.breakpoint.onlyMobile} {

@@ -11,10 +11,10 @@ import SEO from "../../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Cursos Virtuales con Certificación"
+      title="Certificaciones (para pagos)"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle name="Cursos Virtuales con Certificación" />
+    <SectionTitle name="Certificaciones (para pagos)" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />
