@@ -11,10 +11,10 @@ import SEO from "../../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Cursos Virtuales Gratuitos"
+      title="MyBusiness POS v2017 | Curso operativo"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    <SectionTitle name="Cursos Virtuales Gratuitos" />
+    <SectionTitle name="MyBusiness POS v2017 | Curso operativo" />
     <Components.BannerContainer>
       <Components.BannerImage>
         <img src={HeroImage} />
