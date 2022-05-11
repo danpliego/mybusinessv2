@@ -23,6 +23,7 @@ import RecagasServicios from "../../images/curso-operativo/principiante/19.png";
 import * as Components from "../../components/layoutComponents";
 import SEO from "../../components/seo";
 import VideoCard from "../../components/VideoCard";
+import styled from "styled-components";
 
 const IndexPage = () => (
   <Layout>
@@ -35,15 +36,7 @@ const IndexPage = () => (
       subtitle="Nivel principiante"
     />
     <Components.Container>
-      <h5
-        style={{
-          margin: "2rem 0",
-          borderBottom: "1px solid #141943",
-          paddingBottom: "2rem",
-        }}
-      >
-        Instalación
-      </h5>
+      <VideoSectionTitle>Instalación</VideoSectionTitle>
       <Components.Row padded mobile wrap="wrap">
         <VideoCard
           title="Instalación en único equipo"
@@ -52,15 +45,7 @@ const IndexPage = () => (
           buttonText="Ver video"
         />
       </Components.Row>
-      <h5
-        style={{
-          marginBottom: "2rem",
-          borderBottom: "1px solid #141943",
-          paddingBottom: "2rem",
-        }}
-      >
-        Configuración
-      </h5>
+      <VideoSectionTitle>Configuración</VideoSectionTitle>
       <Components.Row padded mobile wrap="wrap">
         <VideoCard
           title="Registro de la licencia en linea"
@@ -81,15 +66,7 @@ const IndexPage = () => (
           buttonText="Ver video"
         />
       </Components.Row>
-      <h5
-        style={{
-          marginBottom: "2rem",
-          borderBottom: "1px solid #141943",
-          paddingBottom: "2rem",
-        }}
-      >
-        Alta de catálogos
-      </h5>
+      <VideoSectionTitle>Alta de catálogos</VideoSectionTitle>
       <Components.Row padded mobile wrap="wrap">
         <VideoCard
           title="Alta rápida"
@@ -104,15 +81,7 @@ const IndexPage = () => (
           buttonText="Ver video"
         />
       </Components.Row>
-      <h5
-        style={{
-          marginBottom: "2rem",
-          borderBottom: "1px solid #141943",
-          paddingBottom: "2rem",
-        }}
-      >
-        Módulo de Punto de Venta
-      </h5>
+      <VideoSectionTitle>Módulo de Punto de Venta</VideoSectionTitle>
       <Components.Row padded mobile wrap="wrap">
         <VideoCard
           title="Búsqueda de productos"
@@ -157,15 +126,7 @@ const IndexPage = () => (
           buttonText="Ver video"
         />
       </Components.Row>
-      <h5
-        style={{
-          marginBottom: "2rem",
-          borderBottom: "1px solid #141943",
-          paddingBottom: "2rem",
-        }}
-      >
-        Control de inventarios
-      </h5>
+      <VideoSectionTitle>Control de inventarios</VideoSectionTitle>
       <Components.Row padded mobile wrap="wrap">
         <VideoCard
           title="Compras"
@@ -174,15 +135,7 @@ const IndexPage = () => (
           buttonText="Ver video"
         />
       </Components.Row>
-      <h5
-        style={{
-          marginBottom: "2rem",
-          borderBottom: "1px solid #141943",
-          paddingBottom: "2rem",
-        }}
-      >
-        Reportes
-      </h5>
+      <VideoSectionTitle>Reportes</VideoSectionTitle>
       <Components.Row padded mobile wrap="wrap">
         <VideoCard
           title="Reporte de existencias"
@@ -203,15 +156,7 @@ const IndexPage = () => (
           buttonText="Ver video"
         />
       </Components.Row>
-      <h5
-        style={{
-          marginBottom: "2rem",
-          borderBottom: "1px solid #141943",
-          paddingBottom: "2rem",
-        }}
-      >
-        Servicios electronicos
-      </h5>
+      <VideoSectionTitle>Servicios electronicos</VideoSectionTitle>
       <Components.Row padded mobile wrap="wrap">
         <VideoCard
           title="Instalación de tiempo aire versiones anteriores"
@@ -223,5 +168,11 @@ const IndexPage = () => (
     </Components.Container>
   </Layout>
 );
+
+const VideoSectionTitle = styled.h5`
+  margin: 3rem 0 1rem;
+  border-bottom: 1px solid #141943;
+  padding-bottom: 1rem;
+`;
 
 export default IndexPage;

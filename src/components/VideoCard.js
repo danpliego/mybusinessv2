@@ -1,8 +1,6 @@
 import React from "react";
 import { string } from "prop-types";
-// import { theme } from "./theme";
 import * as Comp from "../components/layoutComponents";
-// import { Link } from "gatsby";
 import styled from "styled-components";
 
 const VideoCard = ({ image, link, buttonText }) => {
@@ -22,7 +20,10 @@ const VideoCard = ({ image, link, buttonText }) => {
           </>
         ) : (
           <>
-            <img src={image} />
+            <img
+              src={image}
+              style={{ marginBottom: "1rem", display: "block" }}
+            />
             <Comp.ButtonSecondary small>{buttonText}</Comp.ButtonSecondary>
           </>
         )}
@@ -43,10 +44,14 @@ export default VideoCard;
 
 export const ProductColumnContainer = styled.div`
   transition: all 0.3s ease-in-out;
-  min-width: 33%;
-  max-width: 33%;
   cursor: pointer;
   margin-bottom: 1rem;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    min-width: 33%;
+    max-width: 33%;
+  }
 
   iframe {
     width: 100%;
