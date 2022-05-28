@@ -48,6 +48,11 @@ const Footer = () => (
                   Aviso de privacidad
                 </Link>
               </li>
+              <li>
+                <Link target="_parent" to="/politicas/">
+                  Políticas de Venta, Entrega, Cancelación y Servicio
+                </Link>
+              </li>
             </FooterMenu>
           </Comp.Column>
           <Comp.Column flex={1}>
@@ -78,11 +83,11 @@ const Footer = () => (
                   Pos Tools
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link target="_parent" to="/productos/bill-pocket">
                   BillPocket
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link target="_parent" to="/productos/desarrollo-a-la-medida">
                   Desarrollo a la medida

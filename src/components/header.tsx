@@ -84,9 +84,9 @@ export const Header: React.FC = () => {
                   <DropdownItem to="/productos/pos-tools">
                     Venta en ruta para Android
                   </DropdownItem>
-                  <DropdownItem to="/productos/bill-pocket">
+                  {/* <DropdownItem to="/productos/bill-pocket">
                     Cobro con tarjeta (BillPocket)
-                  </DropdownItem>
+                  </DropdownItem> */}
                   <DropdownItem to="/productos/desarrollo-a-la-medida">
                     Modificaciones a la medida
                   </DropdownItem>

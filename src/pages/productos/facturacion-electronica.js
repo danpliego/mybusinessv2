@@ -35,6 +35,46 @@ const IndexPage = () => (
     <Comp.Container>
       <Comp.Width75 style={{ paddingBottom: "5rem" }}>
         <h4 className="extended text-center" style={{ marginBottom: "2rem" }}>
+          Ligas de descarga de CFDI 4.0
+        </h4>
+
+        <a href="https://mybusinesspos.com/Downloads/SetupMyCFDI.zip">
+          SetupMyCFDI.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/SetupMyCFDIv17.zip">
+          SetupMyCFDIv17.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/SetupMyCFDIv20.zip">
+          SetupMyCFDIv20.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/CFDI4.0_Act.zip">
+          CFDI4.0_Act.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/CFDI_4.0_Nomina_1.2.zip">
+          CFDI_4.0_Nomina_1.2.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/CFDI_4.0_Pagos_2.0.zip">
+          CFDI_4.0_Pagos_2.0.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/CFDI_4.0_Carta_Porte_V2.0.zip">
+          CFDI_4.0_Carta_Porte_V2.0.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/CFDI_4.0_IEDU_1.0.zip">
+          CFDI_4.0_IEDU_1.0.zip
+        </a>
+        <br />
+        <a href="https://mybusinesspos.com/Downloads/MyBusiness_11-17_Inst_Nueva.zip">
+          MyBusiness_11-17_Inst_Nueva.zip
+        </a>
+
+        <h4 className="extended text-center" style={{ margin: "2rem 0" }}>
           Estos son algunos de los beneficios de emitir facturas en tu
           establecimiento con nosotros:
         </h4>
@@ -86,10 +126,10 @@ const IndexPage = () => (
             </a>{" "}
             y obtendrás 1 folio de prueba
           </li>
-                    <li>
-                        Para actualización MyBusiness POS v20:{" "}
-                        <a href="https://www.mybusinesspos.com/Downloads/SQLCLoudv20.zip">
-                            Descarga
+          <li>
+            Para actualización MyBusiness POS v20:{" "}
+            <a href="https://www.mybusinesspos.com/Downloads/SQLCLoudv20.zip">
+              Descarga
             </a>{" "}
             e instala nuestro módulo de Facturación Electrónica SQLCloud.
           </li>
@@ -106,9 +146,11 @@ const IndexPage = () => (
               Descarga
             </a>{" "}
             e instala el módulo de Facturación Electrónica MyCFDI.
-                        <p>
-                            Fin de soporte para MyCFDI Julio de 2021, en caso de haber un cambio por parte del SAT, este ya no estara disponible a partir de esa fecha.
-                            </p>
+            <p>
+              Fin de soporte para MyCFDI Julio de 2021, en caso de haber un
+              cambio por parte del SAT, este ya no estara disponible a partir de
+              esa fecha.
+            </p>
           </li>
           <li>
             Después de utilizar tu folio de prueba, puedes comprar Facturas
