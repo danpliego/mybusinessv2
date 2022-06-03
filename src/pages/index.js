@@ -12,7 +12,7 @@ import BannerImage from "../images/home/banner-image.png";
 
 import PosTools from "../images/pos-tools/home-image.jpg";
 import Servicios from "../images/servicios-en-la-nube/home-image.jpg";
-import BillPocket from "../images/bill-pocket/home-image.jpg";
+// import BillPocket from "../images/bill-pocket/home-image.jpg";
 import Desarrollo from "../images/desarrollo-a-la-medida/home-image.jpg";
 import TiempoAire from "../images/tiempo-aire/home-image.jpg";
 import Corporativos from "../images/corporativos/home-image.jpg";
@@ -100,8 +100,6 @@ const IndexPage = () => (
         </Comp.Row>
       </RowButtons>
 
-
-
       <HomeBannerContainer>
         <Comp.BannerImage>
           <img
@@ -149,14 +147,14 @@ const IndexPage = () => (
         <h4 style={{ textAlign: "center", marginBottom: "3rem" }}>
           Más soluciones para tu Negocio.
         </h4>
-        <Comp.Row padded mobile>
-          <ProductColumn
+        <Comp.Row padded mobile justifyContent="center">
+          {/* <ProductColumn
             title="Billpocket"
             description="Cobra fácilmente con tarjeta de crédito o débito con este pequeño dispositivo."
             link="/productos/bill-pocket"
             image={BillPocket}
             buttonText="Más información"
-          />
+          /> */}
           <ProductColumn
             title="POS Tools"
             description="Genera ventas y levanta pedidos desde tu celular."

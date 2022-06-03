@@ -7,7 +7,7 @@ import { theme } from "./theme";
 
 import MyBusiness from "../images/icons/mybusiness.png";
 import Facturacion from "../images/icons/factura.png";
-import BillPocket from "../images/icons/bill-pocket.png";
+// import BillPocket from "../images/icons/bill-pocket.png";
 import Otros from "../images/icons/otros.png";
 
 const VideoTutorialsMenu = () => (
@@ -20,10 +20,10 @@ const VideoTutorialsMenu = () => (
       <img src={Facturacion} width="24" alt="" className="hidden-xs" />
       Facturación
     </Link>
-    <Link to="/soporte/video-tutoriales/bill-pocket/">
+    {/* <Link to="/soporte/video-tutoriales/bill-pocket/">
       <img src={BillPocket} width="22" alt="" className="hidden-xs" />
       BillPocket
-    </Link>
+    </Link> */}
     <Link to="/soporte/video-tutoriales/varios">
       <img src={Otros} width="20" alt="" className="hidden-xs" />
       Varios
@@ -33,7 +33,7 @@ const VideoTutorialsMenu = () => (
 
 VideoTutorialsMenu.propTypes = {
   name: string,
-  subtitle: string || null
+  subtitle: string || null,
 };
 
 export default VideoTutorialsMenu;

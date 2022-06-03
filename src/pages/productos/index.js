@@ -12,7 +12,6 @@ import Facturacion from "../../images/icons/factura.png";
 import TiempoAire from "../../images/icons/tiempo-aire.png";
 import Servicios from "../../images/icons/contabilidad.png";
 import PosTools from "../../images/icons/pos-tools.png";
-import BillPocket from "../../images/icons/bill-pocket.png";
 import Desarrollo from "../../images/icons/otros.png";
 
 const IndexPage = () => (
@@ -59,13 +58,13 @@ const IndexPage = () => (
                 image={PosTools}
                 buttonText="Visitar"
               />
-
+              {/* 
               <LinkColumn
                 title="BillPocket"
                 link="/productos/bill-pocket"
                 image={BillPocket}
                 buttonText="Visitar"
-              />
+              /> */}
 
               <LinkColumn
                 title="Desarrollo a la Medida"
