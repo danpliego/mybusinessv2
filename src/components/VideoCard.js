@@ -3,7 +3,7 @@ import { string } from "prop-types";
 import * as Comp from "../components/layoutComponents";
 import styled from "styled-components";
 
-const VideoCard = ({ image, link, buttonText }) => {
+const VideoCard = ({ title, image, link }) => {
   const [showVideo, setShowVideo] = React.useState(false);
   return (
     <ProductColumnContainer onClick={() => setShowVideo(!showVideo)}>
@@ -24,7 +24,9 @@ const VideoCard = ({ image, link, buttonText }) => {
               src={image}
               style={{ marginBottom: "1rem", display: "block" }}
             />
-            <Comp.ButtonSecondary small>{buttonText}</Comp.ButtonSecondary>
+            <div style={{ padding: "0 12px 12px" }}>
+              <Comp.ButtonSecondary small>{title}</Comp.ButtonSecondary>
+            </div>
           </>
         )}
       </ImageContainer>
@@ -37,7 +39,6 @@ VideoCard.propTypes = {
   description: string,
   link: string,
   image: string,
-  buttonText: string,
 };
 
 export default VideoCard;
@@ -45,13 +46,7 @@ export default VideoCard;
 export const ProductColumnContainer = styled.div`
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  margin-bottom: 1rem;
   width: 100%;
-
-  @media (min-width: 768px) {
-    min-width: 33%;
-    max-width: 33%;
-  }
 
   iframe {
     width: 100%;
@@ -68,7 +63,6 @@ export const ProductColumnContainer = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  padding: 1rem;
   position: relative;
 
   a {

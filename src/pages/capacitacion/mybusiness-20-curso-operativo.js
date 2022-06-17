@@ -20,10 +20,143 @@ import ReporteExistencia from "../../images/curso-operativo/principiante/15.png"
 import ReporteKardex from "../../images/curso-operativo/principiante/16.png";
 import ReporteArticulo from "../../images/curso-operativo/principiante/18.png";
 import RecagasServicios from "../../images/curso-operativo/principiante/19.png";
-import * as Components from "../../components/layoutComponents";
+import CursoSection from "../../components/cursoSection";
 import SEO from "../../components/seo";
-import VideoCard from "../../components/VideoCard";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { Container } from "../../components/layoutComponents";
 import styled from "styled-components";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 6,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 5,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 2,
+  },
+};
+
+const instalacion = [
+  {
+    title: "Instalación en único equipo",
+    link: "RlVoreexVeI",
+    image: CursoInstalacion,
+  },
+];
+
+const configuracion = [
+  {
+    title: "Registro de la licencia en linea",
+    link: "7sFDgPnN0-A",
+    image: Registro,
+  },
+  {
+    title: "Resolicitud de registro",
+    link: "buscame en excel",
+    image: Resolisitud,
+  },
+  {
+    title: "Cómo acceder al sistema",
+    link: "iXIHT5yiLhE",
+    image: AccederSistema,
+  },
+];
+
+const catalogos = [
+  {
+    title: "Alta rápida",
+    link: "5B7GAH6LxGs",
+    image: AltaRapida,
+  },
+  {
+    title: "Alta de proveedores",
+    link: "Wx8VxGEiLIU",
+    image: AltaProvedores,
+  },
+];
+
+const puntoVenta = [
+  {
+    title: "Búsqueda de productos",
+    link: "e2yiG-ihK14",
+    image: BusquedaProductos,
+  },
+  {
+    title: "Inicial del día",
+    link: "gScFEIaO7gU",
+    image: IniciaDia,
+  },
+  {
+    title: "Cómo vender y cobrar",
+    link: "kRxWnDCyPhw",
+    image: ComoVender,
+  },
+  {
+    title: "Corte parcial X",
+    link: "96BLpUh_0X8",
+    image: CorteX,
+  },
+  {
+    title: "Corte Total Z",
+    link: "1jb1krsr0mM",
+    image: CorteZ,
+  },
+  {
+    title: "Retiro de dinero",
+    link: "tuFNBCwhNzY",
+    image: RetiroDinero,
+  },
+  {
+    title: "Factura de cierre",
+    link: "4_9AecOpkAw",
+    image: FacturaCierre,
+  },
+];
+
+const controlDeInventario = [
+  {
+    title: "Compras",
+    link: "V7XJdbGgOBY",
+    image: Compras,
+  },
+];
+
+const reportes = [
+  {
+    title: "Reporte de existencias",
+    link: "VJp3gNadhRw",
+    image: ReporteExistencia,
+  },
+  {
+    title: "Reporte de kárdex",
+    link: "M4gRBiQPvrU",
+    image: ReporteKardex,
+  },
+  {
+    title: "Reporte de ventas por artículo",
+    link: "yy0R_QHySsk",
+    image: ReporteArticulo,
+  },
+];
+
+const serviciosElectronicos = [
+  {
+    title: "Instalación de tiempo aire versiones anteriores",
+    link: "hZk1cP1GF-k",
+    image: RecagasServicios,
+  },
+];
 
 const IndexPage = () => (
   <Layout>
@@ -35,144 +168,53 @@ const IndexPage = () => (
       name="MyBusiness POS v20 | Curso Operativo"
       subtitle="Nivel principiante"
     />
-    <Components.Container>
-      <VideoSectionTitle>Instalación</VideoSectionTitle>
-      <Components.Row padded mobile wrap="wrap">
-        <VideoCard
-          title="Instalación en único equipo"
-          link="RlVoreexVeI"
-          image={CursoInstalacion}
-          buttonText="Ver video"
-        />
-      </Components.Row>
-      <VideoSectionTitle>Configuración</VideoSectionTitle>
-      <Components.Row padded mobile wrap="wrap">
-        <VideoCard
-          title="Registro de la licencia en linea"
-          link="7sFDgPnN0-A"
-          image={Registro}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Resolicitud de registro"
-          link="www.youtube.com"
-          image={Resolisitud}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Cómo acceder al sistema"
-          link="iXIHT5yiLhE"
-          image={AccederSistema}
-          buttonText="Ver video"
-        />
-      </Components.Row>
-      <VideoSectionTitle>Alta de catálogos</VideoSectionTitle>
-      <Components.Row padded mobile wrap="wrap">
-        <VideoCard
-          title="Alta rápida"
-          link="5B7GAH6LxGs"
-          image={AltaRapida}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Alta de proveedores"
-          link="Wx8VxGEiLIU"
-          image={AltaProvedores}
-          buttonText="Ver video"
-        />
-      </Components.Row>
-      <VideoSectionTitle>Módulo de Punto de Venta</VideoSectionTitle>
-      <Components.Row padded mobile wrap="wrap">
-        <VideoCard
-          title="Búsqueda de productos"
-          link="e2yiG-ihK14"
-          image={BusquedaProductos}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Inicial del día"
-          link="gScFEIaO7gU"
-          image={IniciaDia}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Cómo vender y cobrar"
-          link="kRxWnDCyPhw"
-          image={ComoVender}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Corte parcial X"
-          link="96BLpUh_0X8"
-          image={CorteX}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Corte Total Z"
-          link="1jb1krsr0mM"
-          image={CorteZ}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Retiro de dinero"
-          link="tuFNBCwhNzY"
-          image={RetiroDinero}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Factura de cierre"
-          link="4_9AecOpkAw"
-          image={FacturaCierre}
-          buttonText="Ver video"
-        />
-      </Components.Row>
-      <VideoSectionTitle>Control de inventarios</VideoSectionTitle>
-      <Components.Row padded mobile wrap="wrap">
-        <VideoCard
-          title="Compras"
-          link="V7XJdbGgOBY"
-          image={Compras}
-          buttonText="Ver video"
-        />
-      </Components.Row>
-      <VideoSectionTitle>Reportes</VideoSectionTitle>
-      <Components.Row padded mobile wrap="wrap">
-        <VideoCard
-          title="Reporte de existencias"
-          link="VJp3gNadhRw"
-          image={ReporteExistencia}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Reporte de kárdex"
-          link="M4gRBiQPvrU"
-          image={ReporteKardex}
-          buttonText="Ver video"
-        />
-        <VideoCard
-          title="Reporte de ventas por articulo"
-          link="yy0R_QHySsk"
-          image={ReporteArticulo}
-          buttonText="Ver video"
-        />
-      </Components.Row>
-      <VideoSectionTitle>Servicios electronicos</VideoSectionTitle>
-      <Components.Row padded mobile wrap="wrap">
-        <VideoCard
-          title="Instalación de tiempo aire versiones anteriores"
-          link="hZk1cP1GF-k"
-          image={RecagasServicios}
-          buttonText="Ver video"
-        />
-      </Components.Row>
-    </Components.Container>
+    <Container>
+      <CarouselContainer>
+        <Carousel
+          responsive={responsive}
+          containerClass="carousel-container"
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-40-px"
+          autoPlay="none"
+        >
+          <CursoSection title="Instalación" videos={instalacion} />
+          <CursoSection title="Configuración" videos={configuracion} />
+          <CursoSection title="Alta de catálogos" videos={catalogos} />
+          <CursoSection title="Punto de venta" videos={puntoVenta} />
+          <CursoSection
+            title="Control de inventarios"
+            videos={controlDeInventario}
+          />
+          <CursoSection title="Reportes" videos={reportes} />
+          <CursoSection
+            title="Servicios electrónicos"
+            videos={serviciosElectronicos}
+          />
+        </Carousel>
+      </CarouselContainer>
+    </Container>
   </Layout>
 );
 
-const VideoSectionTitle = styled.h5`
-  margin: 3rem 0 1rem;
-  border-bottom: 1px solid #141943;
-  padding-bottom: 1rem;
+export const CarouselContainer = styled.div`
+  .react-multiple-carousel__arrow {
+    top: 30px;
+    background: #a0d0d6;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    &:before {
+      color: #000;
+    }
+
+    &:hover {
+      background: #a0d0d6;
+    }
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 10px;
+  }
+  react-multiple-carousel__arrow--right {
+    right: 0;
+  }
 `;
 
 export default IndexPage;
