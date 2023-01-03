@@ -6,12 +6,12 @@
   "author": "Blake Noll <nollblake@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.32.3",
+    "gatsby": "^5.3.3",
     "gatsby-image": "^2.2.30",
     "gatsby-plugin-google-analytics": "^2.3.1",
     "gatsby-plugin-google-gtag": "^2.0.0",
     "gatsby-plugin-google-tagmanager": "^2.3.1",
-    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-manifest": "^5.3.1",
     "gatsby-plugin-offline": "^3.0.18",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-robots-txt": "^1.5.0",
@@ -31,10 +31,10 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
-    "eslint-loader": "^3.0.3",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-react": "^7.17.0",
-    "gatsby-plugin-eslint": "^2.0.8",
+    "gatsby-plugin-eslint": "^4.0.3",
     "prettier": "^1.18.2",
     "typescript": "^3.7.5"
   },
